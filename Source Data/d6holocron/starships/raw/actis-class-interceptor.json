@@ -1,0 +1,10 @@
+{
+  "title": "Actis-class Interceptor",
+  "pageId": 5201,
+  "revisionId": 12108,
+  "wikitext": "[[File:Actis-class-Interceptor1.jpg|thumb|500px]]\n[[File:Actis-class-Interceptor2.jpg|thumb|500px]]\n[[File:Actis-class-Interceptor3.jpg|thumb|500px]]\n\n'''Jedi Interceptor'''<br />'''Craft''': Kuat Systems Engineering Eta-2 Actis-class Interceptor<br />'''Affiliation''': Jedi Order<br />'''Era''': Rise of the Empire<br />'''Source''': Wizards Website, Starships of the Galaxy Saga Ed. (pg 82)<br />'''Type''': Interceptor<br />'''Scale''': Starfighter<br />'''Length''': 5.47 meters<br />'''Skill''': Starfighter piloting: Eta-2<br />'''Crew''': 1 and astromech droid (can coordinate)<br />'''Cargo Capacity''': 60 kilograms<br />'''Consumables''': 2 days (1 week with booster ring)<br />'''Cost''': Not available for sale (valued at 140,000)<br />'''Hyperdrive Multiplier''': x1 (with booster ring, see below)<br />'''Nav Computer''': Uses a modified astromech droid programmed with 10 jumps<br />'''Maneuverability''': 4D+2<br />'''Space''': 13<br />'''Atmosphere''': 515; 1,500 kmh<br />'''Hull''': 2D+1<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 15/1D\n*Search: 20/2D\n*Focus: 2/2D+1\n'''Weapons''':\n*'''2 Laser Cannons '''(fire-linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 5D\n*'''2 Light Ion Cannons''' (fire-linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/10/20<br />Atmosphere Range: 100-300/1/2 km<br />Damage: 4D\n'''Notes''': The Eta-2 requires a separate hyperdrive module in the form of a booster ring (the TransGalMeg Industries hyperdrive booster ring). Docking with the ring takes 3 rounds, and requires a Difficult starfighter piloting roll (the fighter’s maneuverability counts for this roll).",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Actis-class%20Interceptor",
+  "retrievedAt": "2025-10-07T22:23:58.451Z"
+}

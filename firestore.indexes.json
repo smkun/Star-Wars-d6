@@ -1,0 +1,33 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "species",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "homeworld",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sortName",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "species",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sources",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "sortName",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

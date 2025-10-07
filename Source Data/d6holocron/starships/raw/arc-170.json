@@ -1,0 +1,10 @@
+{
+  "title": "ARC-170",
+  "pageId": 5203,
+  "revisionId": 12116,
+  "wikitext": "[[File:ARC-170-1.jpg|thumb|500px]]\n[[File:ARC-170-2.jpg|thumb|500px]]\n[[File:ARC-170-3.jpg|thumb|500px]]\n\n'''ARC-170'''<br />'''Craft''': Incom/Subpro ARC-170 (Aggressive ReConnaissance)<br />'''Affiliation''': Old Republic / Empire<br />'''Era''': Rise of the Empire<br />'''Source''': Wizards Website<br />'''Type''': Space superiority fighter<br />'''Scale''': Starfighter<br />'''Length''': 14.5 meters<br />'''Skill''': Starfighter piloting: ARC-170<br />'''Crew''': 2 and astromech droid (can coordinate), gunners: 1, skeleton: 1/+10<br />'''Cargo Capacity''': 110 kilograms<br />'''Consumables''': 5 days<br />'''Cost''': 155,000 (new), 70,000 (used)<br />'''Hyperdrive Multiplier''': x1.5<br />'''Nav Computer''': No (uses astromech with 10 jumps)<br />'''Maneuverability''': 3D<br />'''Space''': 8<br />'''Atmosphere''': 365; 1,050 kmh<br />'''Hull''': 5D<br />'''Shields''': 1D+2<br />'''Sensors''':\n*Passive: 25/0D\n*Scan: 50/1D\n*Search: 70/2D\n*Focus: 3/3D+1\n'''Weapons''':\n*2 Medium Laser Cannons (fire linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 6D\n*2 Laser Cannons (fire linked)\n: Fire Arc: Rear turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/10/20<br />Atmosphere Range: 100-300/12/2 km<br />Damage: 5D\n*Proton Torpedo Launcher (6 torpedoes)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1/3/7<br />Atmosphere Range: 30-100/300/700<br />Damage: 9D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/ARC-170",
+  "retrievedAt": "2025-10-07T22:23:57.838Z"
+}

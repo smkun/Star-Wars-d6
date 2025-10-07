@@ -1,0 +1,608 @@
+[
+  {
+    "slug": "abinyshi",
+    "imageUrl": "abinyshi.webp",
+    "hasImage": true,
+    "imagePath": "aliens/abinyshi.webp"
+  },
+  {
+    "slug": "aganof",
+    "imageUrl": "aganof.webp",
+    "hasImage": true,
+    "imagePath": "aliens/aganof.webp"
+  },
+  {
+    "slug": "annoo-dat",
+    "imageUrl": "annoo-dat.webp",
+    "hasImage": true,
+    "imagePath": "aliens/annoo-dat.webp"
+  },
+  {
+    "slug": "anzat",
+    "imageUrl": "anzat.webp",
+    "hasImage": true,
+    "imagePath": "aliens/anzat.webp"
+  },
+  {
+    "slug": "aqualish",
+    "imageUrl": "aqualish.webp",
+    "hasImage": true,
+    "imagePath": "aliens/aqualish.webp"
+  },
+  {
+    "slug": "arpor-lan",
+    "imageUrl": "arpor-lan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/arpor-lan.webp"
+  },
+  {
+    "slug": "askajian",
+    "imageUrl": "askajian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/askajian.webp"
+  },
+  {
+    "slug": "assembler",
+    "imageUrl": "assembler.webp",
+    "hasImage": true,
+    "imagePath": "aliens/assembler.webp"
+  },
+  {
+    "slug": "ayrou",
+    "imageUrl": "ayrou.webp",
+    "hasImage": true,
+    "imagePath": "aliens/ayrou.webp"
+  },
+  {
+    "slug": "balinaka",
+    "imageUrl": "balinaka.webp",
+    "hasImage": true,
+    "imagePath": "aliens/balinaka.webp"
+  },
+  {
+    "slug": "balosar",
+    "imageUrl": "balosar.webp",
+    "hasImage": true,
+    "imagePath": "aliens/balosar.webp"
+  },
+  {
+    "slug": "barabel",
+    "imageUrl": "barabel.webp",
+    "hasImage": true,
+    "imagePath": "aliens/barabel.webp"
+  },
+  {
+    "slug": "baragwin",
+    "imageUrl": "baragwin.webp",
+    "hasImage": true,
+    "imagePath": "aliens/baragwin.webp"
+  },
+  {
+    "slug": "bartokk",
+    "imageUrl": "bartokk.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bartokk.webp"
+  },
+  {
+    "slug": "berrite",
+    "imageUrl": "berrite.webp",
+    "hasImage": true,
+    "imagePath": "aliens/berrite.webp"
+  },
+  {
+    "slug": "besalisk",
+    "imageUrl": "besalisk.webp",
+    "hasImage": true,
+    "imagePath": "aliens/besalisk.webp"
+  },
+  {
+    "slug": "bilar",
+    "imageUrl": "bilar.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bilar.webp"
+  },
+  {
+    "slug": "bimm",
+    "imageUrl": "bimm.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bimm.webp"
+  },
+  {
+    "slug": "bith",
+    "imageUrl": "bith.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bith.webp"
+  },
+  {
+    "slug": "bitthaevrian",
+    "imageUrl": "bitthaevrian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bitthaevrian.webp"
+  },
+  {
+    "slug": "blood-carver",
+    "imageUrl": "blood-carver.webp",
+    "hasImage": true,
+    "imagePath": "aliens/blood-carver.webp"
+  },
+  {
+    "slug": "boltrunian",
+    "imageUrl": "boltrunian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/boltrunian.webp"
+  },
+  {
+    "slug": "borneck",
+    "imageUrl": "borneck.webp",
+    "hasImage": true,
+    "imagePath": "aliens/borneck.webp"
+  },
+  {
+    "slug": "bosph",
+    "imageUrl": "bosph.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bosph.webp"
+  },
+  {
+    "slug": "bothan",
+    "imageUrl": "bothan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bothan.webp"
+  },
+  {
+    "slug": "bouncer",
+    "imageUrl": "bouncer.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bouncer.webp"
+  },
+  {
+    "slug": "bovorian",
+    "imageUrl": "bovorian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bovorian.webp"
+  },
+  {
+    "slug": "bpfasshi",
+    "imageUrl": "bpfasshi.webp",
+    "hasImage": true,
+    "imagePath": "aliens/bpfasshi.webp"
+  },
+  {
+    "slug": "brizzit",
+    "imageUrl": "brizzit.webp",
+    "hasImage": true,
+    "imagePath": "aliens/brizzit.webp"
+  },
+  {
+    "slug": "brubb",
+    "imageUrl": "brubb.webp",
+    "hasImage": true,
+    "imagePath": "aliens/brubb.webp"
+  },
+  {
+    "slug": "buzchub",
+    "imageUrl": "buzchub.webp",
+    "hasImage": true,
+    "imagePath": "aliens/buzchub.webp"
+  },
+  {
+    "slug": "caamasi",
+    "imageUrl": "caamasi.webp",
+    "hasImage": true,
+    "imagePath": "aliens/caamasi.webp"
+  },
+  {
+    "slug": "caarite",
+    "imageUrl": "caarite.webp",
+    "hasImage": true,
+    "imagePath": "aliens/caarite.webp"
+  },
+  {
+    "slug": "calian",
+    "imageUrl": "calian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/calian.webp"
+  },
+  {
+    "slug": "calibop",
+    "imageUrl": "calibop.webp",
+    "hasImage": true,
+    "imagePath": "aliens/calibop.webp"
+  },
+  {
+    "slug": "caridan",
+    "imageUrl": "caridan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/caridan.webp"
+  },
+  {
+    "slug": "carosite",
+    "imageUrl": "carosite.webp",
+    "hasImage": true,
+    "imagePath": "aliens/carosite.webp"
+  },
+  {
+    "slug": "cathar",
+    "imageUrl": "cathar.webp",
+    "hasImage": true,
+    "imagePath": "aliens/cathar.webp"
+  },
+  {
+    "slug": "celegian",
+    "imageUrl": "celegian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/celegian.webp"
+  },
+  {
+    "slug": "cerean",
+    "imageUrl": "cerean.webp",
+    "hasImage": true,
+    "imagePath": "aliens/cerean.webp"
+  },
+  {
+    "slug": "cha-wen-he",
+    "imageUrl": "cha-wen-he.webp",
+    "hasImage": true,
+    "imagePath": "aliens/cha-wen-he.webp"
+  },
+  {
+    "slug": "chadra-fan",
+    "imageUrl": "chadra-fan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chadra-fan.webp"
+  },
+  {
+    "slug": "chagrian",
+    "imageUrl": "chagrian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chagrian.webp"
+  },
+  {
+    "slug": "chalactan",
+    "imageUrl": "chalactan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chalactan.webp"
+  },
+  {
+    "slug": "charon-bioscientist",
+    "imageUrl": "charon-bioscientist.webp",
+    "hasImage": true,
+    "imagePath": "aliens/charon-bioscientist.webp"
+  },
+  {
+    "slug": "charon-warrior",
+    "imageUrl": "charon-warrior.webp",
+    "hasImage": true,
+    "imagePath": "aliens/charon-warrior.webp"
+  },
+  {
+    "slug": "charr-ontee",
+    "imageUrl": "charr-ontee.webp",
+    "hasImage": true,
+    "imagePath": "aliens/charr-ontee.webp"
+  },
+  {
+    "slug": "chazrach",
+    "imageUrl": "chazrach.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chazrach.webp"
+  },
+  {
+    "slug": "chev",
+    "imageUrl": "chev.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chev.webp"
+  },
+  {
+    "slug": "chevin",
+    "imageUrl": "chevin.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chevin.webp"
+  },
+  {
+    "slug": "chiss",
+    "imageUrl": "chiss.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chiss.webp"
+  },
+  {
+    "slug": "chistori",
+    "imageUrl": "chistori.webp",
+    "hasImage": true,
+    "imagePath": "aliens/chistori.webp"
+  },
+  {
+    "slug": "cizerack",
+    "imageUrl": "cizerack.webp",
+    "hasImage": true,
+    "imagePath": "aliens/cizerack.webp"
+  },
+  {
+    "slug": "clawdite",
+    "imageUrl": "clawdite.webp",
+    "hasImage": true,
+    "imagePath": "aliens/clawdite.webp"
+  },
+  {
+    "slug": "codru-ji",
+    "imageUrl": "codru-ji.webp",
+    "hasImage": true,
+    "imagePath": "aliens/codru-ji.webp"
+  },
+  {
+    "slug": "colicoid",
+    "imageUrl": "colicoid.webp",
+    "hasImage": true,
+    "imagePath": "aliens/colicoid.webp"
+  },
+  {
+    "slug": "columi",
+    "imageUrl": "columi.webp",
+    "hasImage": true,
+    "imagePath": "aliens/columi.webp"
+  },
+  {
+    "slug": "conjeni",
+    "imageUrl": "conjeni.webp",
+    "hasImage": true,
+    "imagePath": "aliens/conjeni.webp"
+  },
+  {
+    "slug": "cor",
+    "imageUrl": "cor.webp",
+    "hasImage": true,
+    "imagePath": "aliens/cor.webp"
+  },
+  {
+    "slug": "covallon",
+    "imageUrl": "covallon.webp",
+    "hasImage": true,
+    "imagePath": "aliens/covallon.webp"
+  },
+  {
+    "slug": "coway",
+    "imageUrl": "coway.webp",
+    "hasImage": true,
+    "imagePath": "aliens/coway.webp"
+  },
+  {
+    "slug": "coynite",
+    "imageUrl": "coynite.webp",
+    "hasImage": true,
+    "imagePath": "aliens/coynite.webp"
+  },
+  {
+    "slug": "cragmoloid",
+    "imageUrl": "cragmoloid.webp",
+    "hasImage": true,
+    "imagePath": "aliens/cragmoloid.webp"
+  },
+  {
+    "slug": "croke",
+    "imageUrl": "croke.webp",
+    "hasImage": true,
+    "imagePath": "aliens/croke.webp"
+  },
+  {
+    "slug": "defel",
+    "imageUrl": "defel.webp",
+    "hasImage": true,
+    "imagePath": "aliens/defel.webp"
+  },
+  {
+    "slug": "devaronian",
+    "imageUrl": "devaronian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/devaronian.webp"
+  },
+  {
+    "slug": "dug",
+    "imageUrl": "dug.webp",
+    "hasImage": true,
+    "imagePath": "aliens/dug.webp"
+  },
+  {
+    "slug": "duros",
+    "imageUrl": "duros.webp",
+    "hasImage": true,
+    "imagePath": "aliens/duros.webp"
+  },
+  {
+    "slug": "ewok",
+    "imageUrl": "ewok.webp",
+    "hasImage": true,
+    "imagePath": "aliens/ewok.webp"
+  },
+  {
+    "slug": "falleen",
+    "imageUrl": "falleen.webp",
+    "hasImage": true,
+    "imagePath": "aliens/falleen.webp"
+  },
+  {
+    "slug": "gamorrean",
+    "imageUrl": "gamorrean.webp",
+    "hasImage": true,
+    "imagePath": "aliens/gamorrean.webp"
+  },
+  {
+    "slug": "gand",
+    "imageUrl": "gand.webp",
+    "hasImage": true,
+    "imagePath": "aliens/gand.webp"
+  },
+  {
+    "slug": "geonosian-aristocrat",
+    "imageUrl": "geonosian-aristocrat.webp",
+    "hasImage": true,
+    "imagePath": "aliens/geonosian-aristocrat.webp"
+  },
+  {
+    "slug": "geonosian-worker",
+    "imageUrl": "geonosian-worker.webp",
+    "hasImage": true,
+    "imagePath": "aliens/geonosian-worker.webp"
+  },
+  {
+    "slug": "geonosian",
+    "imageUrl": "geonosian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/geonosian.webp"
+  },
+  {
+    "slug": "givin",
+    "imageUrl": "givin.webp",
+    "hasImage": true,
+    "imagePath": "aliens/givin.webp"
+  },
+  {
+    "slug": "gotal",
+    "imageUrl": "gotal.webp",
+    "hasImage": true,
+    "imagePath": "aliens/gotal.webp"
+  },
+  {
+    "slug": "gran",
+    "imageUrl": "gran.webp",
+    "hasImage": true,
+    "imagePath": "aliens/gran.webp"
+  },
+  {
+    "slug": "gungan",
+    "imageUrl": "gungan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/gungan.webp"
+  },
+  {
+    "slug": "herglic",
+    "imageUrl": "herglic.webp",
+    "hasImage": true,
+    "imagePath": "aliens/herglic.webp"
+  },
+  {
+    "slug": "hutt",
+    "imageUrl": "hutt.webp",
+    "hasImage": true,
+    "imagePath": "aliens/hutt.webp"
+  },
+  {
+    "slug": "iktotchi",
+    "imageUrl": "iktotchi.webp",
+    "hasImage": true,
+    "imagePath": "aliens/iktotchi.webp"
+  },
+  {
+    "slug": "ithorian",
+    "imageUrl": "ithorian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/ithorian.webp"
+  },
+  {
+    "slug": "jawa",
+    "imageUrl": "jawa.webp",
+    "hasImage": true,
+    "imagePath": "aliens/jawa.webp"
+  },
+  {
+    "slug": "kaminoan",
+    "imageUrl": "kaminoan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/kaminoan.webp"
+  },
+  {
+    "slug": "kel-dor",
+    "imageUrl": "kel-dor.webp",
+    "hasImage": true,
+    "imagePath": "aliens/kel-dor.webp"
+  },
+  {
+    "slug": "mon-calamari",
+    "imageUrl": "mon-calamari.webp",
+    "hasImage": true,
+    "imagePath": "aliens/mon-calamari.webp"
+  },
+  {
+    "slug": "nautolan",
+    "imageUrl": "nautolan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/nautolan.webp"
+  },
+  {
+    "slug": "quarren",
+    "imageUrl": "quarren.webp",
+    "hasImage": true,
+    "imagePath": "aliens/quarren.webp"
+  },
+  {
+    "slug": "rodian",
+    "imageUrl": "rodian.webp",
+    "hasImage": true,
+    "imagePath": "aliens/rodian.webp"
+  },
+  {
+    "slug": "sullustan",
+    "imageUrl": "sullustan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/sullustan.webp"
+  },
+  {
+    "slug": "talz",
+    "imageUrl": "talz.webp",
+    "hasImage": true,
+    "imagePath": "aliens/talz.webp"
+  },
+  {
+    "slug": "togruta",
+    "imageUrl": "togruta.webp",
+    "hasImage": true,
+    "imagePath": "aliens/togruta.webp"
+  },
+  {
+    "slug": "trandoshan",
+    "imageUrl": "trandoshan.webp",
+    "hasImage": true,
+    "imagePath": "aliens/trandoshan.webp"
+  },
+  {
+    "slug": "twi-lek",
+    "imageUrl": "twi-lek.webp",
+    "hasImage": true,
+    "imagePath": "aliens/twi-lek.webp"
+  },
+  {
+    "slug": "verpine-45",
+    "imageUrl": "verpine-45.webp",
+    "hasImage": true,
+    "imagePath": "aliens/verpine-45.webp"
+  },
+  {
+    "slug": "verpine",
+    "imageUrl": "verpine.webp",
+    "hasImage": true,
+    "imagePath": "aliens/verpine.webp"
+  },
+  {
+    "slug": "weequay",
+    "imageUrl": "weequay.webp",
+    "hasImage": true,
+    "imagePath": "aliens/weequay.webp"
+  },
+  {
+    "slug": "wookiee",
+    "imageUrl": "wookiee.webp",
+    "hasImage": true,
+    "imagePath": "aliens/wookiee.webp"
+  },
+  {
+    "slug": "yuuzhan-vong",
+    "imageUrl": "yuuzhan-vong.webp",
+    "hasImage": true,
+    "imagePath": "aliens/yuuzhan-vong.webp"
+  },
+  {
+    "slug": "zabrak",
+    "imageUrl": "zabrak.webp",
+    "hasImage": true,
+    "imagePath": "aliens/zabrak.webp"
+  }
+]

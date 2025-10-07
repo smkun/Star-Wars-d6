@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Import Star Wars fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Inter:wght@300;400;500;600;700&display=swap');
+
+  body {
+    @apply bg-charcoal-950 text-gray-100 font-body antialiased;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  /* Energy border style */
+  .border-energy {
+    @apply border border-accent-400/30 shadow-energy;
+  }
+
+  .border-energy-strong {
+    @apply border border-accent-400 shadow-energy-strong;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-charcoal-900 rounded-lg border-energy p-4;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:border-accent-400 hover:shadow-energy-strong;
+  }
+
+  /* Button styles */
+  .btn {
+    @apply px-4 py-2 rounded font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:ring-offset-2 focus:ring-offset-charcoal-950;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent-400 text-charcoal-950 hover:bg-accent-500 active:bg-accent-600;
+  }
+
+  .btn-secondary {
+    @apply btn bg-charcoal-800 text-gray-100 border-energy hover:border-accent-400;
+  }
+
+  .btn-ghost {
+    @apply btn text-accent-400 hover:bg-accent-400/10;
+  }
+
+  /* Input styles */
+  .input {
+    @apply w-full px-4 py-2 bg-charcoal-900 border-energy rounded text-gray-100 placeholder-gray-500 focus:outline-none focus:border-accent-400 focus:shadow-energy-strong transition-all duration-200;
+  }
+
+  /* Focus states for accessibility */
+  .focus-visible {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal-950;
+  }
+}
+
+@layer utilities {
+  /* Text gradient utility */
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-400 to-accent-600 bg-clip-text text-transparent;
+  }
+
+  /* Separator line */
+  .separator {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-accent-400/30 to-transparent;
+  }
+}

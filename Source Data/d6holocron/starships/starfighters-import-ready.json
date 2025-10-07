@@ -1,0 +1,255 @@
+{
+  "dryRun": false,
+  "starships": [
+    {
+      "name": "A-9 Vigilance Interceptor",
+      "craft": "Kuat Drive Yards A-9 Vigilance Interceptor",
+      "affiliation": null,
+      "type": "Territorial defensive interceptor",
+      "category": "starfighter",
+      "scale": "Starfighter",
+      "length": "7.4 meters",
+      "skill": "Starfighter piloting: A-9",
+      "crew": "1",
+      "crewSkill": null,
+      "passengers": null,
+      "cargoCapacity": "55 kilograms",
+      "consumables": "1 day",
+      "cost": "185,000 new",
+      "hyperdrive": null,
+      "navComputer": null,
+      "maneuverability": "1D",
+      "space": "12",
+      "atmosphere": "450; 1,300 KMH",
+      "hull": "2D+2",
+      "shields": null,
+      "sensors": {
+        "passive": "10/1D",
+        "scan": "35/2D+1",
+        "search": "60/3D+1",
+        "focus": "3/4D"
+      },
+      "weapons": [
+        {
+          "name": "2 Heavy Turbolaser Cannons",
+          "fireArc": "Front",
+          "skill": "Starship gunnery",
+          "fireControl": "2D",
+          "spaceRange": "1-3/12/25",
+          "atmosphereRange": "100-300/1.2/2.5KM",
+          "damage": "5D (6D when fire-linked)"
+        }
+      ],
+      "description": "",
+      "imageFilename": "A-9-Vigilance-Interceptor1.jpg",
+      "imageUrl": "",
+      "notes": "Source text CC-BY-SA 3.0 from http://d6holocron.com/wiki/A-9%20Vigilance%20Interceptor",
+      "sources": [
+        "http://d6holocron.com/wiki/A-9%20Vigilance%20Interceptor"
+      ],
+      "pageId": 473,
+      "revisionId": 12105
+    },
+    {
+      "name": "A-Wing",
+      "craft": "Alliance A-wing Starfighter",
+      "affiliation": "Rebel Alliance",
+      "type": "Interceptor / Multipurpose Starfighter",
+      "category": "starfighter",
+      "scale": "Starfighter",
+      "length": "9.6 meters",
+      "skill": "Starfighter Pilot: A-Wing",
+      "crew": "1",
+      "crewSkill": "Starfighter Pilot: 5D; Starship Gunnery: 4D+2; Starship Shields: 3D+1",
+      "passengers": null,
+      "cargoCapacity": "40 kg",
+      "consumables": "1 week",
+      "cost": "175,000 (new)",
+      "hyperdrive": "x1",
+      "navComputer": "Yes (limited to 2 jumps)",
+      "maneuverability": "4D",
+      "space": "12",
+      "atmosphere": "450; 1,300 km/h",
+      "hull": "2D+2",
+      "shields": "1D",
+      "sensors": {
+        "passive": "30 / 0D",
+        "scan": "50 / 1D",
+        "search": "75 / 2D",
+        "focus": "4 / 4D+1"
+      },
+      "weapons": [
+        {
+          "name": "Laser Cannons",
+          "fireArc": "front",
+          "scale": "starfighter",
+          "skill": "starship gunnery",
+          "fireControl": "3D",
+          "spaceRange": "1-3/12/25",
+          "atmosphereRange": "100-300/1,200/2,500m",
+          "damage": "5D"
+        },
+        {
+          "name": "Enemy Targeting Jammer",
+          "fireArc": "all",
+          "skill": "sensors",
+          "spaceRange": "1-3/7/15",
+          "atmosphereRange": "100-300/700/1,500m",
+          "damage": "-2D from Fire Control"
+        }
+      ],
+      "description": "The A-wing starfighter was designed by General Jan Dodonna and Rebel engineer Walex Blissex. The A-wing was developed to fill the Rebel Alliance's need for fast-moving, maneuverable interceptors. While the X-wing is durable and reliable, it is slower than Imperial Starfighters and less maneuverable. The A-wing is one of the fastest fighters currently in production, and has the agility to compete with the most maneuverable of TIE fighters. The A-wing does suffer from breakdowns if not properly maintained, due largely to the stress on the chassis and power systems caused by the fighter's massive thruster package. Because of the delicate balance flight techs must maintain with the A-wing (coupled with the often unreasonable performance demands placed on the fighter by Rebel pilots), this fast-moving starfighter has one of the worst operational records in the Alliance fleet. With proper care, however, the A-wing is one of the deadliest fighters in the skies.",
+      "imageFilename": "A-wing1.jpg",
+      "imageUrl": "",
+      "notes": "Source text CC-BY-SA 3.0 from http://d6holocron.com/wiki/A-wing",
+      "sources": [
+        "http://d6holocron.com/wiki/A-wing"
+      ],
+      "pageId": 419,
+      "revisionId": 41736
+    },
+    {
+      "name": "ARC-170",
+      "craft": "Incom/Subpro ARC-170 (Aggressive ReConnaissance)",
+      "affiliation": "Old Republic / Empire",
+      "type": "Space superiority fighter",
+      "category": "starfighter",
+      "scale": "Starfighter",
+      "length": "14.5 meters",
+      "skill": "Starfighter piloting: ARC-170",
+      "crew": "2 and astromech droid (can coordinate), gunners: 1, skeleton: 1/+10",
+      "crewSkill": null,
+      "passengers": null,
+      "cargoCapacity": "110 kilograms",
+      "consumables": "5 days",
+      "cost": "155,000 (new), 70,000 (used)",
+      "hyperdrive": null,
+      "navComputer": "No (uses astromech with 10 jumps)",
+      "maneuverability": "3D",
+      "space": "8",
+      "atmosphere": "365; 1,050 kmh",
+      "hull": "5D",
+      "shields": "1D+2",
+      "sensors": {
+        "passive": "25/0D",
+        "scan": "50/1D",
+        "search": "70/2D",
+        "focus": "3/3D+1"
+      },
+      "weapons": [],
+      "description": "",
+      "imageFilename": "ARC-170-1.jpg",
+      "imageUrl": "",
+      "notes": "Source text CC-BY-SA 3.0 from http://d6holocron.com/wiki/ARC-170",
+      "sources": [
+        "http://d6holocron.com/wiki/ARC-170"
+      ],
+      "pageId": 5203,
+      "revisionId": 12116
+    },
+    {
+      "name": "Actis-class Interceptor",
+      "craft": "Kuat Systems Engineering Eta-2 Actis-class Interceptor",
+      "affiliation": "Jedi Order",
+      "type": "Interceptor",
+      "category": "starfighter",
+      "scale": "Starfighter",
+      "length": "5.47 meters",
+      "skill": "Starfighter piloting: Eta-2",
+      "crew": "1 and astromech droid (can coordinate)",
+      "crewSkill": null,
+      "passengers": null,
+      "cargoCapacity": "60 kilograms",
+      "consumables": "2 days (1 week with booster ring)",
+      "cost": "Not available for sale (valued at 140,000)",
+      "hyperdrive": null,
+      "navComputer": "Uses a modified astromech droid programmed with 10 jumps",
+      "maneuverability": "4D+2",
+      "space": "13",
+      "atmosphere": "515; 1,500 kmh",
+      "hull": "2D+1",
+      "shields": null,
+      "sensors": {
+        "passive": "10/0D",
+        "scan": "15/1D",
+        "search": "20/2D",
+        "focus": "2/2D+1"
+      },
+      "weapons": [
+        {
+          "name": "2 Laser Cannons",
+          "fireArc": "Front",
+          "skill": "Starship gunnery",
+          "fireControl": "2D",
+          "spaceRange": "1-3/12/25",
+          "atmosphereRange": "100-300/1.2/2.5 km",
+          "damage": "5D"
+        },
+        {
+          "name": "2 Light Ion Cannons",
+          "fireArc": "Front",
+          "skill": "Starship gunnery",
+          "fireControl": "2D",
+          "spaceRange": "1-3/10/20",
+          "atmosphereRange": "100-300/1/2 km",
+          "damage": "4D"
+        }
+      ],
+      "description": "",
+      "imageFilename": "Actis-class-Interceptor1.jpg",
+      "imageUrl": "",
+      "notes": "Source text CC-BY-SA 3.0 from http://d6holocron.com/wiki/Actis-class%20Interceptor",
+      "sources": [
+        "http://d6holocron.com/wiki/Actis-class%20Interceptor"
+      ],
+      "pageId": 5201,
+      "revisionId": 12108
+    },
+    {
+      "name": "Advanced Droid Bomber",
+      "craft": "Xi Char Cathedral Factories Advanced Droid Bomber",
+      "affiliation": "Trade Federation",
+      "type": "Anti-capital ship and surface bomber",
+      "category": "starfighter",
+      "scale": "Starfighter",
+      "length": "3.9 meters",
+      "skill": "Droid programming: advanced droid bomber",
+      "crew": "None (droid control ship)",
+      "crewSkill": "Starfighter piloting 2D, starship gunnery 3D",
+      "passengers": null,
+      "cargoCapacity": null,
+      "consumables": null,
+      "cost": "80,000 for four; 5,000 for control unit",
+      "hyperdrive": null,
+      "navComputer": null,
+      "maneuverability": "1D+2",
+      "space": "9",
+      "atmosphere": "500;1,350 kmh",
+      "hull": "3D+2",
+      "shields": null,
+      "sensors": {
+        "passive": "20/0D",
+        "scan": "35/1D",
+        "search": "50/2D",
+        "focus": "3/2D+1"
+      },
+      "weapons": [],
+      "description": "",
+      "imageFilename": "Advanced-Droid-Bomber.jpg",
+      "imageUrl": "",
+      "notes": "Source text CC-BY-SA 3.0 from http://d6holocron.com/wiki/Advanced%20Droid%20Bomber",
+      "sources": [
+        "http://d6holocron.com/wiki/Advanced%20Droid%20Bomber"
+      ],
+      "pageId": 2052,
+      "revisionId": 11803
+    }
+  ],
+  "metadata": {
+    "category": "starfighters",
+    "retrievedAt": "2025-10-07T22:23:59.554Z",
+    "count": 5,
+    "license": "CC-BY-SA 3.0",
+    "source": "http://d6holocron.com/wiki/Starfighters"
+  }
+}

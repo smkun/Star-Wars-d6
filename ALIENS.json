@@ -1,0 +1,3428 @@
+{
+  "races": [
+    {
+      "id": 1,
+      "name": "Bothan",
+      "plural": "Bothans",
+      "description": "Fur-covered information brokers whose SpyNet shapes galactic politics.",
+      "personality": "Curious, manipulative, crafty, suspicious, loyal and brave.",
+      "physicalDescription": "Short furred humanoids; fur ripples with emotion.",
+      "homeworld": "Bothawui and colonies",
+      "languages": {
+        "native": "Bothese",
+        "description": "Bothans speak, read, and write Bothese and Basic."
+      },
+      "exampleNames": [
+        "Borsk Fey’lya",
+        "Karka Kre’fey",
+        "Koth Melan",
+        "Tav Breil’lya",
+        "Tereb Ab’lon"
+      ],
+      "adventurers": "Often SpyNet operatives, soldiers, pilots, diplomats, explorers.",
+      "imageUrl": "bothan.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "perception": {
+            "min": "3D",
+            "max": "5D"
+          },
+          "strength": {
+            "min": "1D+2",
+            "max": "3D+2"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "4D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.3-1.8 meters"
+      },
+      "specialAbilities": [],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/bothan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 2,
+      "name": "Dug",
+      "plural": "Dugs",
+      "description": "Inverted-limbed malcontents from Malastare with a culture steeped in grievance.",
+      "personality": "Adversarial, violent, xenophobic; prone to intimidation.",
+      "physicalDescription": "Vaguely humanoid; walk on forelimbs, manipulate with hind limbs; brown skin, ear flaps.",
+      "homeworld": "Malastare",
+      "languages": {
+        "native": "Dug",
+        "description": "Dugs speak Dug; some speak Basic."
+      },
+      "exampleNames": [
+        "Sebulba",
+        "Sloor",
+        "Langro Dis",
+        "Pugwis"
+      ],
+      "adventurers": "Smugglers, gamblers, scouts, soldiers.",
+      "imageUrl": "dug.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "4D+1"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+2"
+          }
+        },
+        "move": "6/8",
+        "size": "1.2 m"
+      },
+      "specialAbilities": [
+        {
+          "name": "Climbing/Jumping Bonus",
+          "description": "Due to their physiology, Dugs gain a +1D bonus to their climbing/jumping skill."
+        },
+        {
+          "name": "Shout",
+          "description": "Dugs can issue forth a deep bellow which can be heard up to 3 kilometers away."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Reputation",
+          "description": "Widely disliked bullies; valued by crime lords as henchmen."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/dug.webp",
+      "hasImage": true
+    },
+    {
+      "id": 3,
+      "name": "Duros",
+      "plural": "Duros",
+      "description": "Early hyperspace pioneers with innate starship intuition.",
+      "personality": "Intense, adventurous, proud, gregarious.",
+      "physicalDescription": "Tall, hairless, large eyes, wide lipless mouth; blue-gray to deep azure skin.",
+      "homeworld": "Orbiting cities of the Duro system",
+      "languages": {
+        "native": "Durese",
+        "description": "Duros speak Durese and Basic."
+      },
+      "exampleNames": [
+        "Baniss Keeg",
+        "Ellor",
+        "Kadlo",
+        "Kir Vantai",
+        "Lai Nootka",
+        "Monnda Tebbo"
+      ],
+      "adventurers": "Explorers, astro-chartists, pilots, engineers, smugglers, traders, diplomats.",
+      "imageUrl": "duros.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "2D+2"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "1D+2",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.8-2.2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Starship Intuition",
+          "description": "At creation, may place 1D (no more) among listed starship skills and receive 2D in those; normal costs beyond 2D."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/duros.webp",
+      "hasImage": true
+    },
+    {
+      "id": 4,
+      "name": "Ewok",
+      "plural": "Ewoks",
+      "description": "Endor moon natives: curious, ingenious, and underestimated.",
+      "personality": "Mature, inquisitive, tolerant despite condescension.",
+      "physicalDescription": "Small furred bipeds.",
+      "homeworld": "Forest moon of Endor",
+      "languages": {
+        "native": "Ewokese",
+        "description": "Ewoks speak Ewokese; some learn Basic."
+      },
+      "exampleNames": [
+        "Wicket",
+        "Paploo",
+        "Logray",
+        "Chief Chirpa"
+      ],
+      "adventurers": "Tinkerers, scouts, slingers, glider pilots.",
+      "imageUrl": "ewok.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+2",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "2D+2"
+          }
+        },
+        "move": "8/10",
+        "size": "0.9-1.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Skill bonus",
+          "description": "At the time the character is created only, the character gets 2D for every 1D placed in the hide, search and sneak skills."
+        },
+        {
+          "name": "Skill limits",
+          "description": "Beginning characters may not place any skill dice in any vehicle (other than glider) or starship operations or repair skills."
+        },
+        {
+          "name": "Smell",
+          "description": "Ewoks have a highly developed sense of smell, getting a +1D to their search skill when tracking by scent. This ability may not be improved."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Protectiveness",
+          "description": "Humans often feel protective and condescending toward Ewoks."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/ewok.webp",
+      "hasImage": true
+    },
+    {
+      "id": 5,
+      "name": "Falleen",
+      "plural": "Falleen",
+      "description": "Elegant reptilian near-humans with pheromonal allure and amphibious capacity.",
+      "personality": "Reserved, aristocratic, culturally isolationist.",
+      "physicalDescription": "Attractive reptilian features; chiseled physiques; color-changing skin.",
+      "homeworld": "Falleen",
+      "languages": {
+        "native": "Falleen",
+        "description": "Falleen speak their own tongue; most speak Basic."
+      },
+      "exampleNames": [
+        "Xizor"
+      ],
+      "adventurers": "Diplomats, nobles, spies; rarely seen due to Imperial blockade.",
+      "imageUrl": "falleen.webp",
+      "stats": {
+        "attributeDice": "13D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "2D+1",
+            "max": "4D+2"
+          },
+          "strength": {
+            "min": "2D+1",
+            "max": "4D+2"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "4D"
+          }
+        },
+        "move": "9/12",
+        "size": "1.7-2.4 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Attraction Pheromones",
+          "description": "Exuding special pheromones and changing skin color to affect others gives Falleen a +1D to their persuasion skill, with an additional +1D for each hour of continuous prepara­ tion and meditation to enhance efforts — the bonus may total no more than +3D for any one skill attempt, and the attempt must be made within one hour of completing meditation."
+        },
+        {
+          "name": "Amphibious",
+          "description": "Falleen can “breathe” water for up to 12 hours. They receive a +1D to any swimming skill rolls."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Rare",
+          "description": "Imperial blockade limited travel to/from their homeworld."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/falleen.webp",
+      "hasImage": true
+    },
+    {
+      "id": 6,
+      "name": "Gamorrean",
+      "plural": "Gamorreans",
+      "description": "Porcine warriors from Gamorr, famed as enforcers.",
+      "personality": "Brutish, violent, proud; respect physical prowess.",
+      "physicalDescription": "Stocky green-skinned humanoids with tusks and small horns.",
+      "homeworld": "Gamorr",
+      "languages": {
+        "native": "Gamorrean",
+        "description": "Speak Gamorrean only; can understand but not speak other tongues."
+      },
+      "exampleNames": [
+        "Gartogg",
+        "Jubnuk",
+        "Ortugg",
+        "Ugmush",
+        "Venorra",
+        "Warlug"
+      ],
+      "adventurers": "Bodyguards, enforcers; often enslaved or contracted off-world.",
+      "imageUrl": "gamorrean.webp",
+      "stats": {
+        "attributeDice": "11D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "2D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "1D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "strength": {
+            "min": "3D",
+            "max": "5D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "1D+2"
+          }
+        },
+        "move": "8/10",
+        "size": "1.6-2.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Voice Box",
+          "description": "Due to their unusual voice apparatus, Gamorreans are unable to pronounce Basic, although they can understand it per­ fectly well."
+        },
+        {
+          "name": "Stamina",
+          "description": "Gamorreans have great stamina — whenever asked to make a stamina check, if they fail the first check, they may immediately make a second check to succeed."
+        },
+        {
+          "name": "Skill Bonus",
+          "description": "At the time the character is created only, the character gets 2D for every 1D placed in the melee weapons, brawling and thrown weapons skills."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/gamorrean.webp",
+      "hasImage": true
+    },
+    {
+      "id": 7,
+      "name": "Geonosian",
+      "plural": "Geonosians",
+      "description": "Insectoid caste-based society from Geonosis; adept with industry and warfare.",
+      "personality": "Rigidly caste-driven.",
+      "physicalDescription": "Chitinous exoskeleton; some castes possess wings.",
+      "homeworld": "Geonosis",
+      "languages": {
+        "native": "Geonosian",
+        "description": "Geonosians speak their own language; many know Basic."
+      },
+      "exampleNames": [
+        "Poggle the Lesser"
+      ],
+      "adventurers": "Workers and aristocrats dominate roles; arena culture influences society.",
+      "imageUrl": "geonosian.webp",
+      "stats": {
+        "attributeDice": "",
+        "attributes": {
+          "dexterity": {
+            "min": "—",
+            "max": "—"
+          },
+          "knowledge": {
+            "min": "—",
+            "max": "—"
+          },
+          "mechanical": {
+            "min": "—",
+            "max": "—"
+          },
+          "perception": {
+            "min": "—",
+            "max": "—"
+          },
+          "strength": {
+            "min": "—",
+            "max": "—"
+          },
+          "technical": {
+            "min": "—",
+            "max": "—"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Flight",
+          "description": "Geonosian aristocrats have wings, and are able to fly."
+        },
+        {
+          "name": "Natural Armor",
+          "description": "Due to their thick chitinous shells, Geonosian aristo­ crats gain a +2 pip bonus to Strength rolls made to resist any form of damage."
+        },
+        {
+          "name": "Radiation Resistance",
+          "description": "Geonosians gain a +2 pip bonus to Strength rolls made to resist the effects of harmful radiation."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Caste-Driven Society",
+          "description": "Workers can leave caste via gladiatorial combat (high risk); aristocrats hold power."
+        }
+      ],
+      "notes": "Worker: 11D; Move 10/12; ~1.6m. Aristocrat: 12D; Move 10/12 walk, 16 flight; ~1.7m.",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/geonosian.webp",
+      "hasImage": true
+    },
+    {
+      "id": 8,
+      "name": "Gungan",
+      "plural": "Gungans",
+      "description": "Amphibious natives of Naboo’s swamps; resilient and underestimated.",
+      "personality": "Community-minded; exploring more since Human treaty.",
+      "physicalDescription": "Humanoid amphibia with eyestalks and long ears.",
+      "homeworld": "Naboo",
+      "languages": {
+        "native": "Gungan",
+        "description": "Gungans speak Gungan; many speak Basic."
+      },
+      "exampleNames": [
+        "Jar Jar Binks",
+        "Captain Tarpals",
+        "Rugor Nass"
+      ],
+      "adventurers": "Scouts, soldiers, diplomats.",
+      "imageUrl": "gungan.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+2"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-2.0 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Swimming",
+          "description": "Gungans receive a permanent +1D bonus to all swim­ ming skill checks."
+        },
+        {
+          "name": "Good Hearing",
+          "description": "Gungans receive a +2 pip bonus to all Perception, and search checks involving their sense of hearing."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "No Respect",
+          "description": "Commonly mocked by other species."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/gungan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 9,
+      "name": "Iktotchi",
+      "plural": "Iktotchi",
+      "description": "Horned near-humans from Iktotch with uncanny precognition.",
+      "personality": "Focused pilots; often haunted by visions.",
+      "physicalDescription": "Near-human with downward-curving cranial horns.",
+      "homeworld": "Iktotch",
+      "languages": {
+        "native": "Iktotchese",
+        "description": "Iktotchi speak their own language and Basic."
+      },
+      "exampleNames": [
+        "Saesee Tiin"
+      ],
+      "adventurers": "Pilots, navigators, Jedi, scouts.",
+      "imageUrl": "iktotchi.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "4D+1"
+          },
+          "perception": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D+2",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6"
+      },
+      "specialAbilities": [
+        {
+          "name": "Piloting Bonus",
+          "description": "At the time of character creation, Iktotchi characters gain a +1D bonus to archaic starship piloting, capital ship pilot­ ing, space transports, or starfighter piloting (choose one). In addi­ tion, they gain a +1D bonus to a related repair skill (archaic starship repair, capital ship repair, space transports repair, or starfighter repair, depending on which piloting skill was chosen)."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "P"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/iktotchi.webp",
+      "hasImage": true
+    },
+    {
+      "id": 10,
+      "name": "Ithorian",
+      "plural": "Ithorians",
+      "description": "Peaceful ecologists known as 'Hammerheads', stewards of the Mother Jungle.",
+      "personality": "Calm, gentle, tranquil.",
+      "physicalDescription": "Tall humanoids with two side mouths and long forward-curving necks.",
+      "homeworld": "Ithor or herd ships",
+      "languages": {
+        "native": "Ithorese",
+        "description": "Ithorians speak stereophonic Ithorese and Basic."
+      },
+      "exampleNames": [
+        "Momaw Nadon",
+        "Fandomar",
+        "Oraltor",
+        "Tomla",
+        "Trangle",
+        "Umwaw"
+      ],
+      "adventurers": "Artists, agricultural engineers, diplomats, traders on herd ships.",
+      "imageUrl": "ithorian.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "2D+2",
+            "max": "5D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "2D"
+          },
+          "perception": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "2D+1"
+          }
+        },
+        "move": "8/10",
+        "size": "1.9-2.5 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Special Skills",
+          "description": "Agriculture; Ecology knowledge skills with time requirements."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Herd Ships",
+          "description": "Likely to encounter acquaintances across civilized space."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Section 16: Ithorian"
+      ],
+      "imagePath": "aliens/ithorian.webp",
+      "hasImage": true
+    },
+    {
+      "id": 11,
+      "name": "Kaminoan",
+      "plural": "Kaminoans",
+      "description": "Gaunt cloners of Kamino; engineered society of roles.",
+      "personality": "Reserved, meticulous, duty-focused.",
+      "physicalDescription": "Tall, pale, large black eyes; males have cranial crest; three-fingered hands.",
+      "homeworld": "Kamino",
+      "languages": {
+        "native": "Kaminoan",
+        "description": "Kaminoan and Basic."
+      },
+      "exampleNames": [
+        "Lama Su",
+        "Taun We"
+      ],
+      "adventurers": "Leaders, merchants, soldiers; rarely Force-sensitive.",
+      "imageUrl": "kaminoan.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D+2",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "strength": {
+            "min": "1D+2",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "4D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "2.3-2.6 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Hardy",
+          "description": "Due to their innate hardiness, Kaminoans gain a permanent +2 pip bonus to survival and stamina skill checks."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Cloners",
+          "description": "Renowned clone technicians; turned to cloning early in their history."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/kaminoan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 12,
+      "name": "Kel Dor",
+      "plural": "Kel Dor",
+      "description": "Helium-atmosphere species from Dorin; dependent on breath masks offworld.",
+      "personality": "Calm, kind, justice-oriented.",
+      "physicalDescription": "Humanoids 1.6–2m with peach to deep red skin; black eyes.",
+      "homeworld": "Dorin",
+      "languages": {
+        "native": "Kel Dor",
+        "description": "Speak Kel Dor and Basic."
+      },
+      "exampleNames": [
+        "Plo Koon",
+        "Dorn Tlo",
+        "Torin Dol"
+      ],
+      "adventurers": "Diplomats, bounty hunters, Jedi, law enforcement.",
+      "imageUrl": "kel-dor.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D+2",
+            "max": "4D+1"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6 to 2 meters tall."
+      },
+      "specialAbilities": [
+        {
+          "name": "Low Light Vision",
+          "description": "Kel Dor can see twice as far as a normal human in poor lighting conditions. The gamemaster should allow Kel Dor characters to make the appropriate Perception-based skill checks at a lower difficulty than normal human characters."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Atmospheric Dependence",
+          "description": "Cannot survive without native atmosphere; without mask/goggles will go blind, risk unconsciousness and damage."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/kel-dor.webp",
+      "hasImage": true
+    },
+    {
+      "id": 13,
+      "name": "Mon Calamari",
+      "plural": "Mon Calamari",
+      "description": "Visionary amphibious engineers and early Rebel supporters.",
+      "personality": "Creative, quiet, inquisitive; peaceful but resolute.",
+      "physicalDescription": "High-domed heads, large eyes, mottled skin; up to 1.8m tall.",
+      "homeworld": "Mon Calamari",
+      "languages": {
+        "native": "Mon Calamarian",
+        "description": "Speak Mon Calamarian and Basic; often Quarrenese."
+      },
+      "exampleNames": [
+        "Ackbar",
+        "Bant",
+        "Cilghal",
+        "Ibtisam",
+        "Jesmin",
+        "Oro",
+        "Perit",
+        "Rekara"
+      ],
+      "adventurers": "Idealists who chase big causes; noted starship designers.",
+      "imageUrl": "mon-calamari.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "3D+1"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.5-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Moist Environments",
+          "description": "When in moist environments, Mon Calamari receive a +1D bonus for all Dexterity, Perception, and Strength attribute and skill checks. This is only a psychological advantage."
+        },
+        {
+          "name": "Dry Environments",
+          "description": "When in very dry environments, Mon Calamari seem depressed and withdrawn. They suffer a −1D penalty for all Dexterity, Perception, and Strength attribute and skill checks. Again, this is psychological only."
+        },
+        {
+          "name": "Aquatic",
+          "description": "Mon Calamari can breathe both air and water and can with­ stand the extreme pressures found in ocean depths."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Enslaved",
+          "description": "Pre-Endor, many not allied with Rebels were enslaved by the Empire."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/mon-calamari.webp",
+      "hasImage": true
+    },
+    {
+      "id": 14,
+      "name": "Quarren",
+      "plural": "Quarren",
+      "description": "Deep-ocean neighbors of the Mon Calamari; pragmatic and pressure-adapted.",
+      "personality": "Reserved, practical, can be insular.",
+      "physicalDescription": "Tentacled faces; amphibious physiology.",
+      "homeworld": "Mon Calamari (Dac)",
+      "languages": {
+        "native": "Quarrenese",
+        "description": "Quarren speak Quarrenese; many know Basic."
+      },
+      "exampleNames": [
+        "Tessek"
+      ],
+      "adventurers": "Technicians, divers, traders.",
+      "imageUrl": "quarren.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+2",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D+2",
+            "max": "5D"
+          }
+        },
+        "move": "9/12",
+        "size": "1.4-1.9 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Aquatic Survival",
+          "description": "At character creation only, characters may place 1D"
+        },
+        {
+          "name": "of skill dice in swimming and survival",
+          "description": "aquatic and receive +2D in the skill."
+        },
+        {
+          "name": "Aquatic",
+          "description": "Quarren can breathe both air and water and can withstand extreme pressures found in ocean depths."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "E"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/quarren.webp",
+      "hasImage": true
+    },
+    {
+      "id": 15,
+      "name": "Rodian",
+      "plural": "Rodians",
+      "description": "Honor-the-hunt culture from Rodia; prolific bounty hunters.",
+      "personality": "Violent, tenacious, dedicated.",
+      "physicalDescription": "Green-skinned humanoids with multifaceted eyes and tapered snouts.",
+      "homeworld": "Rodia",
+      "languages": {
+        "native": "Rodese",
+        "description": "Rodians speak Rodese and Basic; many learn Huttese."
+      },
+      "exampleNames": [
+        "Greedo",
+        "Greeata",
+        "Neesh",
+        "Wald"
+      ],
+      "adventurers": "Bounty hunters and mercenaries; chase prestige as Hunt Masters.",
+      "imageUrl": "rodian.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+2",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "2D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "2D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.5-1.7 meters tall"
+      },
+      "specialAbilities": [],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/rodian.webp",
+      "hasImage": true
+    },
+    {
+      "id": 16,
+      "name": "Twi'lek",
+      "plural": "Twi'leks",
+      "description": "Graceful near-humans of Ryloth with prehensile head-tails (lekku).",
+      "personality": "Subtle, behind-the-scenes operators; many entertainers and diplomats.",
+      "physicalDescription": "Humanoids with twin lekku.",
+      "homeworld": "Ryloth",
+      "languages": {
+        "native": "Ryl",
+        "description": "Twi’leks speak Ryl and Basic; can communicate silently via lekku."
+      },
+      "exampleNames": [
+        "Bib Fortuna",
+        "Deel Surool",
+        "Firith Olan",
+        "Koyi Komad",
+        "Lyn Me",
+        "Oola",
+        "Tott Doneeta"
+      ],
+      "adventurers": "Business, entertainment, diplomacy.",
+      "imageUrl": "twi-lek.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-2.0 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Tentacles (Lekku)",
+          "description": "Silent communication among Twi’leks via lekku."
+        },
+        {
+          "name": "Skill Bonus",
+          "description": "At creation only, receive 2D for every 1D placed in persuasion."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Slavery",
+          "description": "Commonly enslaved/sexualized in Hutt Space; often treated as second-class."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Section 16: Twi’lek"
+      ],
+      "imagePath": "aliens/twi-lek.webp",
+      "hasImage": true
+    },
+    {
+      "id": 17,
+      "name": "Zabrak",
+      "plural": "Zabrak",
+      "description": "Horned near-humans known for resilience and determination.",
+      "personality": "Driven explorers; undeterred by challenges.",
+      "physicalDescription": "Near-human with cranial horns and facial tattoos.",
+      "homeworld": "Iridonia and colonies",
+      "languages": {
+        "native": "Zabrak",
+        "description": "Zabrak and Basic."
+      },
+      "exampleNames": [
+        "Eeth Koth",
+        "Darth Maul",
+        "Kooth Aan"
+      ],
+      "adventurers": "Scoundrels, diplomats, merchants, scouts, soldiers, Jedi.",
+      "imageUrl": "zabrak.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6 to 2.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Hardiness",
+          "description": "Zabrak characters who are from the harsh would of Irido­ nia gain a +1D bonus to willpower and stamina skill checks."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "M"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/zabrak.webp",
+      "hasImage": true
+    },
+    {
+      "id": 18,
+      "name": "Wookiee",
+      "plural": "Wookiees",
+      "description": "Wookiees are widely recognized as one of the strongest and fiercest intelligent species in the galaxy. Wookiees have many customs and traditions that revolve around honor and loyalty, including the special bond called the honor family and the sacred pledge called the life debt. A Wookiee never uses his or her climbing claws in combat; doing this is considered dishonorable and a sign of madness.",
+      "personality": "Wookiees tend to be honorable, rash, loyal, and short-tempered.",
+      "physicalDescription": "Wookiees are large furry bipeds ranging in height from 2 to 2.3 meters.",
+      "homeworld": "The forest world of Kashyyyk",
+      "languages": {
+        "native": "Shyriiwook",
+        "description": "Wookiees speak Shyriiwook, consisting of complex grunts and growls. They understand Basic but lack the ability to speak it."
+      },
+      "exampleNames": [
+        "Chewbacca",
+        "Gorwooken",
+        "Groznik",
+        "Lowbacca",
+        "Ralrra",
+        "Rorworr",
+        "Salporin"
+      ],
+      "adventurers": "Wookiee adventurers usually start out as wanderers or explorers, but some find this path by forming an honor family with (or owing a life debt to) other adventurers.",
+      "imageUrl": "wookiee.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "2D+1"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "2D+1"
+          },
+          "strength": {
+            "min": "2D+2",
+            "max": "6D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "2.0-2.3 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Berserker Rage",
+          "description": "If a Wookiee becomes enraged (the character must believe himself or those to whom he has pledged a life debt to be in immediate, deadly danger) the character gets a +2D bonus to Strength for purposes of causing damage while brawling (the character's brawling skill is not increased). The character also suffers a −2D penalty to all non-Strength attribute and skill checks. When trying to calm down from a berserker rage while enemies are still present, the Wookiee must make a Moderate Perception total. The Wookiee suffers a −1D penalty to Perception and rolls a minimum of 1D for the check. After all enemies have been eliminated, the character must only make an Easy Perception total (with no penalties) to calm down. Wookiee player characters must be careful when using Force points while in a berserker rage, as it will almost always lead to getting a Dark Side Point."
+        },
+        {
+          "name": "Climbing Claws",
+          "description": "Wookiees have retractable climbing claws which are used for climbing only. They add +2D to their climbing skill while using the claws. Any Wookiee who intentionally uses his claws in hand-to-hand combat is automatically considered dishonorable by other members of his species, possibly to be hunted down — regardless of the circumstances."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Reputation",
+          "description": "Wookiees are widely regarded as fierce savages with short tempers. Most people will go out of their way not to enrage a Wookiee."
+        },
+        {
+          "name": "Enslaved",
+          "description": "Prior to the defeat of the Empire, almost all Wookiees were enslaved by the Empire, and there was a substantial bounty for the capture of 'free' Wookiees."
+        },
+        {
+          "name": "Language",
+          "description": "Wookiees cannot speak Basic, but they all understand it. Nearly always, they have a close friend who they travel with who can interpret for them... though a Wookiee's intent is seldom misunderstood."
+        },
+        {
+          "name": "Honor",
+          "description": "Wookiees are honor-bound. They are fierce warriors with a great deal of pride and they can be rage-driven, cruel and unfair — but they have a code of honor. They do not betray their species or desert a friend. They may break the 'law', but never their code. The Wookiee Code of Honor is as stringent as it is ancient. Atonement for a crime against Honor is nearly impossible — it is usually only achieved posthumously."
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Section 16: Wookiee"
+      ],
+      "imagePath": "aliens/wookiee.webp",
+      "hasImage": true
+    },
+    {
+      "id": 19,
+      "name": "Sullustan",
+      "plural": "Sullustans",
+      "description": "Cave-dwelling natives of volcanic Sullust; famed pilots and navigators with acute senses.",
+      "personality": "Pragmatic, pleasant, fond of practical jokes.",
+      "physicalDescription": "Humanoid with large round eyes, big ears, and jowls; average 1.5 meters tall.",
+      "homeworld": "The volcanic, technological world Sullust",
+      "languages": {
+        "native": "Sullustese",
+        "description": "Sullustans speak, read, and write Sullustese and Basic."
+      },
+      "exampleNames": [
+        "Aril Nunb",
+        "Dllr Nep",
+        "Nien Nunb",
+        "Sian Tevv",
+        "Syub Snunb"
+      ],
+      "adventurers": "Explorers, businessfolk, and inveterate pranksters; inquisitive and a bit reckless.",
+      "imageUrl": "sullustan.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "2D+2"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "2D+2"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+2"
+          }
+        },
+        "move": "10/12",
+        "size": "1-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Enhanced Senses",
+          "description": "+2D to Perception and search checks involving low-light vision or hearing."
+        },
+        {
+          "name": "Location Sense",
+          "description": "Cannot get lost in previously visited areas; +1D to astrogation for places previously visited."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Section 16: Sullustan"
+      ],
+      "imagePath": "aliens/sullustan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 20,
+      "name": "Anzat",
+      "plural": "Anzats",
+      "description": "Near-Human predators whose proboscises drain the 'soup' (life essence) of other beings; feared, secretive hunters who pass unnoticed for years.",
+      "personality": "Patient, predatory, secretive; many cultivate bland public personas to mask a relentless hunger.",
+      "physicalDescription": "Near-Human appearance; facial tendrils conceal retractable proboscises; height and build comparable to Humans.",
+      "homeworld": "Anzat",
+      "languages": {
+        "native": "Anzat",
+        "description": "Anzats speak, read, and write Anzat and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "anzat.webp",
+      "stats": {
+        "attributeDice": "14D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Anzati Tracking",
+          "description": "Anzati are able to sense the Force in others, and each is automatically considered Force-sensitive and possessing of the Sense Force skill. When tracking prey, Anzati oftentimes use Force powers such as Life Detection, Life Sense, Receptive Telepathy, Sense Force, and Sense Force Potential."
+        },
+        {
+          "name": "Long-lived",
+          "description": "Anzati are practically immortal, and can live for eons."
+        },
+        {
+          "name": "Stealthy",
+          "description": "Because they must secretly hunt sentient beings, Anzati have grown adept at maintaining their stealth and secrecy. This is reflected in a +1D bonus to their hide and sneak skills."
+        },
+        {
+          "name": "Vampires",
+          "description": "The Anzati feed from living beings: for every turn spent feeding, 2 pips are subtracted from the victim’s Knowledge, Mechanical, Perception, and Technical attributes. If any one attribute is reduced to 0 or less, the victim dies. The damage to the attributes is permanent, and reduces skills accordingly."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/anzat.webp",
+      "hasImage": true
+    },
+    {
+      "id": 21,
+      "name": "Aqualish",
+      "plural": "Aqualish",
+      "description": "Blaster-handy thugs and seafarers from Ando; notorious for violent tempers and underworld ties.",
+      "personality": "Aggressive, quick-tempered, territorial; respect strength and intimidation.",
+      "physicalDescription": "Stocky humanoids with walrus-like tusks and large dark eyes; several subspecies (Aquala, Quara, Ualaq) with differing hands and facial features.",
+      "homeworld": "Ando",
+      "languages": {
+        "native": "Aqualish",
+        "description": "Aqualish speak Aqualish; many also know Huttese and some Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "aqualish.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "technical": {
+            "min": "1D+2",
+            "max": "3D"
+          }
+        },
+        "move": "9/12 (walking)",
+        "size": "1.8-2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Fins",
+          "description": "Aqualish are born with the natural ability to swim. They receive a +2D bonus for all movement attempted in liquids. However, the lack of fingers on their hands decreases their Dexterity, and the Aqualish suffer a −2D penalty when using equipment that has not been specially designed for its fins."
+        },
+        {
+          "name": "Hands",
+          "description": "The Quara and Ualaq do not receive the swimming bonus, but they are just as “at home” in the water. They also receive no penalties for Dexterity actions. The Ualaq are most likely to be encountered off-world."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/aqualish.webp",
+      "hasImage": true
+    },
+    {
+      "id": 22,
+      "name": "Barabel",
+      "plural": "Barabels",
+      "description": "Tough reptilian hunters from the harsh world of Barab I; valued as trackers and enforcers.",
+      "personality": "Direct, pragmatic, honor-conscious; predatory instincts tempered by clan loyalty.",
+      "physicalDescription": "Tall, muscular reptilians with armored scales, sharp teeth, and heavy tails; slit-pupiled eyes adapted to glare.",
+      "homeworld": "Barab I",
+      "languages": {
+        "native": "Barabel",
+        "description": "Barabels speak Barabel; many also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "barabel.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "2D+1"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "perception": {
+            "min": "1D+1",
+            "max": "4D+2"
+          },
+          "strength": {
+            "min": "3D",
+            "max": "5D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "2D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.8-2.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Natural Body Armor",
+          "description": "The black scales of the Barabel act as armor, providing a +2D bonus against physical attacks, and a +1D bonus against energy attacks."
+        },
+        {
+          "name": "Radiation Resistance",
+          "description": "Because of the proximity of their homeworld to its sun, the Barabel have evolved a natural resistance to most forms of radiation. They receive a +2D bonus when defending against the effects of radiation."
+        },
+        {
+          "name": "Vision",
+          "description": "Barabels can see infrared radiation, giving them the ability to see in compete darkness, provided there are heat differentials in the environment."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Jedi"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/barabel.webp",
+      "hasImage": true
+    },
+    {
+      "id": 23,
+      "name": "Bith",
+      "plural": "Biths",
+      "description": "Hyper-intelligent technicians and renowned musicians famed for precision and perfect pitch.",
+      "personality": "Methodical, analytical, polite; can be socially detached.",
+      "physicalDescription": "Hairless, big-domed heads with large black eyes and small mouth folds; fine motor control in delicate fingers.",
+      "homeworld": "Clak'dor VII",
+      "languages": {
+        "native": "Bith",
+        "description": "Bith speak, read, and write Bith and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "bith.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "6D"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "2D"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "5D"
+          }
+        },
+        "move": "5/8",
+        "size": "1.6-1.9 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Vision",
+          "description": "Bith have the ability to focus on microscopic objects, giving them a +1D to Perception skills involving objects less than 30 centimeters away. However, as a consequence of this, the Bith have become extremely myopic. The suffer a penalty of −1D for any visual-based action more than 20 meters away and cannot see more than 40 meters under any circumstances."
+        },
+        {
+          "name": "Scent",
+          "description": "Bith have well-developed senses of smell, giving them +1D to Perception skills when pertaining to actions and people within three meters."
+        },
+        {
+          "name": "Manual Dexterity",
+          "description": "Although the Bith have low overall Dexterity scores, they do gain +1D to the performance of fine motor skills — picking pockets, surgery, fine tool operation, etc. — but not to gross motor skills such as blaster and dodge."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/bith.webp",
+      "hasImage": true
+    },
+    {
+      "id": 24,
+      "name": "Caamasi",
+      "plural": "Caamasis",
+      "description": "Furred pacifists known for strong empathy and the ability to share memnii (vivid memory imprints).",
+      "personality": "Compassionate, patient, conciliatory; natural diplomats and mediators.",
+      "physicalDescription": "Tall, slender, soft-furred humanoids with gentle features and expressive eyes.",
+      "homeworld": "Caamas",
+      "languages": {
+        "native": "Caamasi",
+        "description": "Caamasi speak, read, and write Caamasi and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "caamasi.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+2",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-2.0 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Memory Sharing",
+          "description": "Caamasi can store and share memories with others of their species. Force-users can also share memories with Caa­ masi, though this requires a successful use of either receptive telepathy (to receive a memory) or projective telepathy (to share a memory)."
+        },
+        {
+          "name": "Wise and Tranquil",
+          "description": "Due to their reputation for being peaceful and wise, Caamasi gain a +2 pip bonus to all bargain and persuasion rolls."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/caamasi.webp",
+      "hasImage": true
+    },
+    {
+      "id": 25,
+      "name": "Cathar",
+      "plural": "Cathars",
+      "description": "Feline warriors with strong clan traditions and a storied history of valor.",
+      "personality": "Proud, passionate, protective; fierce when roused but deeply loyal.",
+      "physicalDescription": "Humanoids with feline features: fur, retractable claws, and pronounced canines; athletic builds.",
+      "homeworld": "Cathar",
+      "languages": {
+        "native": "Catharese",
+        "description": "Cathars speak Catharese; most also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "cathar.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+2"
+          }
+        },
+        "move": "12/14",
+        "size": "1.6-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Claws",
+          "description": "Cathar have claws that do STR+1D damage."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/cathar.webp",
+      "hasImage": true
+    },
+    {
+      "id": 26,
+      "name": "Cerean",
+      "plural": "Cereans",
+      "description": "Tall, high-domed near-humans from low-tech Cerea; famed for contemplative thought.",
+      "personality": "Thoughtful, cautious, traditional; value harmony with nature and community.",
+      "physicalDescription": "Slender near-humans with elongated craniums and binary brains; males often wear topknots.",
+      "homeworld": "Cerea",
+      "languages": {
+        "native": "Cerean",
+        "description": "Cereans speak, read, and write Cerean and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "cerean.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D+2",
+            "max": "4D+1"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D"
+          }
+        },
+        "move": "11/12",
+        "size": "1.8-2.2 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Initiative Bonus",
+          "description": "Due to outstanding cognitive speed, Cereans gain a +1D bonus to all initiative rolls."
+        },
+        {
+          "name": "Dual Hearts",
+          "description": "Cereans can function with only one of these hearts, but the demands placed on their circulatory system by their binary brains are no laughing matter. A Cerean reduced to functioning on only one heart must sleep 2/3 of a given day to maintain his mental performance."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/cerean.webp",
+      "hasImage": true
+    },
+    {
+      "id": 27,
+      "name": "Chadra-fan",
+      "plural": "Chadra-fans",
+      "description": "Tiny bat-like tinkerers from Chad; ingenious scavengers with keen senses.",
+      "personality": "Excitable, curious, friendly; easily distracted but brave in a pinch.",
+      "physicalDescription": "Short, furred, large-eared humanoids with sensitive noses and dark eyes.",
+      "homeworld": "Chad",
+      "languages": {
+        "native": "Chadra-Fan",
+        "description": "Chadra-fans speak Chadra-Fan; many learn Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "chadra-fan.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "2D+1",
+            "max": "4D+1"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "2D+1"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "4D"
+          }
+        },
+        "move": "5/7",
+        "size": "1 meter tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Sight",
+          "description": "The Chadra-Fan have the ability to see in the infrared and ultraviolet ranges, allowing them to see in all conditions short of absolute darkness."
+        },
+        {
+          "name": "Smell",
+          "description": "The Chadra-Fan have extremely sensitive smelling which gives them a +2D bonus to their search skill."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "T"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/chadra-fan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 28,
+      "name": "Chiss",
+      "plural": "Chiss",
+      "description": "Disciplined strategists from the Unknown Regions; famed for military acumen and order.",
+      "personality": "Reserved, pragmatic, duty-bound; value hierarchy and efficiency.",
+      "physicalDescription": "Blue-skinned near-humans with red eyes and black hair; immaculate bearing.",
+      "homeworld": "Csilla",
+      "languages": {
+        "native": "Cheunh",
+        "description": "Chiss speak Cheunh; many also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "chiss.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6 to 2.1 meters tall."
+      },
+      "specialAbilities": [
+        {
+          "name": "Low Light Vision",
+          "description": "Chiss can see twice as far as a normal human in poor lighting conditions. The gamemaster should allow Chiss characters to make the appropriate Perception-based skill checks at a lower difficulty than normal human characters."
+        },
+        {
+          "name": "Skill Bonuses",
+          "description": "At the time of character creation only, Chiss characters gain 2D for every one die they assign to the tactics, command,"
+        },
+        {
+          "name": "and scholar",
+          "description": "art skills."
+        },
+        {
+          "name": "Tactics",
+          "description": "Chiss characters receive a permanent +1D bonus to all tac­ tics skill rolls."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/chiss.webp",
+      "hasImage": true
+    },
+    {
+      "id": 29,
+      "name": "Defel",
+      "plural": "Defels",
+      "description": "Shadowy aliens who refract most visible light, making them near-invisible under daylight.",
+      "personality": "Secretive, opportunistic, cautious; excel as scouts and saboteurs.",
+      "physicalDescription": "Short, stocky, furred with elongated snouts; appear as dark silhouettes in standard light.",
+      "homeworld": "Af'El",
+      "languages": {
+        "native": "Defel",
+        "description": "Defels speak Defel; many also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "defel.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "3D",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-1.9 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Invisibility",
+          "description": "Defel receive a +3D bonus when using the sneak skill."
+        },
+        {
+          "name": "Claws",
+          "description": "The claws of the Defel can inflict STR+2D damage."
+        },
+        {
+          "name": "Light Blind",
+          "description": "Defel eyes can only detect ultraviolet light, and the pres­ ence of any other light effectively blinds the Defel. Defel can wear special sight visors which block out all other light waves, allowing them to see, but if a Defel loses its visor, the difficulty of any task involving sight is increased by one level."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "R"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/defel.webp",
+      "hasImage": true
+    },
+    {
+      "id": 30,
+      "name": "Devaronian",
+      "plural": "Devaronians",
+      "description": "Horned near-humans from Devaron; male wanderlust contrasts with more settled females.",
+      "personality": "Adventurous, hedonistic, glib (males); practical and community-focused (females).",
+      "physicalDescription": "Near-humans; males bald with prominent cranial horns and sharp teeth; females typically hornless with hair.",
+      "homeworld": "Devaron",
+      "languages": {
+        "native": "Devaronese",
+        "description": "Devaronians speak Devaronese; most also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "devaronian.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D"
+          }
+        },
+        "move": "8/10",
+        "size": "1.7-1.9 meters tall"
+      },
+      "specialAbilities": [],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "W"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/devaronian.webp",
+      "hasImage": true
+    },
+    {
+      "id": 31,
+      "name": "Gand",
+      "plural": "Gands",
+      "description": "Ammonia-breathing insectoids famed as trackers and mystics (findsmen).",
+      "personality": "Formal, stoic, humble; many speak of themselves in the third person per custom.",
+      "physicalDescription": "Short chitin-armored humanoids with compound eyes; require respirators off-world unless exogenic.",
+      "homeworld": "Gand",
+      "languages": {
+        "native": "Gand",
+        "description": "Gands speak Gand; many learn Basic (with translators or special respirators)."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "gand.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D+2"
+          }
+        },
+        "move": "8/10",
+        "size": "1.4-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Ammonia Breathers",
+          "description": "Most Gand do not respire. However, there is a small number of Gand that are of older evolutionary stock and do respire in the traditional sense. These Gand are ammonia breathers and find other gases toxic to their respiratory system — including oxygen."
+        },
+        {
+          "name": "Exoskeleton",
+          "description": "The ceremonial chemical baths of some findsmen initia­ tions promote the growth of pronounced knobby bits on a Gand’s exoskeleton. The bits on a Gand’s arms or legs can be used as rough, serrated weapons in close-quarter combat and will do STR+1 damage when brawling."
+        },
+        {
+          "name": "Eye Shielding",
+          "description": "Most Gand have a double layer of eye shielding. The"
+        },
+        {
+          "name": "first layer is composed of a transparent keratin-like substance",
+          "description": "the Gand suffers no adverse effects from sandstorms or condi­ tions with other airborne debris. The Gand’s second layer of eye protection is an exceptionally durable chitin that can endure sub­ stantial punishment. For calculating damage, this outer layer has the same Strength as the character."
+        },
+        {
+          "name": "Findsman Ceremonies",
+          "description": "Gand use elaborate and arcane rituals to find prey. Whenever a Gand uses a ritual (which takes at least three hours) he gains a +2D to track a target."
+        },
+        {
+          "name": "Mist Vision",
+          "description": "Having evolved on a mist-enshrouded world, Gand receive a +2D advantage to Perception and relevant skills in envi­ ronments obscured by smoke, fog, or other gases."
+        },
+        {
+          "name": "Natural Armor",
+          "description": "Gand have limited clavicle armor about their shoul­ ders and neck, which provides +2 physical protection to that region (they are immune to nerve or pressure point strikes to the neck or shoulders.)"
+        },
+        {
+          "name": "Regeneration",
+          "description": "Many Gand — particularly those who have remained on their homeworld or are of one of the very traditional sects — can regenerate lost limbs. Once a day, a Gand must make a"
+        },
+        {
+          "name": "Strength or stamina roll",
+          "description": "a Very Difficult roll results in 20 percent regeneration; a Difficult roll will result in 10 percent regenera­ tion, a Moderate roll will not assist a Gand’s accelerated healing process, and the character must wait until the next day to roll."
+        },
+        {
+          "name": "Reserve Sleep",
+          "description": "Most Gand need only a fraction of the sleep most liv­ ing beings require. They can “store” sleep for times when being unconscious is not desirable. As such, the Gand need not make"
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Jedi"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/gand.webp",
+      "hasImage": true
+    },
+    {
+      "id": 32,
+      "name": "Geonosian Worker",
+      "plural": "Geonosian Workers",
+      "description": "Laborer caste of Geonosis: hive-born builders and factory hands conditioned for obedience.",
+      "personality": "Industrious, caste-loyal, deferential to superiors.",
+      "physicalDescription": "Insectoid with chitin plating, thin limbs, and vestigial or no wings; compound eyes.",
+      "homeworld": "Geonosis",
+      "languages": {
+        "native": "Geonosian",
+        "description": "Geonosians speak their own clicking tongue; many understand Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "geonosian-worker.webp",
+      "stats": {
+        "attributeDice": "11D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Flight",
+          "description": "Geonosian aristocrats have wings, and are able to fly."
+        },
+        {
+          "name": "Natural Armor",
+          "description": "Due to their thick chitinous shells, Geonosian aristo­ crats gain a +2 pip bonus to Strength rolls made to resist any form of damage."
+        },
+        {
+          "name": "Radiation Resistance",
+          "description": "Geonosians gain a +2 pip bonus to Strength rolls made to resist the effects of harmful radiation."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/geonosian-worker.webp",
+      "hasImage": true
+    },
+    {
+      "id": 33,
+      "name": "Geonosian Aristocrat",
+      "plural": "Geonosian Aristocrats",
+      "description": "Winged upper-caste Geonosians who direct industry and politics; accustomed to dominance.",
+      "personality": "Commanding, status-conscious, ruthless when challenged.",
+      "physicalDescription": "Taller, often winged Geonosians with thicker carapace and ornate crests.",
+      "homeworld": "Geonosis",
+      "languages": {
+        "native": "Geonosian",
+        "description": "Geonosians speak Geonosian; many aristocrats learn Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "geonosian-aristocrat.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Flight",
+          "description": "Geonosian aristocrats have wings, and are able to fly."
+        },
+        {
+          "name": "Natural Armor",
+          "description": "Due to their thick chitinous shells, Geonosian aristo­ crats gain a +2 pip bonus to Strength rolls made to resist any form of damage."
+        },
+        {
+          "name": "Radiation Resistance",
+          "description": "Geonosians gain a +2 pip bonus to Strength rolls made to resist the effects of harmful radiation."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Caste-Driven"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/geonosian-aristocrat.webp",
+      "hasImage": true
+    },
+    {
+      "id": 34,
+      "name": "Givin",
+      "plural": "Givins",
+      "description": "Mathematical savants and structural engineers capable of surviving vacuum briefly by sealing their bodies.",
+      "personality": "Precise, logical, competitive with equations; social formalists.",
+      "physicalDescription": "Skeletal, bony-faced humanoids with segmented facial plates and pale skin.",
+      "homeworld": "Yag'Dhul",
+      "languages": {
+        "native": "Givin",
+        "description": "Givins speak, read, and write Givin and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "givin.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "2D+2",
+            "max": "4D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "3D",
+            "max": "5D"
+          }
+        },
+        "move": "8/10",
+        "size": "1.7-2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Mathematical Aptitude",
+          "description": "Givin receive a bonus of +2D when using skills involving mathematics, including astrogation. They can automatically solve most “Very Easy to Moderate” equations (gamemaster’s option.)"
+        },
+        {
+          "name": "Vacuum Protection",
+          "description": "Every Givin has built-in vacuum suit which will protect it from a vacuum or harsh elements. Add +2D to a Givin’s Strength or stamina rolls when resisting such extremes. For a Givin to survive for 24 standard hours in a complete vacuum, it must make an Easy roll, with the difficulty level increasing by one every hour thereafter."
+        },
+        {
+          "name": "Increased Consumption",
+          "description": "Givin must eat at least three times the food a normal Human would consume or they lose the above protec­ tion. Roughly, a Givin must consume about nine kilograms of food over a 24 hour period to remain healthy."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/givin.webp",
+      "hasImage": true
+    },
+    {
+      "id": 35,
+      "name": "Gotal",
+      "plural": "Gotals",
+      "description": "Horned near-humans whose cranial cones sense electromagnetic and emotional fields.",
+      "personality": "Empathic but easily overstimulated; courteous, wary in cities full of interference.",
+      "physicalDescription": "Near-human with two conical cranial horns; coarse hair and pronounced brows.",
+      "homeworld": "Antar 4",
+      "languages": {
+        "native": "Gotal",
+        "description": "Gotals speak Gotal; most also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "gotal.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+2",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "2D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "strength": {
+            "min": "2D+1",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.7-2.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Energy Sensitivity",
+          "description": "Because Gotals are unusually sensitive to radiation emissions, they receive a +3D to their search skill when hunting targets in wide open areas of up to 10 kilometers around them. In crowded areas, such as towns and cities, the bonus drops to +1D, and the range drops to less than one kilometer. In areas with intense radiation, they suffer a −1D penalty to search because their senses are overwhelmed by radiation static."
+        },
+        {
+          "name": "Mood Detection",
+          "description": "By reading the auras and moods of others, Gotals receive a positive or negative bonus when engaging in interactive skills with other characters. The Gotals makes a moderate Percep­ tion check and adds the following bonus to his Perception skills"
+        },
+        {
+          "name": "when making opposed rolls for the rest of that encounter",
+          "description": ""
+        },
+        {
+          "name": "Rolls Misses Difficulty By/Penalty",
+          "description": "6+/−3D; 2-5/−2D; 1/−1D"
+        },
+        {
+          "name": "Roll Beats Difficulty By/Bonus",
+          "description": "0-7/1D; 8-14/2D; 15+/3D"
+        },
+        {
+          "name": "Fast Initiative",
+          "description": "Gotals who are not suffering from radiation static receive a +1D when rolling initiative against non-Gotal oppo­ nents. This is due to their ability to read the emotions and inten­ tions of others."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Droid"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/gotal.webp",
+      "hasImage": true
+    },
+    {
+      "id": 36,
+      "name": "Gran",
+      "plural": "Grans",
+      "description": "Tri-ocular herbivores from Kinyen; many communities across the galaxy, including Malastare.",
+      "personality": "Social, community-focused, generally peaceful; value family bonds.",
+      "physicalDescription": "Humanoids with three eye-stalks and goat-like muzzles; skin tones vary from tan to pink.",
+      "homeworld": "Kinyen",
+      "languages": {
+        "native": "Gran",
+        "description": "Grans speak Gran; most also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "gran.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.1-1.8 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Vision",
+          "description": "Grans’ unique combination of eyestalks gives them a larger spectrum of vision than other species. They can see well into the infrared range (no penalties in darkness), and gain a bonus of +1D to notice sudden movements."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/gran.webp",
+      "hasImage": true
+    },
+    {
+      "id": 37,
+      "name": "Herglic",
+      "plural": "Herglics",
+      "description": "Massive cetacean-like merchants and explorers who spread casinos and free trade across space lanes.",
+      "personality": "Jovial, generous, occasionally impulsive; reputation for gambling enthusiasm.",
+      "physicalDescription": "Large, smooth-skinned humanoids with broad torsos, small dorsal fins, and powerful limbs.",
+      "homeworld": "Giju",
+      "languages": {
+        "native": "Herglese",
+        "description": "Herglics speak Herglese and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "herglic.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D+2",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "3D",
+            "max": "5D"
+          },
+          "technical": {
+            "min": "1D+1",
+            "max": "4D+1"
+          }
+        },
+        "move": "6/8",
+        "size": "1.7-2.2 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Natural Body Armor",
+          "description": "The thick layer of blubber beneath the outer skin of a Herglic provides +1D resistance against physical attacks. It gives no bonus to energy attacks."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Gambling"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/herglic.webp",
+      "hasImage": true
+    },
+    {
+      "id": 38,
+      "name": "Hutt",
+      "plural": "Hutts",
+      "description": "Slug-like crime lords and magnates whose kajidics dominate the underworld and sectors of the Outer Rim.",
+      "personality": "Calculating, merciless, prideful; prefer influence and long-term leverage to open conflict.",
+      "physicalDescription": "Enormous limbless gastropoids with powerful tails, small arms, and wide mouths; extremely long-lived.",
+      "homeworld": "Nal Hutta (origins on Varl)",
+      "languages": {
+        "native": "Huttese",
+        "description": "Hutts speak Huttese; most understand Basic but prefer not to speak it."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "hutt.webp",
+      "stats": {
+        "attributeDice": "14D",
+        "attributes": {
+          "dexterity": {
+            "min": "0D+1",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "5D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D"
+          }
+        },
+        "move": "0/4",
+        "size": "3 to 5 meters long"
+      },
+      "specialAbilities": [
+        {
+          "name": "Force Resistance",
+          "description": "Hutts have an innate defense against Force-based mind manipulation techniques and roll double their Perception dice to resist such attacks. However, because of this, Hutts are not believed to be able to learn Force skills."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/hutt.webp",
+      "hasImage": true
+    },
+    {
+      "id": 39,
+      "name": "Jawa",
+      "plural": "Jawas",
+      "description": "Hooded scavengers of Tatooine who roam deserts in sandcrawlers trading droids and scrap.",
+      "personality": "Opportunistic, shrewd, skittish around outsiders; tight-knit clan structure.",
+      "physicalDescription": "Short robed humanoids with glowing eyes visible beneath hoods; odor of ozone and spices.",
+      "homeworld": "Tatooine",
+      "languages": {
+        "native": "Jawaese",
+        "description": "Jawas speak rapid-fire Jawaese; some understand droid Binary and a little Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "jawa.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "mechanical": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "2D+2"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "4D+2"
+          }
+        },
+        "move": "8/10",
+        "size": "0.8-1.2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Technical Aptitude",
+          "description": "At the time of character creation only, Jawa char­ acters receive 2D for every 1D they place in repair-oriented Tech­ nical skills."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/jawa.webp",
+      "hasImage": true
+    },
+    {
+      "id": 40,
+      "name": "Nautolan",
+      "plural": "Nautolans",
+      "description": "Amphibious humanoids from Glee Anselm whose head-tresses sense subtle pheromones and currents.",
+      "personality": "Empathetic, calm, resilient; comfortable both in the deeps and on land.",
+      "physicalDescription": "Humanoids with large black eyes and many head-tentacles; smooth, water-resistant skin.",
+      "homeworld": "Glee Anselm",
+      "languages": {
+        "native": "Nautila",
+        "description": "Nautolans speak Nautila (optimized for underwater) and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "nautolan.webp",
+      "stats": {
+        "attributeDice": "11D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.8-2.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Good Swimmers",
+          "description": "Nautolans, being amphibious, gain a permanent +1D bonus to all swimming skill rolls."
+        },
+        {
+          "name": "Low-light Vision",
+          "description": "A Nautolan can see twice as far as a normal human in poor lighting conditions. The gamemaster should allow Nau­ tolan characters to make the appropriate Perception-based skill checks at a lower difficulty than normal human characters."
+        },
+        {
+          "name": "Pheromone Detection",
+          "description": "Nautolans possess tendrils which act as their major sensory organs, and they barely function outside of water. The tendrils are so sensitive that they can sense odors and pheromones, which can allow an observant Nautolan some idea of a target’s emotional state. Because of this, Nautolans gain a +1D bonus to all skills rolls involving interpersonal relations (ie, bargain, command, con, intimidation, investigation, or persua­ sion) when in water. When outside of water, this bonus is reduced to a mere +1 pip."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "L"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/nautolan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 41,
+      "name": "Talz",
+      "plural": "Talz",
+      "description": "Shaggy-furred natives of frigid worlds, noted for four eyes adapted to varied light conditions.",
+      "personality": "Tribal, honorable, laconic; prefer isolation from galactic politics.",
+      "physicalDescription": "Tall, furred bipeds with two primary eyes and two secondary eyes, tusked muzzles, and large hands.",
+      "homeworld": "Alzoc III (also Orto Plutonia)",
+      "languages": {
+        "native": "Talz",
+        "description": "Talz communicate in Talz; few speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "talz.webp",
+      "stats": {
+        "attributeDice": "11D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D"
+          },
+          "perception": {
+            "min": "2D+1",
+            "max": "4D+1"
+          },
+          "strength": {
+            "min": "2D+2",
+            "max": "4D+2"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D"
+          }
+        },
+        "move": "8/10",
+        "size": "2-2.2 meters tall"
+      },
+      "specialAbilities": [],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "E"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/talz.webp",
+      "hasImage": true
+    },
+    {
+      "id": 42,
+      "name": "Togruta",
+      "plural": "Togrutas",
+      "description": "Pack-oriented near-humans with hollow montrals for echolocation and striped lekku.",
+      "personality": "Cooperative, loyal, attentive to group needs; confident explorers and guardians.",
+      "physicalDescription": "Colorful facial markings; tall montrals and head-tails; skin tones range from red to orange, white, or blue.",
+      "homeworld": "Shili",
+      "languages": {
+        "native": "Togruti",
+        "description": "Togrutas speak Togruti and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "togruta.webp",
+      "stats": {
+        "attributeDice": "13D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D",
+            "max": "4D+2"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "4D+1"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-2.1 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Camouflage",
+          "description": "Togruta characters possess colorful skin patterns which help them blend in with natural surroundings (much like the stripes of a tiger). This provides them with a +2 pip bonus to sneak skill checks."
+        },
+        {
+          "name": "Spatial Awareness",
+          "description": "Using a form of passive echolocation, Togruta can sense their surroundings. If unable to see, a Togruta character can attempt a Moderate search skill check. Success allows the Togru­ ta to perceive incoming attacks and react accordingly by making defensive rolls."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Believed to be"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/togruta.webp",
+      "hasImage": true
+    },
+    {
+      "id": 43,
+      "name": "Trandoshan",
+      "plural": "Trandoshans",
+      "description": "Reptilian hunters who revere the Scorekeeper and prize Wookiee pelts; formidable predators.",
+      "personality": "Proud, ruthless, competitive; value the hunt and tallies of honor (or 'jagannath' points).",
+      "physicalDescription": "Scaled, clawed humanoids with regenerative capacity; slit-pupiled eyes and powerful jaws.",
+      "homeworld": "Trandosha",
+      "languages": {
+        "native": "Dosh",
+        "description": "Trandoshans speak Dosh; most also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "trandoshan.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D+1"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "perception": {
+            "min": "2D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "3D",
+            "max": "4D+2"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "2D+2"
+          }
+        },
+        "move": "10/12",
+        "size": "1.8-2.2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Vision",
+          "description": "Trandoshans’ vision includes the ability to see in the infrared spectrum. They can see in darkness with no penalty, provided there are heat sources."
+        },
+        {
+          "name": "Clumsy",
+          "description": "Trandoshans have poor manual dexterity. They have consid­ erable difficulty performing actions which require precise finger movement and they suffer a penalty of −2D whenever they attempt an action of this kind. In addition, they also have some difficulty using weaponry that requires a substantially smaller finger such as blasters and blaster rifles; most weapons used by Trandoshans have had their finger guards removed or redesigned to allow for the Trandoshan’s use."
+        },
+        {
+          "name": "Regeneration",
+          "description": "Younger Trandoshans can regenerate lost limbs (fin­ gers, arms, legs and feet). This ability disappears as the Tran­ doshan ages. Once per day, the Trandoshan must make a Moderate Strength or stamina roll. Success means that the limb regenerates by ten percent. Failure indicates that the regenera­ tion does not occur."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Wookiee"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/trandoshan.webp",
+      "hasImage": true
+    },
+    {
+      "id": 45,
+      "name": "Verpine",
+      "plural": "Verpines",
+      "description": "Insectoid engineers of the Roche asteroids; communicate via radio and excel at starship design.",
+      "personality": "Collaborative, curious, exacting; prefer consensus and technical problem-solving.",
+      "physicalDescription": "Tall, stick-limbed insectoids with segmented exoskeletons and delicate antennae.",
+      "homeworld": "Roche asteroid field",
+      "languages": {
+        "native": "Verpine",
+        "description": "Verpine click-communication and radio; many also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "verpine.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "3D"
+          }
+        },
+        "move": "10/13",
+        "size": "1.7-2.2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Microscopic Sight",
+          "description": "+1D to search for small objects, due to their high­ ly evolved eyes."
+        },
+        {
+          "name": "Body Armor",
+          "description": "The Verpine’s natural chitinous plate armor gives them a +1D bonus against physical attacks."
+        },
+        {
+          "name": "Organic Telecommunication",
+          "description": "Because Verpine can send and receive radio waves through their antenna, they have the ability to com­ municate with other members of their species with special­ ly-tuned comlinks. The range is very limited when they are activating individually (1 km) but greatly increases when in the hive (covers the entire Roche asteroid field)."
+        },
+        {
+          "name": "Technical Bonus",
+          "description": "All Verpine receive a +2D bonus when using their Technical skills."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/verpine.webp",
+      "hasImage": true
+    },
+    {
+      "id": 45,
+      "name": "Verpine",
+      "plural": "Verpines",
+      "description": "Insectoid engineers of the Roche asteroids; communicate via radio and excel at starship design.",
+      "personality": "Collaborative, curious, exacting; prefer consensus and technical problem-solving.",
+      "physicalDescription": "Tall, stick-limbed insectoids with segmented exoskeletons and delicate antennae.",
+      "homeworld": "Roche asteroid field",
+      "languages": {
+        "native": "Verpine",
+        "description": "Verpine click-communication and radio; many also speak Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "verpine-45.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "knowledge": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "3D"
+          },
+          "technical": {
+            "min": "2D",
+            "max": "3D"
+          }
+        },
+        "move": "10/13",
+        "size": "1.7-2.2 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Microscopic Sight",
+          "description": "+1D to search for small objects, due to their high­ ly evolved eyes."
+        },
+        {
+          "name": "Body Armor",
+          "description": "The Verpine’s natural chitinous plate armor gives them a +1D bonus against physical attacks."
+        },
+        {
+          "name": "Organic Telecommunication",
+          "description": "Because Verpine can send and receive radio waves through their antenna, they have the ability to com­ municate with other members of their species with special­ ly-tuned comlinks. The range is very limited when they are activating individually (1 km) but greatly increases when in the hive (covers the entire Roche asteroid field)."
+        },
+        {
+          "name": "Technical Bonus",
+          "description": "All Verpine receive a +2D bonus when using their Technical skills."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/verpine-45.webp",
+      "hasImage": true
+    },
+    {
+      "id": 46,
+      "name": "Weequay",
+      "plural": "Weequays",
+      "description": "Tough, leathery-skinned natives of Sriluur; often sailors, mercenaries, and bodyguards in Hutt Space.",
+      "personality": "Stoic, clan-loyal, spiritually tied to Sriluur's gods; pragmatic and terse.",
+      "physicalDescription": "Weathered humanoids with braided topknots, deep-set eyes, and corded skin.",
+      "homeworld": "Sriluur",
+      "languages": {
+        "native": "Sriluurian",
+        "description": "Weequays speak Sriluurian; many also know Huttese and Basic."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "weequay.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+1"
+          },
+          "mechanical": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+2"
+          }
+        },
+        "move": "10/12",
+        "size": "1.6-1.9 meters tall"
+      },
+      "specialAbilities": [
+        {
+          "name": "Short-Range Communication",
+          "description": "Weequays of the same clan are capa­ ble of communicating with one another through complex pheromones. Aside from Jedi sensing abilities, no other species are known to be able to sense this form of communication. This form is as complex and clear to them as speech is to other species."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "Houk"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/weequay.webp",
+      "hasImage": true
+    },
+    {
+      "id": 47,
+      "name": "Yuuzhan Vong",
+      "plural": "Yuuzhan Vongs",
+      "description": "Bioengineered warrior-cultists from extragalactic space who reject droids and metal in favor of living technology.",
+      "personality": "Fanatical, honor-bound, pain-embracing; hierarchical society led by priests, shapers, and warriors.",
+      "physicalDescription": "Humanoids with ritual scarring and grafted biots; robust physiology resistant to many galactic norms.",
+      "homeworld": "Extragalactic (the Yuuzhan Vong galaxy)",
+      "languages": {
+        "native": "Yuuzhan Vong",
+        "description": "Yuuzhan Vong speak their own tongue; Basic is learned by some but not native."
+      },
+      "exampleNames": [],
+      "adventurers": "",
+      "imageUrl": "yuuzhan-vong.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "2D+2",
+            "max": "5D+1"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+2"
+          }
+        },
+        "move": "10/12",
+        "size": "1.9-2.2 meters"
+      },
+      "specialAbilities": [],
+      "storyFactors": [
+        {
+          "name": "Story",
+          "description": "O"
+        }
+      ],
+      "notes": "",
+      "sources": [
+        "Star Wars REUP Section 16"
+      ],
+      "imagePath": "aliens/yuuzhan-vong.webp",
+      "hasImage": true
+    },
+    {
+      "id": 48,
+      "name": "Aar'aa",
+      "plural": "Aar'aa",
+      "description": "Chameleon-skinned reptilians prized for covert work thanks to slow, adaptive pigmentation.",
+      "personality": "Proud, close-lipped, opportunistic; moods shift quickly when temperatures rise or fall.",
+      "physicalDescription": "Tall, pebbled reptiles with dorsal skin crests, clawed hands and eyes that glow above heavy brows; their hides gradually match nearby colors.",
+      "homeworld": "Aar",
+      "languages": {
+        "native": "Aarese",
+        "description": "Aar'aa speak Aarese and can manage heavily accented Basic with practice."
+      },
+      "exampleNames": [],
+      "adventurers": "Often serve as assassins, infiltrators, bodyguards, thieves and other stealth-focused specialists.",
+      "imageUrl": "",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D+2",
+            "max": "4D+1"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "3D+1"
+          },
+          "perception": {
+            "min": "2D+2",
+            "max": "4D+1"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D+2",
+            "max": "3D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.4-2.0 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Claws",
+          "description": "Natural claws inflict STR+1D damage."
+        },
+        {
+          "name": "Skin-Changing",
+          "description": "After one full round pressed against a surface—longer for intricate patterns—an Aar'aa gains +4D to Sneak while camouflaged."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Cold-Blooded",
+          "description": "In cold environments their metabolism falters; GMs may apply a -1D penalty to Dexterity and Strength skills when conditions are frigid."
+        }
+      ],
+      "notes": "Source text adapted under CC-BY-SA 3.0; original wikitext archived in Source Data/d6holocron/raw/aar-aa.json.",
+      "sources": [
+        "CC-BY-SA 3.0 d6holocron.com/wiki/Aar'aa (retrieved 2025-10-07)"
+      ],
+      "imagePath": "",
+      "hasImage": false
+    }
+  ]
+}

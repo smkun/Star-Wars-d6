@@ -1,0 +1,71 @@
+{
+  "species": [
+    {
+      "name": "Aar'aa",
+      "plural": "Aar'aa",
+      "description": "Chameleon-skinned reptilians prized for covert work thanks to slow, adaptive pigmentation.",
+      "personality": "Proud, close-lipped, opportunistic; moods shift quickly when temperatures rise or fall.",
+      "physicalDescription": "Tall, pebbled reptiles with dorsal skin crests, clawed hands and eyes that glow above heavy brows; their hides gradually match nearby colors.",
+      "homeworld": "Aar",
+      "languages": {
+        "native": "Aarese",
+        "description": "Aar'aa speak Aarese and can manage heavily accented Basic with practice."
+      },
+      "exampleNames": [],
+      "adventurers": "Often serve as assassins, infiltrators, bodyguards, thieves and other stealth-focused specialists.",
+      "imageUrl": "",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "2D+2",
+            "max": "4D+1"
+          },
+          "knowledge": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D+2",
+            "max": "3D+1"
+          },
+          "perception": {
+            "min": "2D+2",
+            "max": "4D+1"
+          },
+          "strength": {
+            "min": "2D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D+2",
+            "max": "3D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.4-2.0 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Claws",
+          "description": "Natural claws inflict STR+1D damage."
+        },
+        {
+          "name": "Skin-Changing",
+          "description": "After one full round pressed against a surface—longer for intricate patterns—an Aar'aa gains +4D to Sneak while camouflaged."
+        }
+      ],
+      "storyFactors": [
+        {
+          "name": "Cold-Blooded",
+          "description": "In cold environments their metabolism falters; apply -1D to Dexterity and Strength skills when conditions are frigid."
+        }
+      ],
+      "notes": "Source text adapted under CC-BY-SA 3.0; original wikitext archived in Source Data/d6holocron/raw/aar-aa.json.",
+      "sources": [
+        "CC-BY-SA 3.0 d6holocron.com/wiki/Aar'aa (retrieved 2025-10-07)"
+      ]
+    }
+  ],
+  "dryRun": false
+}
