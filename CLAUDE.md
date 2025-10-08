@@ -311,3 +311,35 @@ const q = query(
 2. Add automation (maybe Makefile/npm script) to run convert → enrich → import in one step
 3. Write parser tests and fallback prompts to ensure new species data is robust before upload
 
+### 2025-10-07
+
+**Changes Implemented:**
+- Expanded project from species-only to multi-category d6 reference database
+- Created landing page (Home.tsx) with category navigation tiles for Species and Starships
+- Built complete starship import pipeline: schema (starship.schema.ts), fetcher (fetch-starships.js), importer (import-starships.js)
+- Created Starships catalog page (Starships.tsx) displaying ship stats, weapons, and technical specifications
+- Updated routing: `/` → landing page, `/species` → species catalog, `/starships` → starships catalog
+- Added starships collection to Firestore security rules with admin-only writes
+- Imported 270 starships across three categories: 100 Starfighters, 98 Space Transports, 77 Capital Ships
+- Fetched from d6 Holocron categories with complete data extraction (weapons arrays, sensors, stats)
+
+**New Tasks Discovered:**
+1. Add category filtering to starships page (Starfighters / Transports / Capital Ships toggle)
+2. Create StarshipDetail page with individual ship specifications and full weapon details
+3. Fetch remaining starship batches (74 more starfighters, 185 more transports, 131 more capital ships)
+4. Add starship image download and WebP conversion workflow similar to species
+5. Implement search functionality for starships catalog
+6. Add breadcrumb navigation across all pages
+
+**Risks Identified:**
+1. **Firestore Batch Imports** - Still using temporary rule relaxation; 20-23 failures per 100 imports due to permissions restoring mid-batch
+   - Mitigation: Need automated import script that handles full batch before rule restore
+2. **Data Duplication** - Some ships appear in multiple categories (Action IV Bulk Freighter in both transports and capital)
+   - Mitigation: May need category array field instead of single category enum
+3. **Schema Completeness** - Starship schema handles most fields but some wiki data doesn't parse cleanly (empty weapons, missing stats)
+   - Mitigation: Import script validates and filters, but may need manual cleanup
+
+**Next 3 Tasks:**
+1. Add category filter tabs to Starships.tsx to toggle between Starfighters/Transports/Capital Ships
+2. Create StarshipDetail.tsx page with routing and full specifications display
+3. Fetch and import remaining starship data (390+ ships) to complete the starships catalog

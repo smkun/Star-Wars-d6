@@ -1,0 +1,10 @@
+{
+  "title": "CE-2 Transport",
+  "pageId": 519,
+  "revisionId": 10631,
+  "wikitext": "[[File:CE-2Transport.jpg|400px|thumb|right]]\n\n'''Craft''': Corellian Engineering Corporation CE-2 Transport<br />'''Type''': Light freighter<br />'''Scale''': Starfighter<br />'''Length''': 100 meters<br />'''Skill''': Space transports: CE-2 transport<br />'''Crew''': 2<br />'''Crew Skill''': Varies widely<br />'''Passengers''': 2<br />'''Cargo Capacity''': 50,000 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 200,000 (new), 95,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x12<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 3<br />'''Atmosphere''': 260; 750 kmh<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 2/2D+2\n\n'''Capsule''': An odd hybrid of a light freighter and space barge, the CE-2 is an experiment intended to use a light freighter configuration to move barge cargo pods. The result has sold decently well, and may herald a change in medium freighter design.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/CE-2%20Transport",
+  "retrievedAt": "2025-10-07T22:31:39.697Z"
+}

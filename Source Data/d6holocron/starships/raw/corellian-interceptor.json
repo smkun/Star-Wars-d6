@@ -1,0 +1,10 @@
+{
+  "title": "Corellian Interceptor",
+  "pageId": 10670,
+  "revisionId": 20872,
+  "wikitext": "[[File:Corellian Interceptor.jpg|thumb|500px|right]]\n\n'''Craft''': Corellian Engineering Corporation Interceptor<br />'''Type''': Mid-sized patrol craft<br />'''Scale''': Capital<br />'''Length''': 90 meters<br />'''Skill''': Capital Ship Piloting: Corellian Interceptor<br />'''Crew''': 40; gunners: 8<br />'''Passengers''': 20 (brig accommodations for 16)<br />'''Cargo Capacity''': 1000 metric tons, 500 cubic meters<br />'''Consumables''': 8 months<br />'''Cost''': 2,000,000 (new); 800,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x16<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D+2<br />'''Space''': 7<br />'''Atmosphere''': 700; 2,000 kmh<br />'''Hull''': 3D+1<br />'''Shields''': 1D+2<br />'''Sensors''':\n*Passive: 30/1D\n*Search: 55/2D\n*Scan: 80/3D+2\n*Focus: 5/4D\n'''Weapons:'''\n*'''Two Double Turbolaser Cannons''' (fire separately)\n: Fire Arc: 2 front<br />Crew: 2<br />Fire Control: 3D<br />Space Range: 3-15/35/75<br />Atmosphere Range: 6-30/70/150 km<br />Damage: 4D+2\n*'''Two Ion Cannons''' (fire separately)\n: Fire Arc: 2 Front<br />Crew: 2<br />Fire Control: 3D<br />Space Range: 1-10/25/50<br />Atmosphere Range: 2-20/50/100km<br />Damage: 3D\n\n'''Capsule''': This is the little brother to the much adored Corellian Corvette and are still used by many small governments and independent organizations. They have also been known to be used for piracy, in transporting high risk goods. The Corellian Interceptor was first put on the market about 5 years after the Corvette came out. It is a basic patrol craft that has been in service since the Old Republic. They are not as common outside the Corellia system as of the Battle of Yavin. However, some very distant systems produced their own versions. It, like the Corvette, is a workhorse easily adapted to many uses.\n\n'''Source''': \"Unknown\"",
+  "category": "capital",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Corellian%20Interceptor",
+  "retrievedAt": "2025-10-08T08:30:07.678Z"
+}

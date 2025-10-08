@@ -1,0 +1,10 @@
+{
+  "title": "Corellian Armed Merchant Cruiser",
+  "pageId": 638,
+  "revisionId": 12299,
+  "wikitext": "[[File:Corellian-Armed-Merchant-Cruiser.jpg|500px|thumb|right]]\n\n'''Craft''': Corellian Engineering AMC-class<br />'''Type''': Armed Merchant Cruiser<br />'''Scale''': Capital<br />'''Length''': 155 Meters<br />'''Skill''': Space Transport Piloting: AMC<br />'''Crew''': 95; Gunners: 20 - Skeleton Crew: 10/+5<br />'''Crew Skill''': Astrogation 4D, Capital Ship Gunnery 2D+2, Sensors 3D, Space Transports 3D+2, Starship Gunnery 3D+1<br />'''Passengers''': 50 (Troops)<br />'''Cargo Capacity''': 20000 Tons<br />'''Consumables''': 3 Months<br />'''Hyperdrive Multiplier''': X4;<br />'''Hyperdrive Backup''': X20<br />'''Nav Computer''': Yes (Limited To 4 Jumps)<br />'''Maneuverability''': 0D<br />'''Space''': 3<br />'''Atmosphere''': 225;650kmh<br />'''Hull''': 3D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 20 / 0D\n*Search: 40 / 1D+2\n*Scan: 30 / 1D\n*Focus: 1 / 2D\n'''Fighters''': 2 TIE<br />'''Weapons''':\n*'''8 Turbolaser Cannons''' (Fire Separately)\n: Scale: Capital<br />Fire Arc: 2 Front, 3 Left, 3 Right<br />Crew: 2<br />Skill: Capital Ship Gunnery<br />Fire Control: 2D<br />Space/Orbit Range: 3-15/35/75, 6-30/70/150 km<br />Damage: 2D\n*'''4 Twin Blaster Cannons''' (Fire Separately)\n: Scale: Starfighter<br />Fire Arc: Turret<br />Crew: 1<br />Skill: Starship Gunnery<br />Fire Control: 1D<br />Space/Orbit Range: 1-5/10/17, 2-10/20/34 km<br />Damage: 3D\n\n'''Capsule''': Based on modified Superlift Ore Hauler's, the AMC-class is used for convoy protection and system patrolling by corporations and system defense navies who cannot afford anything better. Even the Imperial Fleet has put several of these vessels into service, which speaks loudly about the Empire's lack of suitable escorts to counter the increasing attacks by rebels.",
+  "category": "capital",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Corellian%20Armed%20Merchant%20Cruiser",
+  "retrievedAt": "2025-10-08T08:30:04.009Z"
+}

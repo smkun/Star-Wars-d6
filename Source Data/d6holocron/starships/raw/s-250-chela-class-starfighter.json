@@ -1,0 +1,10 @@
+{
+  "title": "S-250 Chela-class starfighter",
+  "pageId": 7664,
+  "revisionId": 14494,
+  "wikitext": "[[File:Chela Starfighter.jpg|thumb|500px|right]]\n\n'''Chela Starfighter'''<br />'''Craft''': Corellian Engineering Corporation S-250 ''Chela''-class Starfighter<br />'''Type''': space superiority fighter<br />'''Scale''': Starfighter<br />'''Length''': 14 meters<br />'''Skill''': Starfighter Piloting<br />'''Crew''': 1<br />'''Cost''': 420,000 new (estimated, not for sale)<br />'''Passengers''': 0<br />'''Cargo Capacity''': 30 kg<br />'''Consumables''': 1 week<br />'''Hyperdrive''': x2<br />'''Nav Computer''': yes<br />'''Maneuverability''': 2D+1<br />'''Space''': 10<br />'''Atmosphere''': 415; 1,200 km/h<br />'''Hull''': 4D<br />'''Shields''': 1D+1<br />'''Sensors '''+1D, range 30\n*Passive:30/0D\n*Scan:60/1D\n'''Weapons'''\n*'''2 Laser Cannons''' (fire-linked)\n: Fire Arc: front<br />Crew: 1<br />Scale: starfighter<br />Skill: starship gunnery<br />Fire Control: 2D<br />Space Range: 1 - 3 / 10 / 20<br />Atmosphere Range: 100-300 / /1,000 / 2,000m<br />Damage: 5D\n*'''2 Concussion Missile Launchers '''(fire-linked)\n: Fire Arc: front<br />Crew: 1<br />Scale: starfighter<br />Skill: starship gunnery<br />Fire Control: 2D<br />Space Range: 1 / 3 / 7<br />Atmosphere Range: 100 / 300 / 700m<br />Missiles: 6 each<br />Damage: 10D\n\n'''Notes''': Designed between the Great Sith War and the Mandalorian Wars, this design impressed the Republic Navy, though not as much as the ''Aurek'' fighter. It incorporates the agility of the earlier S-100 Stinger-class starfighter with improved weapons, and uses the unconventional thrusters-down landing position later seen on the ''Firespray'' transport used by Boba Fett.\n\n'''Source''': KORSE p181. Converted from d20 Saga Edition rules.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/S-250%20Chela-class%20starfighter",
+  "retrievedAt": "2025-10-07T22:30:12.715Z"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Miy'til Assault Bomber",
+  "pageId": 547,
+  "revisionId": 11876,
+  "wikitext": "[[File:Miy'til-Assault-Bomber.jpg|thumb|500px]]\n\n'''Craft''': Hapes Consortium Miy'til Assault Bomber<br />'''Type''': Bomber<br />'''Scale''': Starfighter<br />'''Length''': 20 meters<br />'''Skill''': Starfighter Pilot: Miy'til Assault Bomber<br />'''Crew''': 2<br />'''Crew Skill''': Varies<br />'''Passengers''': None<br />'''Cargo Capacity''': 400 kilograms<br />'''Consumables''': 2 days<br />'''Cost''': 200,000 (new)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Back-Up''': x12<br />'''Nav Computer''': Astromech droid holds 10 jumps<br />'''Maneuverability''': 1D+2<br />'''Space''': 8<br />'''Atmosphere''': 365; 1,050 km/h<br />'''Hull''': 4D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 25/0D\n*Scan: 50/1D\n*Search: 75/1D+2\n*Focus: 3/3D+1\n'''Weapons''':\n*'''2 Laser Cannons''' (fire-linked)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 1D<br />Space Range: 1-4/15/30<br />Atmosphere Range: 100-400/1.5/3 km<br />Damage: 5D\n*'''2 Concussion Missile Tubes '''(fire-linked, 16 heavy concussion missiles each)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 3D<br />Space Range: 1/5/9<br />Atmosphere Range: 50-100/500/900 m<br />Damage: 10D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Miy'til%20Assault%20Bomber",
+  "retrievedAt": "2025-10-07T22:30:00.994Z"
+}

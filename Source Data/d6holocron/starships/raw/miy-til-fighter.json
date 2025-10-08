@@ -1,0 +1,10 @@
+{
+  "title": "Miy’til Fighter",
+  "pageId": 543,
+  "revisionId": 12179,
+  "wikitext": "[[File:Miy’til-Fighter1.jpg|thumb|500px]]\n[[File:Miy’til-Fighter2.jpg|thumb|500px]]\n\n'''Craft''': Hapan Cluster Miy’til Fighter<br />'''Type''': Heavy combat starfighter<br />'''Scale''': Starfighter<br />'''Length''': 7.5m<br />'''Skill''': Starfighter Piloting: Miy’til Fighter<br />'''Crew''': 1 (plus astromech droid)<br />'''Crew Skill''': Astrogation 3D+2, Starship Gunnery 3D+1, Starfighter Piloting 4D, Starship Shields 3D+2<br />'''Cargo Capacity''': 25kg<br />'''Consumables''': 1 Week<br />'''Cost''': 210,000 Credits<br />'''Hyderdrive Multiplier''': x1.5<br />'''Nav Computer:''' Astromach driod holds 10 jumps<br />'''Maneuverability''': 3D<br />'''Space''': 9<br />'''Atmosphere''': 400; 1,150 kmh<br />'''Hull''': 3D+1<br />'''Shields''': 1D+1<br />'''Sensors''':\n*Passive: 25/0D\n*Scan: 50/1D\n*Search: 75/1D+2\n*Focus: 3/2D+1\n'''Weapons''':\n*'''2 Laser Cannons''' (Fire-linked)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 2D+2<br />Space Range: 1-4/15/30<br />Atmosphere Range: 1-300/1.2/1.5km<br />Damage: 5D\n*'''1 Concussion Missile Launcher'''\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 3D<br />Space Range: 1/5/9<br />Atmosphere Range: 100/500/900m<br />Ammo: 5<br />Damage: 9D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Miy%E2%80%99til%20Fighter",
+  "retrievedAt": "2025-10-07T22:30:01.507Z"
+}

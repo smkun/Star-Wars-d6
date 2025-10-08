@@ -1,0 +1,10 @@
+{
+  "title": "SR3 Kraken Fighter",
+  "pageId": 5247,
+  "revisionId": 11900,
+  "wikitext": "[[File:SR3-Kraken-Fighter.jpg|thumb|500px]]\n\n'''SR3 Kraken Fighter'''<br />'''Type''': Snub Attack Fighter<br />'''Scale''': Starfighter<br />'''Length''': 12 meters<br />'''Crew''': 1<br />'''Crew Skills''': Starfighter Piloting: Kraken, Starship Gunnery, Starship Shields, Repulsorlift Ops<br />'''Passengers''': 0<br />'''Cargo Capacity''': 10kg<br />'''Consumables''': 1 week<br />'''Cost''': 865,000<br />'''Availability''': 4,X<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': None<br />'''Nav Computer''': Yes<br />'''Space''': 13<br />'''Atmosphere''': 800; 1250 kmh<br />'''Maneuverability''': 4D<br />'''Hull''': 4D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 20/1DD\n*Scan: 40/2D\n*Search: 80/3D\n*Focus: 4/4D\n'''Weapons''':\n*2 Heavy Blaster Cannons (fire-linked)\n: Scale: Starfighter<br />Crew: Pilot<br />Fire Arc: Front<br />Fire Control: 3D+2<br />Space Range: 3-15/36/75<br />Atmosphere Range: 6-30/72/150 km<br />Damage: 8D\n*2 Medium Blaster Cannons (fire-linked)\n: Scale: Starfighter<br />Crew: Pilot<br />Fire Arc: Front<br />Fire Control: 3D+2<br />Space Range: 1-10/20/40<br />Atmosphere Range: 1-20/40/80km<br />Damage: 7D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/SR3%20Kraken%20Fighter",
+  "retrievedAt": "2025-10-07T22:30:13.702Z"
+}

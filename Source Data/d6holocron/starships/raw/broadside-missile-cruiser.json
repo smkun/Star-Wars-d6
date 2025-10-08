@@ -1,0 +1,10 @@
+{
+  "title": "Broadside Missile Cruiser",
+  "pageId": 5734,
+  "revisionId": 12501,
+  "wikitext": "[[File:broadside.jpg|500px|thumb|right]]\n\n'''Broadside Missile Cruiser'''<br />'''Craft''': Kuat Drive Yards’ Broadside Missile Cruiser<br />'''Affiliation''': Empire<br />'''Era''': Rise of the Empire<br />'''Type''': Heavy Long range missile assault cruiser<br />'''Scale''': Capital<br />'''Length''': 500 meters<br />'''Skill''': Capital ship piloting: Broadside Cruiser<br />'''Crew''': 860, '''gunners''': 44, '''skeleton''': 530/+10<br />'''Passengers''': 200 (troops)<br />'''Cargo Capacity''': 800 metric tons<br />'''Consumables''': 2 years<br />'''Cost''': Not available for sale<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x12<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 4<br />'''Hull''': 3D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 30/+2\n*Scan: 50/2D\n*Search: 140/2D+1\n*Focus: 4/3D\n'''Weapons''':\n*40 Concussion Missile Launchers\n: Fire Arc: 10 front, 10 left, 10 right, 10 back<br />Crew: 1<br />Skill: Capital ship gunnery<br />Fire Control: 2D<br />Space Range: 2-12/30/60<br />Atmosphere Range: 4-24/60/120 km<br />Damage: 9D\n*2 Turbolasers\n: Fire Arc: 1 left, 1 right<br />Crew: 2<br />Skill: Capital ship gunnery<br />Fire Control: 2D<br />Space Range: 3-15/35/75<br />Atmosphere Range: 6-30/70/150 km<br />Damage: 5D",
+  "category": "capital",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Broadside%20Missile%20Cruiser",
+  "retrievedAt": "2025-10-08T08:29:54.177Z"
+}

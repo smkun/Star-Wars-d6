@@ -14,6 +14,12 @@ service cloud.firestore {
       allow write: if isAdmin();
     }
 
+    // Starships collection - public read, admin write
+    match /starships/{slug} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
     // Meta collection - admin only
     match /meta/{doc} {
       allow read: if false;

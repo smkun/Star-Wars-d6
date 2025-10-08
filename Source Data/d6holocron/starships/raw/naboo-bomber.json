@@ -1,0 +1,10 @@
+{
+  "title": "Naboo Bomber",
+  "pageId": 483,
+  "revisionId": 12188,
+  "wikitext": "[[File:Naboo-Bomber.png|thumb|500px]]\n\n'''Naboo Bomber'''<br />'''Craft''': Naboo Bomber<br />'''Affiliation''': Naboo<br />'''Era''': Rise of the Empire<br />'''Source''': Gamer Magazine Issue 5<br />'''Type''': Starfighter/bomber<br />'''Scale''': Starfighter<br />'''Length''': 20 meters<br />'''Skill''': Starfighter piloting: Naboo bomber<br />'''Crew''': 1<br />'''Passengers''': 2<br />'''Cargo Capacity''': 5 metric tons<br />'''Consumables''': 2 weeks<br />'''Cost''': Not available for sale<br />'''Maneuverability''': 2D<br />'''Space''': 7<br />'''Atmosphere''': 350; 1,000 kmh<br />'''Hull''': 5D<br />'''Shields''': 1D+1<br />'''Sensors''':\n*Passive: 20/0D\n*Scan: 35/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*'''2 Laser Cannons '''(fire-linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 1D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 5D\n*'''Bomb Chute '''(30 ion bombs)\n: Fire Arc: Ventral<br />Skill: Missile weapons: Ion Bombs<br />Fire Control: 1D<br />Space Range: 1/2/3<br />Atmosphere Range: 500/1/2 km (altitude)<br />Damage: 7D (actual damage, not ionization damage)",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Naboo%20Bomber",
+  "retrievedAt": "2025-10-07T22:30:02.514Z"
+}

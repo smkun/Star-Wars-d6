@@ -1,0 +1,10 @@
+{
+  "title": "Defender Starfighter",
+  "pageId": 557,
+  "revisionId": 11843,
+  "wikitext": "[[File:Defender-Starfighter.jpg|thumb|500px]]\n\n'''Craft''': Republic Engineering Corporation Defender Starfighter<br />'''Type''': Short-range defence fighter<br />'''Scale''': Starfighter<br />'''Length''': 5.3 meters<br />'''Skill''': Starfighter piloting: Defender<br />'''Crew''': 1, gunners: 1<br />'''Crew Skill''': Varies<br />'''Cargo Capacity''': 50 kilo<br />'''Consumables''': 1 week<br />'''Cost''': 45,000 (new)<br />'''Maneuverability''': 4D<br />'''Space''': 8<br />'''Atmosphere''': 350; 1,000 km/h<br />'''Hull''': 2D+2<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 30/1D\n*Scan: 60/2D\n*Search: 90/3D\n*Focus: 4/3D+2\n'''Weapons''':\n*'''3 Laser Cannon''' (fire linked)\n: Fire Arc: Front<br />Crew: 1 (gunner)<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1-5/20/35<br />Atmosphere Range: 100-500/2/3.5 km.<br />Damage: 6D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Defender%20Starfighter",
+  "retrievedAt": "2025-10-07T22:29:42.575Z"
+}

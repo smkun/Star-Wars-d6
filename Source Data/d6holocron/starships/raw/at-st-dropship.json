@@ -1,0 +1,10 @@
+{
+  "title": "AT-ST Dropship",
+  "pageId": 5585,
+  "revisionId": 9432,
+  "wikitext": "'''AT-ST Dropship'''<br />'''Craft''': AT-ST Drop Ship<br />'''Affiliation''': Empire<br />'''Era''': Rebellion<br />'''Source''': Adventure Journal<br />'''Scale''': Starfighter<br />'''Length''': 50 meters<br />'''Skill''': Space transports: AT-ST dropship<br />'''Crew''': 2<br />'''Passengers''': 20 (troops)<br />'''Cargo Capacity''': 2 AT-ST<br />'''Consumables''': 1 day<br />'''Maneuverability''': 0D<br />'''Space''': 8 (during drop); 2 (on return flight)<br />'''Atmosphere''': 365; 1,050 kmh (during drop); 225; 650 kmh (on return flight)<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 20/0D\n*Scan: 40/1D\n*Search: 60/2D\n*Focus: 3/3D\n'''Weapons''':\n*Light Laser Cannon\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire control: 1D<br />Space Range: 1-5/10/17<br />Atmosphere Range: 100-500/1/1.7 km<br />Damage: 1D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/AT-ST%20Dropship",
+  "retrievedAt": "2025-10-07T22:31:27.322Z"
+}

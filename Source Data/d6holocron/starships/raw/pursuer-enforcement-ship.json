@@ -1,0 +1,10 @@
+{
+  "title": "Pursuer Enforcement Ship",
+  "pageId": 5557,
+  "revisionId": 12196,
+  "wikitext": "[[File:Pursuer-Enforcement-Ship1.jpg|thumb|500px]]\n[[File:Pursuer-Enforcement-Ship2.jpg|thumb|500px]]\n\n'''Pursuer Enforcement Ship'''<br />'''Craft''': MandalMotors Pursuer-class Enforcement Ship<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': Pirates & Privateers (page 75), The Far Orbit Project (page 83), The Essential Guide to Vehicles and Vessels (pages 146-147)<br />'''Type''': System patrol vehicle<br />'''Scale''': Starfighter<br />'''Length''': 30.1 m<br />'''Skill''': Starfighter piloting: Pursuer<br />'''Crew''': 1<br />'''Crew Skill''': Varies<br />'''Passengers''': 2, 5 (prison cells)<br />'''Cargo Capacity''': 35 metric tons<br />'''Consumables''': 5 weeks<br />'''Cost''': 200,000 (new), 80,000 (used)<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': x16<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 7<br />'''Atmosphere''': 350; 1,000 kmh<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 35/1D+1\n*Scan: 55/2D+1\n*Search: 80/3D+1\n*Focus: 3/4D+1\n'''Weapons''':\n*Twin Blaster Cannon (fire-linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-5/10/17<br />Atmosphere Range: 100-500/1/1.7 km<br />Damage: 5D\n*2 Ion Cannons (fire-linked)\n: Fire Arc: Turret<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/7/36<br />Atmosphere Range: 100-300/700/3.6 km<br />Damage: 4D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Pursuer%20Enforcement%20Ship",
+  "retrievedAt": "2025-10-07T22:30:09.692Z"
+}

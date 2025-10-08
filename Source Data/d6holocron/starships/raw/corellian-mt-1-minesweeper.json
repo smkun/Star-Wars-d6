@@ -1,0 +1,10 @@
+{
+  "title": "Corellian MT-1 Minesweeper",
+  "pageId": 10671,
+  "revisionId": 20873,
+  "wikitext": "[[File:Corellian MT-1 Minesweeper.jpg|thumb|500px|right]]\n\n'''Craft''': Corellian Engineering MT-1 Minesweeper<br />'''Type''': Minesweeper Support Vessel<br />'''Scale''': Capital<br />'''Length''': 155 Meters<br />'''Skill''': Space Transport Piloting: MT-1<br />'''Crew''': 45; Gunners: 5 Skeleton Crew: 10/+5<br />'''Crew Skill''': Astrogation 5D, Capital Ship Shields 4D, Sensors 6D, Space Transports 4D+1, Starship Gunnery 4D+2<br />'''Passengers''': 10 (Troops)<br />'''Cargo Capacity''': 1000 Tons<br />'''Consumables''': 8 Months<br />'''Cost''': Not available for sale<br />'''Hyperdrive Multiplier''': X3<br />'''Hyperdrive Backup''': X15<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 2<br />'''Atmosphere''': 225;650kmh<br />'''Hull''': 3D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 30 / 1D\n*Search: 70 / 3D\n*Scan: 50 / 2D\n*Focus: 6 / 4D\n'''Shuttles''': Can dock two shuttles up to Lambda size externally<br />'''Weapons''':\n*'''5 Laser Cannons''' (Fire Separately)\n: Scale: Starfighter<br />Fire Arc: 2 Front, 1 Left, 1 Right, 1 Rear<br />Crew: 1<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space/Atmosphere Range: 1-3/12/25, 0.1-0.3/1.2/2.5 km<br />Damage: 4D\n\n'''Capsule''': This is the standard minesweeper support vessel in service today. It can deploy two Mine Disposal Vehicles from itself and guide by remote control up to ten mine sweeping pinnaces of the MSP model. It can also double as a mine layer, since it has the facilities to carry and deploy up to 1000 tons of various types of mines.\n\n'''Source''': \"Unknown\"",
+  "category": "capital",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Corellian%20MT-1%20Minesweeper",
+  "retrievedAt": "2025-10-08T08:30:08.163Z"
+}

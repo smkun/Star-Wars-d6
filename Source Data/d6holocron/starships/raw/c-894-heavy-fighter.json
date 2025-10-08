@@ -1,0 +1,10 @@
+{
+  "title": "C-894 heavy fighter",
+  "pageId": 562,
+  "revisionId": 11831,
+  "wikitext": "[[File:C-894-heavy-fighter.jpg|thumb|500px]]\n\n'''Type''': Heavy Fighter<br />'''Scale''': Starfighter<br />'''Length''': 8 meters<br />'''Crew''': 1<br />'''Cargo''': 5 metric ton<br />'''Consumables''': 2 months<br />'''Cost''': N/A<br />'''Hyperdrive''': x1<br />&nbsp;'''Backup''': x13<br />'''Nav Com'''.: Yes<br />'''Manuverability''': 3D<br />'''Space''': 7<br />'''Hull''': 4D<br />'''Sheilds''': 5D+1<br />'''Sensors''':\n*Passive: 50/0D+1\n*Scan: 70/2D+1\n*Search: 120/3D+1\n*Focus: 6/4D+1\n'''Weapons''':\n*'''Laser Cannon'''\n: Fire Arc: Front<br />Fire Control: 2D<br />Space Range: 3-5/27/40<br />Damage: 4D\n*'''Proton Torpedo Launcher'''\n: Fire Arc: Rear<br />Fire Control: 0D+1<br />Space Range: 2-4/24/38<br />Damage: 7D\n*'''Laser Turret'''\n: Fire Arc: Turret<br />Fire Control: 1D<br />Space Range: 2-3/34/56<br />Damage: 3D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/C-894%20heavy%20fighter",
+  "retrievedAt": "2025-10-07T22:29:33.107Z"
+}

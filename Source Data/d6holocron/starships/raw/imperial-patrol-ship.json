@@ -1,0 +1,10 @@
+{
+  "title": "Imperial Patrol Ship",
+  "pageId": 5540,
+  "revisionId": 10637,
+  "wikitext": "[[File:action6.jpg|400px|thumb|right]]\n\n'''Imperial Patrol Ship'''<br />'''Craft''': Modified Corellian Action IV Transport<br />'''Affiliation''': Empire<br />'''Era''': Rise of the Empire<br />'''Source''': Platt’s Starport Guide (page 131)<br />'''Type''': Modified medium bulk freighter<br />'''Scale''': Capital<br />'''Length''': 100 meters<br />'''Skill''': Space transports<br />'''Crew''': 8, '''gunners''': 2<br />'''Crew Skill''': Astrogation 4D, space transports 4D+2, starship gunnery 4D<br />'''Passengers''': 4<br />'''Cargo Capacity''': 74,000 metric tons<br />'''Consumables''': 3 months<br />'''Cost''': Not for sale<br />'''Hyperdrive Multiplier''': x3<br />'''Nav Computer''': Yes<br />'''Space''': 2<br />'''Hull''': 2D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 20/1D+2\n*Search: 30/2D\n'''Weapons''':\n*2 Laser Cannons\n: Fire Arc: Turret<br />Crew: 1<br />Scale: Starfighter<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 2-6/24/50 km<br />Damage: 2D\n\n'''Capsule''': The Imperial Patrol Ship was a militarized variant of the Corellian Engineering Corporation Action IV transport. It saw service during the Galactic Civil War as a support ship for remote Imperial outposts, combining the twin roles of resupplying Imperial personnel and performing customs inspections.\n\nAlthough it could technically be considered a capital ship, the Imperial Patrol Ship was lightly armed, with just a pair of anti-starfighter laser cannons, and two obsolescent T.I.E. starfighters, earlier models than the standard TIE/ln. Most patrol ship captains realized that their main defense was psychological: the threat of Imperial reprisals if they were attacked.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Imperial%20Patrol%20Ship",
+  "retrievedAt": "2025-10-07T22:32:11.095Z"
+}

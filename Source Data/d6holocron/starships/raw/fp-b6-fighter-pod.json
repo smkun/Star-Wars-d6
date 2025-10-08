@@ -1,0 +1,10 @@
+{
+  "title": "FP-B6 Fighter Pod",
+  "pageId": 603,
+  "revisionId": 11852,
+  "wikitext": "[[File:FP-B6-Fighter-Pod.jpg|thumb|500px]]\n\n'''Craft''': FreiTek Inc.'s FP-B6 Short Range Starfighter<br />'''Type''': Space Superiority Fighter<br />'''Scale''': Starfighter<br />'''Length''': 8.5 Meters<br />'''Skill''': starfighter piloting: B-Wing<br />'''Crew''': 1<br />'''Crew Skill''': starfighter piloting 3D, starship gunnery 3D, starship shields 3D<br />'''Cargo Capacity''': 20 kilograms<br />'''Consumables''': 2 days<br />'''Cost''': 78,000 credits<br />'''Maneuverability''': 2D<br />'''Space''': 7<br />'''Atmosphere''': 350, 1,000 kmh<br />'''Hyperdrive''': x3<br />'''Nav Computer''': Yes (programmed with 10 jumps)<br />'''Hull''': 2D+1<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 40/1D\n*Scan: 70/2D\n*Search: 100/3D\n*Focus: 5/4D\n'''Weapons'''\n*'''2 Double Laser Cannons'''\n: Fire Arc: 1 Front, 1 Turret<br />Skill: starship gunnery<br />Fire Control: 2D+2<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5km<br />Damage: 4D\n*'''1 Laser Cannon'''\n: Fire Arc: 1 Front<br />Skill: starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5km<br />Damage: 5D\n\n'''Capsule''': Based on the design of the B-Wing fighter, the FP-B6 fighter pod is a capable and powerful short-range fighter with limited hyperdrive capability. A compact starship that implements the rotating gyroscopic cockpit design that made the B-Wing so popular, the fighter pod is capable of delivering significant amounts of damage from its multitude of laser weapons and then perform short hyperspace jumps in order to launch ambushes or escape pursuit. The hyperdrive, mounted behind the cockpit, is slow and primarily used for quick jumps. The ship itself is quite a bargain for its size, with the added benefit of being designed to fit several fighter pods in the space taken up by a single large starfighter.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/FP-B6%20Fighter%20Pod",
+  "retrievedAt": "2025-10-07T22:29:48.312Z"
+}

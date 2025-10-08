@@ -1,0 +1,10 @@
+{
+  "title": "Advanced Droid Starfighter",
+  "pageId": 2046,
+  "revisionId": 11807,
+  "wikitext": "[[File:Advanced-Droid-Starfighter.jpg|thumb|500px]]\n\n'''Advanced Droid Starfighter'''<br />'''Craft''': Xi Char Variable Geometry Self-Propelled Battle Droid, Mk. 2<br />'''Affiliation''': Trade Federation<br />'''Era''': Rise of the Empire<br />'''Type''': Advanced droid starfighter<br />'''Scale''': Starfighter<br />'''Length''': 3.5 meters<br />'''Skill''': Starfighter piloting: advanced droid starfighter<br />'''Crew''': None (droid brain)<br />'''Crew Skill''': Starfighter piloting 4D, starship gunnery 3D+2, sensors 3D<br />'''Cost''': 60,000 (new), 19,000 (used)<br />'''Maneuverability''': 2D+2<br />'''Space''': 10<br />'''Atmosphere''': 415; 1,180 kmh<br />'''Hull''': 4D<br />'''Sensors''':\n*Passive: 5/0D\n*Scan: 15/1D\n*Search: 25/2D\n*Focus: 1/3D\n'''Weapons''':\n*4 Laser Cannons (fire-linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 6D\n*2 Proton Torpedo Launchers (4 torpedoes each)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 3D<br />Space Range: 1-3/7/15<br />Atmosphere Range: 100-300/700/1.5 km<br />Damage: 9D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Advanced%20Droid%20Starfighter",
+  "retrievedAt": "2025-10-07T22:29:26.940Z"
+}

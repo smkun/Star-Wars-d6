@@ -1,0 +1,10 @@
+{
+  "title": "Hermes Courier",
+  "pageId": 498,
+  "revisionId": 10939,
+  "wikitext": "'''Craft''': Incom Delta Vee Hermes Courier<br />'''Type''': Light defended courier<br />'''Scale''': Starfighter<br />'''Length''': 35<br />'''Skill''': Space transports - hermes courier<br />'''Crew''': 3, gunner: 1, skeleton: 1<br />'''Crew skill''': Starship shields, Astrogation,<br />'''Passengers''': 15<br />'''Cargo Capacity''': 40<br />'''Consumables''': 2 months<br />'''Hyperdrive''': x0.8<br />'''Hyper Backup''': x15<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D+2<br />'''Space''': 7<br />'''Atmosphere''': 350; 1,000kmh<br />'''Hull''': 3D<br />'''Shields''': 2D<br />'''Sensors'''\n*Passive: 25/0D\n*Scan: 50/1D\n*Search: 75/2D\n*Focus: 3/4D\n'''Weapons''':\n*'''One Double Laser Cannon'''\n: Fire Arc: Turret (belly)<br />Crew: 1<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5k<br />Damage: 5D\n\n'''Availability''': 3, F  <br />'''Cost''': [I have no idea how to price this!]<br />'''Capsule''': This craft is designed for fast transport of sensitive cargoes. Designed by the same company who manufacture the phenomenally successful X-wing starfighter, this ship utilizes many of the X-wing's design features.  It's fast hyperspace speed and good defensive capabilities make it well suited to delivering urgent, critical cargoes.  It is also highly useful for contraband cargo deliveries, however Incom does not really want to know exactly what these craft are being used for.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Hermes%20Courier",
+  "retrievedAt": "2025-10-07T22:32:08.143Z"
+}

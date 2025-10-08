@@ -1,0 +1,10 @@
+{
+  "title": "CT-200 Medium Transport",
+  "pageId": 5320,
+  "revisionId": 9027,
+  "wikitext": "'''CT-200 Medium Transport'''<br />'''Craft''': Corellian Engineering Corporation CT-200 Medium Transport<br />'''Affiliation''': General<br />'''Era''': Old Republic<br />'''Type''': Space transport<br />'''Scale''': Starfighter<br />'''Length''': 38.4 meters<br />'''Skill''': Space transports: CT-200<br />'''Crew''': 2, '''gunners''': 2, '''skeleton '''1/+15<br />'''Crew Skill''': Space transports 4D, starship gunnery 3D, starship shields 2D+2<br />'''Passengers''': 6<br />'''Cargo Capacity''': 120 metric tons<br />'''Consumables''': 1 month<br />'''Cost''': 100,000 (new), 25,000 (used)<br />'''Hyperdrive Multiplier''': x3<br />'''Nav Computer''': Yes<br />'''Space''': 3<br />'''Atmosphere''': 260; 750 kmh<br />'''Maneuverability''': 2D<br />'''Hull''': 4D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*Quad Laser Cannon\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 3D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n*2 Laser Cannons (fire-linked)\n: Fire Arc: Front<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 3D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/CT-200%20Medium%20Transport",
+  "retrievedAt": "2025-10-07T22:31:42.107Z"
+}

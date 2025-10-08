@@ -1,0 +1,10 @@
+{
+  "title": "Corellian Industries FXE Luxury Space Yacht",
+  "pageId": 5293,
+  "revisionId": 8991,
+  "wikitext": "'''Corellian Industries FXE Luxury Space Yacht'''<br />'''Type''': Space Transport<br />'''Scale''': Starfighter<br />'''Skill''': Space Transports, Repulsorlift Ops<br />'''Length''': 57 meters<br />'''Crew''': 3<br />'''Crew Skills''': Space Transports 4D, Repulsorlift Ops 4D, Culinary Arts 5D, Cooking 4D, Cultures 5D<br />'''Passengers''': 10<br />'''Cargo Capacity''': 300 mt<br />'''Consumables''': 3 months<br />'''Cost''': 275,000 (new), 190,000 (used)<br />'''Hyperdrive''': x1<br />'''Hyperdrive Backup''': x8<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 3D+2<br />'''Space''': 11<br />'''Atmosphere''': /kmh<br />'''Hull''': 6D<br />'''Shields''': 4D (3D backup)<br />'''Sensors:'''\n*Passive: 40/1D\n*Scan: 80/2D\n*Search: 160/3D\n*Focus: 5/4D\n'''Weapons '''(all weapons are fully retractable and sensor proofed):\n*1 Turbolaser Cannon (extra power supply)\n: Scale: Capital<br />Fire Arc: Turret<br />Fire Control: 3D<br />Space: 3-15/36/75<br />Atmosphere: 6-30/72/150 Km<br />Damage: 6D\n*2 Anti-Starfighter Laser Cannons\n: Scale: Starfighter<br />Fire Arc: Turret<br />Fire Control: 2D<br />Space: 1-5/12/25<br />Atmosphere: 2-10/24/50 Km<br />Damage: 5D\n*2 Double Laser Cannons\n: Fire Arc: Dorsal Turrets (1 fore, 1 aft)<br />Crew: 1, co-pilot; 1, pilot (can be switched to the communications station)<br />Skill: Starship Gunnery<br />Fire Control: 2D+2<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5km<br />Damage: 4D+2\n\n'''Description''': Well equipped for guests, this space transport can also hold its own in a combat situation long enough to make an emergency jump into hyperspace. With the hidden turbolaser even a capitol ship would be surprised for a time. Well equipped for the price.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Corellian%20Industries%20FXE%20Luxury%20Space%20Yacht",
+  "retrievedAt": "2025-10-07T22:31:47.031Z"
+}

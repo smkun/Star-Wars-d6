@@ -1,0 +1,10 @@
+{
+  "title": "Incom/Subpro Z-98 Renegade",
+  "pageId": 5227,
+  "revisionId": 11864,
+  "wikitext": "[[File:Incom-Subpro-Z-98-Renegade.jpg|thumb|500px]]\n\n'''Craft''': Incom/Subpro Z-98 Renegade.<br />'''Type''': Atmospheric/Space Interceptor.<br />'''Scale''': Starfighter.<br />'''Length''': 12.1m.<br />'''Skill''': Starfighter Piloting: Z-98.<br />'''Crew''': 1.<br />'''Typical Crew Skill''': Piloting 4D+1; Gunnery 4D; S.Shields 3D+1.<br />'''Passengers''': 1.<br />'''Cargo Capacity''': 110kg (0.4 cubic m).<br />'''Consumables''': 1 day.<br />'''Hyperdrive Multiplier''': None.<br />'''Hyperdrive Backup''': None.<br />'''Nav Computer''': None.<br />'''Maneuverability''': 3D. (3D+2 atmospheric)<br />'''Space''': 9.<br />'''Atmosphere''': 415; 1200 kmh.<br />'''Hull''': 4D.<br />'''Shields''': 1D<br />'''Sensors''':'''\n*Passive: 15/0D\n*Search: 40/2D\n*Scan: 25/1D\n*Focus: 1/2D\n'''Weapons''':\n*Four Triple Blasters (Fire Linked).\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control:1D<br />Space Range: 1-5/10/17<br />Atmosphere Range: 100-500/1km/1.7km<br />Damage: 5D\n*Concussion Missile Launcher (nose mounted).\n: Fire Arc: Front<br />Skill: Missile Weapons<br />Fire Control:1D<br />Space Range: 1/3/7<br />Atmosphere Range: 50-100/300/700m<br />Damage: 7D\n\n'''Capsule''': This starfighter is one of the early successors of the popular Z-95 Headhunter. Designed in the twilight days of the Old Republic, only a few were built and fewer actually saw action before the extermination of the Jedi and the rise of the Empire. The Z-98 is somewhat similar to the Z-95 but has three small additional wings (one dorsal, two more under the main wings) for enhanced atmospheric performance, two more triple blasters mounted in the nose, and an improved engine thrust rating. The S-Foil wings fold up to the dorsal wing when landing.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Incom%2FSubpro%20Z-98%20Renegade",
+  "retrievedAt": "2025-10-07T22:29:55.163Z"
+}

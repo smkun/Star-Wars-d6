@@ -1,0 +1,10 @@
+{
+  "title": "Nastar 500",
+  "pageId": 700,
+  "revisionId": 1401,
+  "wikitext": "'''Craft''': Nastar 500<br />'''Type''': in-system interceptor<br />'''Scale''': Starfighter<br />'''Length''': 6m<br />'''Skill''': Starfighter piloting: Nastar 500<br />'''Crew''': 1<br />'''Cargo Capacity''': 10kg, 1.2m^3<br />'''Consumables''': 1 day, 3 days but no 02 beyond day one<br />'''Cost''':&nbsp; 200,000<br />'''Maneuverability''': 4D+1<br />'''Space''': 12<br />'''Atmosphere''': 450/1300<br />'''Hull''': 3D+1<br />'''Shields''': 1D<br />'''Sensors''':<br />&nbsp; ''Passive ''7/-<br />&nbsp; ''Scan ''10/1D<br />&nbsp; ''Search ''20/2D<br />&nbsp; ''Focus ''2/3D<br />'''Weapons''':<br />2 medium laser cannons (fire linked)<br />Arc: front<br />Fire Control: 3D<br />Range: normDamage: 5D+1",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Nastar%20500",
+  "retrievedAt": "2025-10-07T22:30:04.516Z"
+}

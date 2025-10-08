@@ -1,0 +1,10 @@
+{
+  "title": "Crescent Freighter",
+  "pageId": 523,
+  "revisionId": 10921,
+  "wikitext": "[[File:Crescent1.jpg|500px|thumb|right]]\n\n'''Crescent Freighter'''<br />'''Craft''': Hyrotil Crescent-class Transport<br />'''Type''': Stock light freighter<br />'''Scale''': Starfighter<br />'''Length''': 30 meters<br />'''Skill''': Space transports: Crescent transport<br />'''Crew''': 2<br />'''Crew Skill''': Varies widely<br />'''Cargo Capacity''': 80 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 25,000 (used)<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': x10<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D<br />'''Space''': 6<br />'''Atmosphere''': 330; 950 kmh<br />'''Hull''': 4D<br />'''Sensors''':\n*Passive: 10/1D\n*Scan: 20/2D\n*Search: 30/3D\n*Focus: 2/4D\n\n'''Capsule''': Primarily marketed as a courier and fast delivery ship, the Crescent-class freighter trades tonnage for speed: it comes equipped with a class one hyperdrive and high-speed ion drive. This is paid for in the design by shortening the cargo capacity and leaving out shields and weapons. Its speed and maneuverability are its only defenses.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Crescent%20Freighter",
+  "retrievedAt": "2025-10-07T22:31:49.096Z"
+}

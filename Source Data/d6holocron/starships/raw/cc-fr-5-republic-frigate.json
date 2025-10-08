@@ -1,0 +1,10 @@
+{
+  "title": "CC FR-5 Republic Frigate",
+  "pageId": 5683,
+  "revisionId": 12294,
+  "wikitext": "[[File:fr5.jpg|500px|thumb|right]]\n\n'''Republic Fregate'''<br />'''Craft''': Corellian Engineering Corporation FR-5 Frigate<br />'''Affiliation''': Galactical Republic<br />'''Era''': Sith War / Mandalorian War<br />'''Type''': Frigate<br />'''Length''': 245 meters<br />'''Scale''': Capital<br />'''Skill''': Capital ship piloting: CC-FR-5 Republic Fregate<br />'''Crew''': 692, '''skeleton''': 240/+10<br />'''Crew Skill''': Astrogation 4D+1, capital ship gunnery 5D+2, capital ship piloting 5D+2, capital ship shields 4D+1, sensors 5D, starship gunnery 5D+2<br />'''Passengers''': 60 ( Troops )<br />'''Cargo Capacity''': 2.000 metric tons<br />'''Consumables''': 1 Year<br />'''Cost''': 2.1 Million ( used )<br />'''Hyperdrive Multiplier''': x4<br />'''Hyperdrive Backup''': x24<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 5<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 25/0D\n*Scan: 50/1D\n*Search: 100/2D\n*Focus: 2/4D\n'''Weapons''':\n*2 Turbolaser Canons\n: Fire Arc: 2 front<br />Crew: 2<br />Skill: Capital ship gunnery<br />Fire Control: 2D<br />Space Range: 2-10/24/60<br />Atmosphere Range: 4-200m/480m/120 km<br />Damage: 3D\n*4 Twin Laser Cannons\n: Fire Arc: 1 front, 1 left, 1right, 1 back<br />Crew: 1<br />Scale: Starfighter<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-2/10/20<br />Atmosphere Range: 100-200/1.km/2 km<br />Damage: 4D\n*1 Tractor Beam Projector\n: Fire Arc: Turret<br />Crew: 1<br />Scale: Capital<br />Skill: Capital Ship Gunnery<br />Fire Control: 3D<br />Space Range: 1-5/15/30<br />Atmosphere Range: 20-100m/30km/60 km<br />Damage: 4D\n\n'''Capsule''': Fr-5 Fregate has been used on all fronts, to due defection on all sides, view models have managed to found there way into the imperial army.",
+  "category": "capital",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/CC%20FR-5%20Republic%20Frigate",
+  "retrievedAt": "2025-10-08T08:29:57.062Z"
+}

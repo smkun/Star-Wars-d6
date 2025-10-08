@@ -1,0 +1,10 @@
+{
+  "title": "C-73 Tracker",
+  "pageId": 619,
+  "revisionId": 11832,
+  "wikitext": "[[File:C-73-Tracker.jpg|thumb|500px]]\n\n'''Craft''': Subpro C-73 Tracker<br />'''Type''': Multipurpose starfighter<br />'''Scale''': Starfighter<br />'''Length''': 11.5 meters<br />'''Skill''': Starfighter piloting: C-73 Tracker<br />'''Crew''': 1<br />'''Crew Skill''': Varies widely<br />'''Cargo Capacity''': 60 kilograms<br />'''Consumables''': 1 day<br />'''Cost''': 20,000 credits (used)<br />'''Maneuverability''': 1D<br />'''Space''': 6<br />'''Atmosphere''': 330; 950 kmh<br />'''Hull''': 2D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 15/1D\n*Search: 20/1D+1\n*Focus: 2/3D\n'''Weapons''':\n*'''Double Laser Cannon'''\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 1D+1<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n\n'''Capsule''': An antiquated starfighter predating the Z-95 Headhunter the C-73 is useful only against fairly slow and weak targets. Most C-73s are in museums but a few remain on the fringes of the galaxy. A few pirate groups are known to use either original C-73s or copies.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/C-73%20Tracker",
+  "retrievedAt": "2025-10-07T22:29:32.384Z"
+}

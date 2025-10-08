@@ -1,0 +1,10 @@
+{
+  "title": "DeepWater Light Freighter",
+  "pageId": 537,
+  "revisionId": 10438,
+  "wikitext": "[[File:DeepWaterLightFreighter.jpg|300px|thumb|right]]\n\n'''Craft''': Mon Calamari DeepWater-class light freighter<br />'''Type''': Light freighter<br />'''Scale''': Starfighter<br />'''Length''': 45 meters<br />'''Skill''': Space transports: DeepWater<br />'''Crew''': 1 or 2<br />'''Crew Skill''': Varies widely<br />'''Passengers''': 6<br />'''Cargo Capacity''': 85 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 99,000<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x15<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 6<br />'''Atmosphere''': 330; 950 kmh<br />'''Hull''': 3D<br />'''Shields''': 2D (in space); provides (+1 versus physical damage in aquatic mode)<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 30/2D\n*Search: 65/2D+2\n*Focus: 5/2D+2\n'''Weapons''':\n*'''Laser Cannon'''\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5<br />Damage: 5D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/DeepWater%20Light%20Freighter",
+  "retrievedAt": "2025-10-07T22:31:52.491Z"
+}

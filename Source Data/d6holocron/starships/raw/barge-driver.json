@@ -1,0 +1,10 @@
+{
+  "title": "Barge Driver",
+  "pageId": 5532,
+  "revisionId": 10622,
+  "wikitext": "'''Barge Driver'''<br />'''Craft''': Corellian Engineering BD-27 Transport<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': Adventure Journal<br />'''Type''': Medium freighter<br />'''Scale''': Starfighter<br />'''Length''': 110 meters<br />'''Skill''': Space transports: BD-27 Transport<br />'''Crew''': 2, '''skeleton''': 1/+10<br />'''Crew Skill''': Astrogation 3D, capital ship shields 3D, space transports 3D+2<br />'''Cargo Capacity''': 75,000 metric tons<br />'''Consumables''': 3 months<br />'''Cost''': 800,000(new), 350,000(used)<br />'''Hyperdrive Multiplier''': x3<br />'''Hyperdrive Backup''': x15<br />'''Nav Computer''': Yes<br />'''Space''': 2<br />'''Hull''': 3D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 20/1D\n*Search: 25/1D+1\n*Focus: 1/1D+2\n\n'''Capsule''': The BD-27 transport was a Corellian Engineering Corporation barge driver. It was the predecessor to the Action series of medium freighters, and defined the basic shape of that transport. The BD-27 measured 110 meters in length, and its automated systems required only a pilot and co-pilot to operate. However, it required extensive maintenance. The ship had no weapons and weak shields. The entire ship could be connected to a cargo module capable of carrying 75,000 metric tons. The BD-27 was quickly replaced by larger bulk freighters, and was relegated to use in small operations.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Barge%20Driver",
+  "retrievedAt": "2025-10-07T22:31:36.795Z"
+}

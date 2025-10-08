@@ -1,0 +1,10 @@
+{
+  "title": "1A-Telak Light Freighter",
+  "pageId": 5308,
+  "revisionId": 9013,
+  "wikitext": "'''1A-Telak Light Freighter'''<br />'''Craft''': KT 1A-Telak<br />'''Affiliation''': General<br />'''Era''': New Republic<br />'''Source''': Twin Stars of Kira (page 57)<br />'''Type''': Custom light freighter<br />'''Scale''': Starfighter<br />'''Length''': 19 meters<br />'''Skill''': Space transports: KT 1A-Telak<br />'''Crew''': 1, '''gunners''': 1<br />'''Crew Skill''': Varies widely<br />'''Passengers''': 6<br />'''Cargo Capacity''': 500 kilograms<br />'''Consumables''': 1 month<br />'''Hyperdrive Multiplier''': x1<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 4D<br />'''Space''': 6<br />'''Atmosphere''': 330; 950 kmh<br />'''Hull''': 3D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*Dual Laser Cannons (fire-linked)\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship Gunnery<br />Fire Control: 1D<br />Space Range: 1-3/15/30<br />Atmosphere Range: 100-300/1.5/3 km<br />Damage: 6D\n*Concussion Missile Launcher\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 1D<br />Space Range: 1-3/6/10<br />Atmosphere Range: 100-300/600/1 km<br />Damage: 7D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/1A-Telak%20Light%20Freighter",
+  "retrievedAt": "2025-10-07T22:31:23.899Z"
+}

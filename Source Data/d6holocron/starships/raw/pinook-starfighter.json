@@ -1,0 +1,10 @@
+{
+  "title": "Pinook Starfighter",
+  "pageId": 541,
+  "revisionId": 13130,
+  "wikitext": "[[File:Pinook-Starfighter.jpg|thumb|500px|right]]\n[[File:Pinook.jpg|thumb|500px|right]]\n\n'''Craft''': Joraan Drive Systems Pinook Starfighter<br />'''Type''': Escort Starfighter<br />'''Scale''': Starfighter<br />'''Length''': 9.5m<br />'''Skill''': Starfighter Piloting: Pinook<br />'''Crew''': 1<br />'''Crew Skill''': Astrogation 3D, Starship Gunnery 3D+2, Starfighter Piloting 3D+2, Starship Shields 3D, Sensors 3D.<br />'''Cargo Capacity''': 100kg<br />'''Consumables''': 1 Week<br />'''Cost''': 85,000 Credits<br />'''Hyderdrive Multiplier''': x2<br />'''Nav Computer''': Limited to 4 Jumps<br />'''Maneuverability''': 2D<br />'''Space''': 7.5<br />'''Atmosphere''': 355; 1,025 kmh<br />'''Hull''': 3D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 15/1D\n*Scan: 30/2D\n*Search: 60/3D\n*Focus: 2/3D+2\n'''Weapons''':\n*'''2 Laser Cannons''' (Fire-linked)\n: Fire Arc: Front<br />Crew: Pilot<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 1-300/1.2/2.5km<br />Damage: 5D\n*'''1 Concussion Missile Launcher'''\n: Fire Arc: Front<br />Crew: Pilot<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1/3/7<br />Atmosphere Range: 100/300/700m<br />Damage: 7D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Pinook%20Starfighter",
+  "retrievedAt": "2025-10-07T22:30:08.225Z"
+}

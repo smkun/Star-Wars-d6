@@ -1,0 +1,10 @@
+{
+  "title": "Naboo Police Cruiser",
+  "pageId": 484,
+  "revisionId": 11879,
+  "wikitext": "[[File:Naboo-Police-Cruiser.jpg|thumb|500px]]\n\n'''Craft''': Theed Palace Space Vessel Engineering Corps N-X Police Cruiser<br />'''Type''': Space Superiority Starfighter<br />'''Scale''': Starfighter<br />'''Length''': 11 meters<br />'''Skill''': Starfighter Pilot: Naboo Police Cruiser<br />'''Crew''': 1 pilot/gunner, 1 astromech droid<br />'''Crew Skill''': Starfigher Piloting 4D; Starship Gunnery 4D; Starship Shields 4D<br />'''Passengers''': None<br />'''Cargo Capacity''': 65kg<br />'''Consumables''': 1 week<br />'''Cost''': Not available for sale<br />'''Hyperdrive Multiplier''': None (x1 when modified)<br />'''Hyperdrive Back-Up''': None<br />'''Nav Computer''': If modified, can program 10 jumps with astromech droid<br />'''Maneuverability''': 3D<br />'''Space''': 7<br />'''Atmosphere''': 350; 1000 km/h<br />'''Hull''': 2D+1<br />'''Shields''': 1D+1<br />'''Sensors''':\n*Passive: 20/0D\n*Scan: 35/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*'''Laser Cannons''' (2 fire-linked)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km.<br />Damage: 5D\n*'''Proton Torpedo Magazine '''(10 torpedoes)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1/3/7<br />Atmosphere Range: 50-100/300/700m.<br />Damage: 10D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Naboo%20Police%20Cruiser",
+  "retrievedAt": "2025-10-07T22:30:04.033Z"
+}
