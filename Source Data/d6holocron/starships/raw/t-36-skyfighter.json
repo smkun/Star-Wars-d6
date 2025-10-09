@@ -1,0 +1,10 @@
+{
+  "title": "T-36 Skyfighter",
+  "pageId": 5251,
+  "revisionId": 11905,
+  "wikitext": "[[File:T-36-Skyfighter.jpg|thumb|500px]]\n\n'''T-36 Skyfighter'''<br />'''Craft''': Incom T-36 Skyfighter<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': Secrets of Tatooine (page 94)<br />'''Type''': Near-orbit planetary defense fighter<br />'''Scale''': Starfighter<br />'''Length''': 8.2 meters<br />'''Skill''': Starfighter piloting: T-36<br />'''Crew''': 1<br />'''Crew Skill''': Varies<br />'''Cargo Capacity''': 30 kilograms<br />'''Consumables''': 2 hours<br />'''Cost''': 64,000 (new), 16,000 (used)<br />'''Maneuverability''': 1D<br />'''Space''': 7<br />'''Atmosphere''': 350; 1,000 kmh<br />'''Hull''': 1D+1<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 1/2D\n'''Weapons''':\n*Double Laser Cannon\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n\n'''Game Notes''': the T-36 tends to spin in turns or other tight maneuvers when in atmosphere. To reflect this, increase the difficulty of maneuvers in atmosphere by +10.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/T-36%20Skyfighter",
+  "retrievedAt": "2025-10-08T13:07:25.579Z"
+}

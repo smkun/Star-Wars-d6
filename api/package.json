@@ -5,7 +5,7 @@
   "description": "Firebase Cloud Functions for Star Wars d6 Species Catalog",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "firebase emulators:start --only functions",
+    "dev": "node ./run-local-server.js",
     "build": "tsc",
     "test": "vitest",
     "type-check": "tsc --noEmit",

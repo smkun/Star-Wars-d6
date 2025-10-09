@@ -4,7 +4,7 @@ interface Category {
   title: string;
   description: string;
   path: string;
-  icon: string;
+  iconPath: string;
 }
 
 const categories: Category[] = [
@@ -12,13 +12,13 @@ const categories: Category[] = [
     title: 'Species',
     description: 'Browse alien species from across the Star Wars galaxy',
     path: '/species',
-    icon: '👽'
+    iconPath: '/d6StarWars/icons/Species.png'
   },
   {
     title: 'Starships',
     description: 'Explore starfighters, transports, and capital ships',
     path: '/starships',
-    icon: '🚀'
+    iconPath: '/d6StarWars/icons/StarShips.png'
   }
 ];
 
@@ -52,7 +52,11 @@ export default function Home() {
             >
               <div className="bg-gray-800 border-2 border-yellow-400/30 rounded-lg p-8 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20 transition-all duration-300 h-full">
                 <div className="flex items-center mb-4">
-                  <span className="text-6xl mr-4">{category.icon}</span>
+                  <img
+                    src={category.iconPath}
+                    alt={category.title}
+                    className="w-20 h-20 mr-4 object-contain"
+                  />
                   <h3 className="text-3xl font-bold text-yellow-400 group-hover:text-yellow-300">
                     {category.title}
                   </h3>

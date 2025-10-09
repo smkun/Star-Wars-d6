@@ -6,6 +6,16 @@ import path from 'path';
 export default defineConfig({
   base: '/d6StarWars/',
   plugins: [react()],
+  server: {
+    proxy: {
+      // Proxy API calls - both with and without base path
+      '^/api': {
+        target: 'http://localhost:4000',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

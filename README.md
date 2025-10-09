@@ -70,7 +70,7 @@ Follow the detailed guide in [scripts/setup-firebase.md](scripts/setup-firebase.
 5. Deploy security rules
 6. Set up admin user
 
-Quick start:
+Quick start (only required for production deploys):
 
 ```bash
 # Login to Firebase
@@ -96,17 +96,52 @@ Edit `web/.env` with Firebase config from console.
 
 ## Development
 
-### Start Emulators and Dev Server
+## Puppeteer / Headless Chrome smoke test
+
+This repository includes a small smoke script to verify Puppeteer is usable by automated runners (for example, Claude Code or CI).
+
+- Run the smoke test (uses the bundled Chromium by default):
 
 ```bash
-# Terminal 1: Start Firebase emulators
-npm run firebase:emulators
-
-# Terminal 2: Start web dev server
-npm run dev:web
+npm run smoke:puppeteer
 ```
 
-Visit http://localhost:5173 (web app) and http://localhost:4000 (emulator UI).
+- Use an existing Chrome/Chromium binary to avoid launching the downloaded Chromium (handy in CI or when system libs are missing):
+
+```bash
+PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser npm run smoke:puppeteer
+```
+
+- If the smoke test fails with a shared-library error (for example, missing libxkbcommon.so.0), install the OS packages listed in `TASKS.md` (Debian/Ubuntu and Fedora examples are provided there).
+
+See `scripts/puppeteer-smoke.js` for the exact behavior (it honors the PUPPETEER_EXECUTABLE_PATH env var and prints helpful troubleshooting tips).
+
+### Start Dev Server (local API + web)
+
+Start the local MySQL-backed API and the web dev server in separate terminals. The default development flow uses the local MySQL API (`dev:mysql-api`) and the Vite proxy; Firebase emulators are not required.
+
+**Quick Start**:
+
+1. Create `.env` file from template:
+   ```bash
+   cp .env.example .env
+   # Edit .env and add your MYSQL_URL
+   ```
+
+2. Terminal A — local API:
+   ```bash
+   export MYSQL_URL='mysql://<user>:<pass>@<host>:3306/gamers_d6Holochron'
+   npm run dev:mysql-api
+   ```
+
+3. Terminal B — web dev server:
+   ```bash
+   npm run dev:web
+   ```
+
+4. Visit http://localhost:5173 (web app). The web dev server proxies `/api` to the local API during development.
+
+📖 **Detailed Setup Guide**: See [dev/LOCAL_DEV_SETUP.md](dev/LOCAL_DEV_SETUP.md) for comprehensive instructions including architecture, troubleshooting, and API documentation.
 
 ### Run Tests
 
@@ -149,6 +184,7 @@ npm run build
 ```
 
 This builds:
+
 - Web app → `web/dist/`
 - API functions → `api/dist/`
 
@@ -196,13 +232,7 @@ See [PLANNING.md](PLANNING.md) for architecture decisions and technical design.
 - `npm run build --workspace=api` - Compile TypeScript
 - `npm run deploy --workspace=api` - Deploy Functions
 
-## Firebase Emulator Ports
-
-- **Auth**: 9099
-- **Firestore**: 8080
-- **Functions**: 5001
-- **Storage**: 9199
-- **Emulator UI**: 4000
+> Note: emulator support has been removed from the standard dev flow. Use the local MySQL API (`dev:mysql-api`) + Vite proxy for development. Firebase Auth remains in use for authentication flows.
 
 ## Contributing
 

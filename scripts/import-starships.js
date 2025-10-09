@@ -94,6 +94,9 @@ const importStarships = async (jsonPath) => {
               imageUrl: { stringValue: starship.imageUrl || '' },
               imageFilename: { stringValue: starship.imageFilename || '' },
               notes: { stringValue: starship.notes || '' },
+              parent: starship.parent ? { stringValue: starship.parent } : { nullValue: null },
+              variantOf: starship.variantOf ? { stringValue: starship.variantOf } : { nullValue: null },
+              isVariant: { booleanValue: starship.isVariant || false },
               sources: {
                 arrayValue: {
                   values: (starship.sources || []).map(s => ({ stringValue: s }))

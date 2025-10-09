@@ -12,6 +12,7 @@
     "dev": "npm run dev --workspace=web",
     "dev:web": "npm run dev --workspace=web",
     "dev:api": "npm run dev --workspace=api",
+    "dev:mysql-api": "node ./api/run-local-server.js",
     "build": "npm run build --workspaces --if-present",
     "build:web": "npm run build --workspace=web",
     "build:api": "npm run build --workspace=api",
@@ -23,7 +24,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,json,md}\"",
     "type-check": "npm run type-check --workspaces --if-present",
-    "firebase:emulators": "firebase emulators:start",
+    "smoke:puppeteer": "node scripts/puppeteer-smoke.js",
+    "smoke:playwright": "node scripts/playwright-smoke.js",
     "firebase:deploy": "npm run build && firebase deploy"
   },
   "devDependencies": {
@@ -40,5 +42,11 @@
   "engines": {
     "node": ">=20.0.0",
     "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.56.0",
+    "mysql2": "^3.15.2",
+    "puppeteer": "^24.23.0",
+    "puppeteer-core": "^24.23.0"
   }
 }

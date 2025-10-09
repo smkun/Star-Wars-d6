@@ -1,0 +1,10 @@
+{
+  "title": "Shadow Droid",
+  "pageId": 2058,
+  "revisionId": 12001,
+  "wikitext": "[[File:Shadow_droid.jpg|thumb|500px]]\n\n'''Shadow Droid'''<br />'''Craft''': Imperial Research Division SHD-66 Shadow Droid<br />'''Affiliation''': Empire<br />'''Era''': New Republic<br />'''Type''': Multi-environment cybernetic attack fighter<br />'''Scale''': Starfighter<br />'''Length''': 4.2 meters<br />'''Crew''': None; cybernetic brain<br />'''Crew Skill''': Starfighter piloting 4D, starship gunnery 4D, Sense 3D (Combat Sense, Danger Sense, Instinctive Astrogation, Life Detection, Life sense, Sense Path)<br />'''Maneuverability''': 3D<br />'''Space''': 12<br />'''Atmosphere''': 450; 1,300 kmh<br />'''Hull''': 5D<br />'''Shields''': 3D<br />'''Sensors''':\n*Passive: 30/1D\n*Scan: 55/2D\n*Search: 85/3D\n*Focus: 5/3D\n'''Weapons''':\n*'''Twin Laser Cannons''' (fire linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 5D\n*'''2 Laser Turrets'''\n: Fire Arc: Turret<br />Skill: Starship gunnery<br />Fire Control: 1D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 2D\n*'''2 Ion Cannons''' (fire linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 5D\n*'''Concussion Missile Launcher'''\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 3D<br />Space Range: 1/3/7<br />Atmosphere Range: 50-100/300/700 km<br />Damage: 8D\n\n'''Note''': Because of Advanced Sensor Masking and Baffling, Shadow Droids are +6D to detect by enemy sensors. Sensor Baffling provides +2D+1, and the Sensor Mask provides +3D+2, in case damage disables one of the systems.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Shadow%20Droid",
+  "retrievedAt": "2025-10-08T13:07:15.426Z"
+}

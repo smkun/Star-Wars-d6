@@ -1,0 +1,10 @@
+{
+  "title": "TIE Prototype",
+  "pageId": 1999,
+  "revisionId": 11960,
+  "wikitext": "[[File:TIE-Prototype.jpg|thumb|500px]]\n\n'''TIE Prototype'''<br />'''Craft''': Sienar Fleet Systems TIE/Prototype<br />'''Affiliation''': Empire<br />'''Era''': Rise of the Empire<br />'''Source''': The Starship Challenge ( a Wizards of the coast D6 product web entchantment for creating D20 data on a D6 base )<br />'''Type''': Space superiority starfighter<br />'''Scale''': Starfighter<br />'''Length''': 6.3 meters<br />'''Skill''': Starfighter piloting: (TIE)<br />'''Crew''': 1<br />'''Crew Skill''': Starfighter piloting 4D+1, starship gunnery 4D<br />'''Cargo Capacity''': 65 kilograms; 25 cubic centimeters<br />'''Consumables''': 1 day<br />'''Cost''': 60,000 (new), 25,000 (used)<br />'''Maneuverability''': 2D<br />'''Space''': 10<br />'''Atmosphere''': 415; 1,200 kmh<br />'''Hull''': 2D<br />'''Sensors''':\n*Passive: 20/0D\n*Scan: 40/1D\n*Search: 60/2D\n*Focus: 3/3D\n'''Weapons''':\n*2 light Laser Cannons (fire linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 1D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n*Small Proton Torpedo Launcher\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1/3/7<br />Atmosphere Range: 100/300/700meters<br />Damage: 9D\n*Design is built to have the ability to attack enemy capital ships with weapons that cause more damage as a laser canon would do.\n*Prototype was designed on the Idea to improve the existing starfighters after field trials, with field results, they get into the action block, or gather dust in storage.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/TIE%20Prototype",
+  "retrievedAt": "2025-10-08T13:07:47.781Z"
+}

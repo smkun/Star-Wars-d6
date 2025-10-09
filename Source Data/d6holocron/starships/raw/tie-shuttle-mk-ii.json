@@ -1,0 +1,10 @@
+{
+  "title": "TIE/Shuttle MK II",
+  "pageId": 2022,
+  "revisionId": 11993,
+  "wikitext": "[[File:TIE-Shuttle-MK-II.jpg|thumb|500px|right|TIE/Shuttle MK II(left)]]\n\n'''TIE Shuttle Mark II'''<br />'''Craft''': Sienar Fleet Systems TIE Shuttle Mark II<br />'''Type''': Priority personnel shuttle<br />'''Scale''': Starfighter<br />'''Length''': 7.8 meters<br />'''Skill''': Starfighter piloting TIE<br />'''Crew''': 1<br />'''Crew Skill''': Astrogation 3D+2, starfighter piloting 4D+1, starship gunnery 4D<br />'''Passengers: 1'''<br />'''Cargo Capacity''': 1 metric ton<br />'''Consumables''': 1 week<br />'''Cost''': Not available for sale<br />'''Hyperdrive Multiplier''': x4<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D<br />'''Space''': 8<br />'''Atmosphere''': 365; 1,050 kmh<br />'''Hull''': 2D<br />'''Sensors''':\n*Passive: 20/0D\n*Scan: 40/1D\n*Search: 60/2D\n*Focus: 3/3D\n'''Weapons''':\n*Laser Cannon\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 2D+2\n\n'''Capsule''': This is the second model of the well-known TIE shuttle which saw action during the blockade of Hoth where it was used to quickly ferry command rank officers or other priority cargo ship-to-ship. The TIE Shuttle Mark II features a slow hyperdrive unit which makes system jumps or other hyperspace travel of short duration possible while its predecessor was only designed to travel between the ships of a particular fleet as it was not equipped with a hyperdrive. The installation of the class-4 hyperdrive unit required the reduction of the original shuttle's passenger capacity from two passenger to one.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/TIE%2FShuttle%20MK%20II",
+  "retrievedAt": "2025-10-08T13:07:31.352Z"
+}

@@ -26,3 +26,5 @@ export const auth = getAuth(app);
 export const storage = getStorage(app);
 
 export default app;
+
+// Emulator support removed: web app now reads species from local MySQL-backed API during development.

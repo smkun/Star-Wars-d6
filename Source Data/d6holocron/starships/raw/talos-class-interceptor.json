@@ -1,0 +1,10 @@
+{
+  "title": "Talos Class Interceptor",
+  "pageId": 5252,
+  "revisionId": 12220,
+  "wikitext": "[[File:Talos-Class-Interceptor.jpg|thumb|500px]]\n\n'''Talos Class Interceptor'''<br />'''Craft''': Claven Systems Security Enterprises Talos Class Interceptor<br />'''Type''': Interceptor<br />'''Scale''': Starfighter<br />'''Length''': 8.6m<br />'''Skill''': Starfighter Piloting: Talos<br />'''Crew''': 1<br />'''Cargo Capacity''': 40 kg<br />'''Consumables''': 2 Day<br />'''Cost''': 69,000 Credits<br />'''Hyperdrive Multiplier''': -<br />'''Hyperdrive Backup''': -<br />'''Nav Computer''': -<br />'''Maneuverability''': 3D<br />'''Space''': 9<br />'''Atmosphere''': 400; 1,150 kmh<br />'''Hull''': 3D<br />'''Shields''': -<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 30/1D\n*Search: 50/2D\n*Focus: 2/3D\nWeapons:\n*2 Laser Cannons (Fire Linked)\n: Fire Arc: Front<br />Crew: Pilot<br />Skill: Starship Gunnery<br />Fire Control: 2D+2<br />Space Range: 1-3/12/25<br />Atmosphere: 100-300/1.2/2.5 km<br />Damage: 5D\n*4 Hunter Missiles\n: Fire Arc: Front<br />Crew: Pilot<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1/5/10<br />Atmosphere: 100/500/1.0 km<br />Damage: 6D\n\n'''Capsule''': The Talos is one of the new generation of starfighters that has been produced by CSSE. This model is planned to replace the Blade Light Attack Fighter that is common sight among planetary security forces. Equally at home in atmosphere as well as in space, the Talos is a high speed Interceptor. The ship boasts greater armament than its predecessor: not only is it armed two laser cannons, but it also boasts four under-wing pylons which allow it to mount the new Hunter missiles. A stronger hull and the installation of a shield system has made this a good all round fighter. Certain rumors have recently risen saying that this fighter will see service with the Imperial Navy, but Moff Turam and head of CSSE Lance Claven have been quick to quash these rumors.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Talos%20Class%20Interceptor",
+  "retrievedAt": "2025-10-08T13:07:51.701Z"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "x-wing",
+    "name": "X-Wing",
+    "homeworld": "Corellia",
+    "searchTokens": ["x-wing", "corellia", "starfighter"],
+    "sortName": "x-wing",
+    "hasImage": false,
+    "imagePath": "aliens/x-wing.webp",
+    "attributeDice": {
+      "brawn": "2D",
+      "agility": "4D",
+      "intellect": "2D+2",
+      "cunning": "2D",
+      "willpower": "3D",
+      "presence": "3D"
+    },
+    "move": "6",
+    "size": "Medium",
+    "sources": ["Core Rulebook"]
+  },
+  {
+    "slug": "tie-fighter",
+    "name": "TIE Fighter",
+    "homeworld": "Imperial",
+    "searchTokens": ["tie fighter", "imperial", "starfighter"],
+    "sortName": "tie fighter",
+    "hasImage": false,
+    "imagePath": "aliens/tie-fighter.webp",
+    "attributeDice": {
+      "brawn": "2D",
+      "agility": "4D",
+      "intellect": "1D+2",
+      "cunning": "2D",
+      "willpower": "2D",
+      "presence": "1D+2"
+    },
+    "move": "6",
+    "size": "Small",
+    "sources": ["Core Rulebook"]
+  }
+]

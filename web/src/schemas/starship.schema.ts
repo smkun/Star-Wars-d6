@@ -77,8 +77,14 @@ export const starshipSchema = z.object({
   // Additional info
   description: z.string().optional(),
   imageUrl: z.string().optional(),
+  imageFilename: z.string().optional(),
   notes: z.string().optional(),
   sources: z.array(z.string()).min(1, 'At least one source is required'),
+
+  // Variant relationships
+  parent: z.string().optional(), // Base model name (e.g., "X-Wing" for T-65A X-Wing)
+  variantOf: z.string().optional(), // Full parent name if this is a variant
+  isVariant: z.boolean().default(false), // True if this is a variant of another ship
 });
 
 /**

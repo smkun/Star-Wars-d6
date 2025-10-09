@@ -1,0 +1,10 @@
+{
+  "title": "TIE/ni Enforcer",
+  "pageId": 2034,
+  "revisionId": 11791,
+  "wikitext": "[[File:TIE-ni-Enforcer.jpg|thumb|500px]]\n\n'''TIE/ni Enforcer'''<br />'''Craft''': Sienar/Santhe Technologies TIE/ni<br />'''Type''': Space superiority fighter<br />'''Scale''': Starfighter<br />'''Length''': 10.2 meters<br />'''Skill''': Starfighter Piloting: TIE<br />'''Crew''': 1<br />'''Crew Skill''': Starfighter Piloting 6D, Starship Gunnery 5D, Starship Shields 4D<br />'''Passengers''': none<br />'''Cost''': 250,000 credits (new), 157,000 (used)<br />'''Cargo Capacity''': 20 kilograms<br />'''Consumables''': 1 week<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': none<br />'''Nav Computer''': yes<br />'''Maneuverability''': 3D+2<br />'''Space''': 12<br />'''Atmosphere''': 450; 1,300 kmh<br />'''Hull''': 3D+2<br />'''Shields''': 1D+2<br />'''Sensors''':\n*Passive: 25/1D\n*Scan: 40/2D\n*Search: 60/3D\n*Focus: 4/3D+2\n'''Weapons''':\n*Eight Laser Cannons (can be fire-linked)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 3D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300m/1.2km/2.5km<br />Damage: 4D (7D+2 fire-linked)\n*Mini-Magnapulse Bomb Launcher (5 shots total)\n: Fire Arc: Front<br />Skill: Missile Weapons OR Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1/3/7<br />Atmosphere Range: 100m/300m/700m<br />Damage: 8D ionization\n\n'''Capsule''': The TIE/ni is the newest TIE fighter model, contracted by the New Imperium for its personal starfighter corps. It was built on the frame of a TIE Interceptor, and adds two new dagger-wing pylons on the dorsal and ventral sides of the com mand pod. The mini-magnapulse rounds it carries are scaled-down versions of the larger ones used on Star Destroyers and other capital ships, designed to penetrate a target's shields and flood any electrical systems with a massive EM burst, rendering them inoperable.",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/TIE%2Fni%20Enforcer",
+  "retrievedAt": "2025-10-08T13:07:37.173Z"
+}

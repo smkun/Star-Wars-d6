@@ -1,0 +1,10 @@
+{
+  "title": "Zebra Starfighter",
+  "pageId": 588,
+  "revisionId": 11924,
+  "wikitext": "[[File:Zebra-Starfighter.jpg|thumb|500px]]\n\n'''Craft''': Hyrotii Vehicle Works Zebra Starfighter<br />'''Type''': Light short range starfighter<br />'''Scale''': Starfighter<br />'''Length''': 12.3 meters<br />'''Skill''': Starfighter piloting<br />'''Crew''': 1<br />'''Crew Skill''': Varies<br />'''Cargo Capacity''': 65 kg<br />'''Consumables''': 1 day<br />'''Cost''': 65,000 (new), 32,500 (used)<br />'''Maneuverability''': 2D<br />'''Space''': 7<br />'''Atmosphere''': 350; 1,000 km/h<br />'''Hull''': 2D<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 25/1D+1\n*Search: 45/2D\n*Focus: 3/2D+2\n'''Weapons''':\n*'''2 Laser Cannons''' (fire-linked)\n: Fire Arc: Front<br />Skill: Starship Gunnery<br />Fire Control: 1D<br />Space Range: 1-5/10/17<br />Atmosphere Range: 100-500/1/1.7 km<br />Damage: 5D",
+  "category": "starfighter",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Zebra%20Starfighter",
+  "retrievedAt": "2025-10-08T13:08:16.669Z"
+}

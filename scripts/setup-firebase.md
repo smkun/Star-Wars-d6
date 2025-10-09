@@ -89,7 +89,6 @@ firebase init
 # - Functions (use existing api/ directory)
 # - Hosting (use web/dist as public directory)
 # - Storage (use storage.rules)
-# - Emulators (all emulators)
 
 # When prompted:
 # - Use existing firestore.rules
@@ -134,7 +133,8 @@ admin.initializeApp();
 
 const userEmail = 'your-admin@example.com'; // Replace with your email
 
-admin.auth()
+admin
+  .auth()
   .getUserByEmail(userEmail)
   .then((user) => {
     return admin.auth().setCustomUserClaims(user.uid, { admin: true });
@@ -150,6 +150,7 @@ admin.auth()
 ```
 
 Run with:
+
 ```bash
 cd api
 node ../scripts/set-admin-claim.js
@@ -158,14 +159,14 @@ node ../scripts/set-admin-claim.js
 ## Step 7: Test Firebase Setup
 
 ```bash
-# Start emulators
-npm run firebase:emulators
+# (Optional) Start local services or run against a real project
+# To test locally against emulators you manage, start them separately. The standard dev flow uses the local MySQL API and Vite proxy.
 
-# In another terminal, run dev server
+# Start the web dev server
 npm run dev
 
 # Verify:
-# - Firestore rules are enforced
+# - Firestore rules are enforced when running against a real project
 # - Public can read species collection
 # - Unauthenticated users cannot write
 ```
@@ -202,18 +203,22 @@ npm install
 ## Troubleshooting
 
 ### "Missing permissions" error when deploying
+
 - Ensure you're logged in: `firebase login`
 - Check IAM permissions in Google Cloud Console
 
 ### Emulators fail to start
+
 - Check if ports are available: 4000, 5001, 8080, 9099, 9199
 - Kill processes using ports: `lsof -ti:8080 | xargs kill -9`
 
 ### Admin claim not working
+
 - User must sign out and sign in again for custom claims to take effect
 - Verify claim in Firebase Console: Authentication → Users → Custom claims
 
 ### Functions deployment fails
+
 - Ensure Node 20 runtime specified in api/package.json engines
 - Check Functions logs in Firebase Console
 
