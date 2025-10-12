@@ -1,0 +1,10 @@
+{
+  "title": "Simiyiar Light Freighter",
+  "pageId": 5417,
+  "revisionId": 46715,
+  "wikitext": "[[File:SimiyiarLightFreighter.png|500px|thumb|right]]\n\n'''Simiyiar Light Freighter'''<br />'''Craft''': Mon Calamari Shipyards Simiyiar-class Light Freighter<br />'''Affiliation''': General / Rebel Alliance<br />'''Era''': Rebellion<br />'''Source''': Alliance Intelligence Reports (page 33)<br />'''Type''': Light Freighter<br />'''Scale''': Starfighter<br />'''Length''': 26.3 meters<br />'''Skill''': Space transports: Simiyiar freighter<br />'''Crew''': 1, '''gunners''': 1<br />'''Passengers''': 8<br />'''Cargo Capacity''': 150 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 96,000 (new)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Bckup''': x15<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 4<br />'''Atmosphere''': 280; 800 kmh<br />'''Hull''': 3D<br />'''Shields''': 2D, '''backup''': 2D<br />'''Sensors''':\n*Passive: 10/1D\n*Scan: 20/1D+1\n*Search: 30/1D+2\n*Focus: 2/2D+2\n'''Weapons''':\n*'''Double Laser Cannons '''(fire-linked)\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/6/10<br />Atmosphere Range: 100-300/600/1 km<br />Damage: 5D\n*'''Ion Cannon'''\n: Fire Arc: Front, right, left<br />Crew: 1 (can be remotely controlled from cockpit at<br />fire control of 0D)<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n\n'''Capsule''': The Simiyiar-class light freighter was a popular Mon Calamari transport in use during the Galactic Civil War.\n\nIt was 26.3 meters in length and armed with a turreted dual laser cannon and an ion cannon. It could carry eight passengers and 150 tons of cargo, and was equipped with a backup shield generator.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Simiyiar%20Light%20Freighter",
+  "retrievedAt": "2025-10-10T19:13:29.236Z"
+}

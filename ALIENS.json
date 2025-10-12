@@ -3423,6 +3423,128 @@
       ],
       "imagePath": "",
       "hasImage": false
+    },
+    {
+      "id": 49,
+      "name": "Human",
+      "plural": "Humans",
+      "description": "Versatile and widespread species; humans are the cultural default in many systems.",
+      "personality": "Varied; adaptable, ambitious, and social.",
+      "physicalDescription": "Humanoids ranging in height and appearance; typically 1.5-2.0 meters tall.",
+      "homeworld": "Various",
+      "languages": {
+        "native": "Basic",
+        "description": "Humans commonly speak Basic; many learn additional local tongues."
+      },
+      "exampleNames": [
+        "Han Solo",
+        "Leia Organa",
+        "Luke Skywalker"
+      ],
+      "adventurers": "Pilots, smugglers, diplomats, soldiers, explorers, scientists.",
+      "imageUrl": "human.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "strength": {
+            "min": "1D",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "4D"
+          }
+        },
+        "move": "10/12",
+        "size": "1.5-2.0 meters"
+      },
+      "specialAbilities": [],
+      "storyFactors": [],
+      "notes": "",
+      "sources": [
+        "Core Worldsource"
+      ],
+      "imagePath": "aliens/human.webp",
+      "hasImage": true
+    },
+    {
+      "id": 50,
+      "name": "Republic Clone",
+      "plural": "Republic Clones",
+      "description": "Cloned troopers created for the Galactic Republic's Grand Army; trained for warfare and discipline.",
+      "personality": "Disciplined, loyal, regimented (individual variance after field experience).",
+      "physicalDescription": "Genetically human-origin clones in similar physical stature; often wear armor.",
+      "homeworld": "Kamino",
+      "languages": {
+        "native": "Basic",
+        "description": "Clone troopers speak Basic and military parlance."
+      },
+      "exampleNames": [
+        "CT-7567 (Rex)",
+        "CT-5555"
+      ],
+      "adventurers": "Soldiers, specialists (medics, pilots), deserters, veteran officers.",
+      "imageUrl": "republic-clone.webp",
+      "stats": {
+        "attributeDice": "12D",
+        "attributes": {
+          "dexterity": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "knowledge": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "mechanical": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "perception": {
+            "min": "1D",
+            "max": "3D+2"
+          },
+          "strength": {
+            "min": "1D+1",
+            "max": "4D"
+          },
+          "technical": {
+            "min": "1D",
+            "max": "3D+1"
+          }
+        },
+        "move": "10/12",
+        "size": "1.7-1.9 meters"
+      },
+      "specialAbilities": [
+        {
+          "name": "Combat Trained",
+          "description": "Clones receive training bonuses for soldiering skills."
+        }
+      ],
+      "storyFactors": [],
+      "notes": "Typically equipped via Republic supplies; variants exist.",
+      "sources": [
+        "Kamino Clone Program"
+      ],
+      "imagePath": "aliens/republic-clone.webp",
+      "hasImage": true
     }
   ]
 }

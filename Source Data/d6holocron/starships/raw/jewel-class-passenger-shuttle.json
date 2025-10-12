@@ -1,0 +1,10 @@
+{
+  "title": "Jewel class passenger shuttle",
+  "pageId": 511,
+  "revisionId": 10936,
+  "wikitext": "'''Jewel class passenger shuttle'''<br />'''TYPE''':  Kuat Drive Yards Jewel-class Defensive Passenger Shuttle<br />'''SCALE''':  Starfighter<br />'''LENGTH''':  24 meters<br />'''SKILL''':  Space Transports:  Jewel-class Shuttle<br />'''CREW''':  1 pilot, 2 gunners<br />'''PASSENGERS''':  15<br />'''CARGO''':  100 metric tons<br />'''CONSUMABLES''':  2 months<br />'''HYPERDRIVE''':  x1<br />'''BACKUP''':  x10<br />'''NAV COMPUTER''':  Yes<br />'''MANEUVERABILITY''':  1D+2<br />'''SPACE''':  6<br />'''ATMOSPHERE''':  350;  1000 kmh<br />'''HULL''':  5D<br />'''SHIELDS''':  2D<br />'''SENSORS''':\n*Passive:  30/0D\n*Scan:      60/2D\n*Search:   75/3D\n*Focus:     4/4D\n'''WEAPONS''':\n*'''3 Laser Cannons''' (fire-linked)\n: Scale:  Starfighter<br />Fire Arc:  Front<br />Crew:  1<br />Skill:  Starship Gunnery<br />Fire Control:  1D<br />Space Range:  1-3/12/25<br />Atmosphere Range:  100-300/1.2/2.5 km<br />Damage:  7D\n*'''2 Concussion Missile Tubes'''\n: Scale:  Starfighter<br />Fire Arc:  Front<br />Crew:  1<br />Skill:  Starship Gunnery<br />Fire Control:  1D<br />Space Range:  1/3/7<br />Atmosphere Range:  50-100/300/700<br />Damage:  7D\n*'''Quad Laser Cannon'''\n: Scale:  Starfighter<br />Fire Arc:  Turret<br />Crew:  1<br />Skill:  Starship Gunnery<br />Fire Control:  3D<br />Space Range:  1-3/12/25<br />Atmosphere Range:  100-300/1.2/2.5 km<br />Damage:  6D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Jewel%20class%20passenger%20shuttle",
+  "retrievedAt": "2025-10-10T19:12:19.741Z"
+}

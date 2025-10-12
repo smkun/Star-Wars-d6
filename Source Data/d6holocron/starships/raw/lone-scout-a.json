@@ -1,0 +1,10 @@
+{
+  "title": "Lone Scout A",
+  "pageId": 6238,
+  "revisionId": 10763,
+  "wikitext": "[[File:LoneScout.jpg|500px|thumb|right]]\n\n'''Lone Scout-A'''<br />'''Craft''': Sienar Fleet Systems \"Lone Scout-A\"<br />'''Type''': Stock scout vessel<br />'''Scale''': Starfighter<br />'''Length''': 24 meters<br />'''Skill''': Space transports: Lone Scout<br />'''Crew''': 1<br />'''Crew Skill''': Astrogation 3D+2, sensors 3D, space transports 4D, starship gunnery 4D, starship shields 3D+2<br />'''Passengers''': 3<br />'''Cargo Capacity''': 150 metric tons<br />'''Consumables''': 1 year<br />'''Cost''': 125,000 (new), 30,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x15<br />'''Nav Computer''': Yes<br />'''Space''': 5<br />'''Atmosphere''': 295; 850 kmh<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 30/0D\n*Scan: 50/1D\n*Search: 75/2D\n*Focus: 5/3D\n'''Weapons''':\n*'''1 Laser Cannon'''\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n\n'''Capsule''': One of many vessels being used throughout the unexplored and untamed regions of the galaxy, this particular ship is designed for a crew of one (hence its somewhat low performance values).\n\n'''Source''': Star Wars Core Rulebook 2nd Edition (revised) (page 256)",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Lone%20Scout%20A",
+  "retrievedAt": "2025-10-10T19:12:33.886Z"
+}

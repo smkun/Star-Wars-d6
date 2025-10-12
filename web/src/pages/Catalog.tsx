@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import speciesApi from '@/utils/speciesApi';
+import speciesApi from '../utils/speciesApi';
 import { SearchBar } from '@/components/SearchBar';
 import { SpeciesCard } from '@/components/SpeciesCard';
 import type { SpeciesDocument } from '@/types';

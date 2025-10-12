@@ -1,0 +1,10 @@
+{
+  "title": "Mu-2 Long Range Shuttle",
+  "pageId": 575,
+  "revisionId": 51403,
+  "wikitext": "'''Craft''': Sienar Fleet Systems Mu-2 long range shuttle<br />'''Type''': Mu-class Shuttle<br />'''Scale''': Starfighter<br />'''Length''': 20 meters<br />'''Skill''': Space transport piloting: Lambda-C<br />'''Crew''': 2<br />'''Passengers''': 14<br />'''Cargo Capacity''': 100 metric tons; 40 cubic meters<br />'''Consumables''': 6 months<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x20<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 5<br />'''Atmosphere''': 295; 850 km/h<br />'''Hull''': 4D<br />'''Shields''': 1D+2<br />'''Sensors''':<br />''Passive'': 25/1D<br />''Scan'': 50/2D<br />''Search'': 60/2D<br />''Focus'': 3/3D<br />'''Weapons''':<br />2 Laser Cannons (fire linked)<br />Scale: Starfighter<br />Fire Arc: Front<br />Crew: 1 (copilot)<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-2/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D+1",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Mu-2%20Long%20Range%20Shuttle",
+  "retrievedAt": "2025-10-10T19:12:56.809Z"
+}

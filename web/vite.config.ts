@@ -9,10 +9,11 @@ export default defineConfig({
   server: {
     proxy: {
       // Proxy API calls - both with and without base path
-      '^/api': {
+      '/api': {
         target: 'http://localhost:4000',
         changeOrigin: true,
         secure: false,
+        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },

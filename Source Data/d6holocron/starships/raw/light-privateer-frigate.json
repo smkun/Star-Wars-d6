@@ -1,0 +1,10 @@
+{
+  "title": "Light Privateer Frigate",
+  "pageId": 5654,
+  "revisionId": 9507,
+  "wikitext": "'''Light Privateer Frigate'''<br />'''Craft''': Sienar Fleet Systems Light Frigate<br />'''Affiliation''': Privateers<br />'''Era''': Rise of the Empire<br />'''Source''': The Best of the Adventure Journals: Issues 1-4 (page 120)<br />'''Type''': Converted customs vessel<br />'''Scale''': Starfighter<br />'''Length''': 40 meters<br />'''Skill''': Space transports: light frigate<br />'''Crew''': 6, '''gunners''': 6, '''skeleton''': 3/+10<br />'''Crew Skill''': Astrogation 3D+2, sensors 3D, space transports 4D+1, starship gunnery 4D, starship shields 4D<br />'''Passengers''': 6<br />'''Cargo Capacity''': 100 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 1 million (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x15<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D<br />'''Space''': 8<br />'''Atmosphere''': 365; 1,050 kmh<br />'''Hull''': 3D+1<br />'''Shields''': 3D<br />'''Sensors''':\n*Passive: 30/1D\n*Scan: 60/2D\n*Search: 90/4D\n*Focus: 4/4D\n'''Weapons''':\n*4 Heavy Laser Cannons\n: Fire Arc: 2 front, 1 left, 1 right<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.3/2.5 km<br />Damage: 5D\n*Ion Cannon\n: Fire Arc: Front<br />Crew: 1 to 3<br />Skill: Starship gunnery<br />Fire Control: 3D<br />Space Range: 1-3/7/36<br />Atmosphere Range: 100-300/700/3.6 km<br />Damage: 3D\n*Tractor Beam Emplacement\n: Fire Arc: Front<br />Crew: 1 or 2<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.3/2.5 km<br />Damage: 3D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Light%20Privateer%20Frigate",
+  "retrievedAt": "2025-10-10T19:12:33.386Z"
+}

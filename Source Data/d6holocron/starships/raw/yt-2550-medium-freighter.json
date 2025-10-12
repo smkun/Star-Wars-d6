@@ -1,0 +1,10 @@
+{
+  "title": "YT-2550 Medium Freighter",
+  "pageId": 5493,
+  "revisionId": 10574,
+  "wikitext": "[[File:YT-2550MediumFreighter.jpg|500px|thumb|right]]\n\n'''YT-2550 Medium Freighter'''<br />'''Craft''': Corellian Engineering Corporation YT-2550 Transport<br />'''Affiliation''': General<br />'''Era''': New Republic<br />'''Type''': Medium Transport<br />'''Scale''': Starfighter<br />'''Length''': 65.9 meters<br />'''Skill''': Space transports: YT-2550<br />'''Crew''': 4, '''gunners''': 2, '''skeleton''': 2/+5<br />'''Crew Skill''': Varies widely<br />'''Passengers''': 10<br />'''Cargo Capacity''': 1,200 metric tons<br />'''Consumables''': 4 months<br />'''Cost''': 220,000 credits (new), 100,000 credits (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x10<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 4<br />'''Atmosphere''': 280; 800 kmh<br />'''Hull''': 4D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*2 Laser Cannons\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere: 100-300/1.2/2.5 km<br />Damage: 4D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/YT-2550%20Medium%20Freighter",
+  "retrievedAt": "2025-10-10T19:14:37.285Z"
+}

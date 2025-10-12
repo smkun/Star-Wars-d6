@@ -1,0 +1,10 @@
+{
+  "title": "Scout Shuttle",
+  "pageId": 5617,
+  "revisionId": 10792,
+  "wikitext": "[[File:Mu-3Shuttle.jpg|500px|thumb|right]]\n\n'''Scout Shuttle'''<br />'''Craft''': Sienar Fleet Systems Mu-2 Long Range Shuttle<br />'''Affiliation''': Empire / New Republic<br />'''Era''': Rebellion<br />'''Source''': Galaxy Guide 8 – Scouts (page 37)<br />'''Type''': Long range shuttle (Modified Lambda-C)<br />'''Scale''': Starfighter<br />'''Length''': 20 meters<br />'''Skill''': Space transports: Mu-2<br />'''Crew''': 2<br />'''Passengers''': 14<br />'''Cargo Capacity''': 100 metric tons; 40 cubic meters<br />'''Consumables''': 6 months<br />'''Cost''': 30,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x20<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 5<br />'''Atmosphere''': 295; 850 kmh<br />'''Hull''': 4D<br />'''Shields''': 1D+2<br />'''Sensors''':<br />\n*Passive: 25/1D\n*Scan: 50/2D\n*Search: 60/2D\n*Focus: 3/3D\n'''Weapons''':\n*2 Laser Cannons (fire-linked)\n: Fire Arc: Front<br />Crew: 1 (co-pilot)<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-2/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D+1\n\n'''Capsule''': It carried a pilot, a co-pilot, 14 troops, 100 metric tons of cargo, and 6 months worth of consumables. The ship had a Class 2 hyperdrive, a Class 20 backup. 850 kilometers per hour could be achieved in atmosphere. Shields were supplemented by 2 fire-linked forward laser cannons.\n\nAlthough the Model 2 carried fewer passengers and less weaponry than the original variety, it required two fewer crew than the Model 1, had four enclosed sleeping cabins, and boasted a miniature galley.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Scout%20Shuttle",
+  "retrievedAt": "2025-10-10T19:13:20.002Z"
+}

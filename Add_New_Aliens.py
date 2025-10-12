@@ -14,8 +14,10 @@ from typing import Dict, List, Optional
 ROOT = Path(__file__).resolve().parent
 SOURCE_ROOT = ROOT / "Source Data"
 ALIENS_PATH = ROOT / "ALIENS.json"
-FIREBASE_API_KEY = "AIzaSyAvN3w0J2lNXsnc8WjaPjvsljOyb-UCLww"
-PROJECT_ID = "star-wars-d6-species"
+import os
+
+FIREBASE_API_KEY = os.environ.get('FIRESTORE_API_KEY', '')
+PROJECT_ID = os.environ.get('FIREBASE_PROJECT_ID', 'star-wars-d6-species')
 
 
 ATTRIBUTE_ALIAS = {

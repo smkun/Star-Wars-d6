@@ -1,0 +1,10 @@
+{
+  "title": "XS-800 Light Freighter",
+  "pageId": 5426,
+  "revisionId": 10528,
+  "wikitext": "[[File:XS-800LightFreighter.png|500px|thumb|right]]\n\n'''XS-800 Light Freighter'''<br />'''Craft''': Corellian Engineering Corp. XS-800 Light Freighter<br />'''Affiliation''': General<br />'''Era''': Rebellion<br />'''Source''': Stock Ships (pages 21-23)<br />'''Type''': Light freighter<br />'''Scale''': Starfighter<br />'''Length''': 30.2 meters<br />'''Skill''': Space transports: XS-800<br />'''Crew''': 1 to 2 (can coordinate)<br />'''Passengers''': 8<br />'''Cargo Capacity''': 115 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 37,500 (new)<br />'''Hyperdrive Multiplier''': x3<br />'''Hyperdrive Backup''': x15<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D<br />'''Space''': 6<br />'''Atmosphere''': 330; 950 kmh<br />'''Hull''': 3D<br />'''Shields''': 1D+2<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 30/1D\n*Search: 50/3D\n*Focus: 2/4D\n'''Weapons''':[[File:XS-800LightFreighter2.png|500px|thumb|right]]\n*Double Laser Cannon (fire linked)\n: Fire Arc: Front<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n\n'''Capsule''': The biggest advantage of this ship was the passengers' comfort. Personal refresher stations, independent climate control for each quarters, and fold-out bunks made it a very comfortable ship for long journeys.\n\nTwo escape pods capable of each seating five people are equipped on the XS-800. Also, the cockpit was designed to separate from the ship and land on a planet when there was no other way to rescue passengers and crew. Safety was also guaranteed by its double laser cannon.\n\nIt was a very successful craft, but not as popular as other Corellian Engineering Corporation ships, like the CR90 corvette.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/XS-800%20Light%20Freighter",
+  "retrievedAt": "2025-10-10T19:14:17.229Z"
+}

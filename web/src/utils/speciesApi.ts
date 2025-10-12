@@ -1,17 +1,14 @@
 import { db } from './firebase';
 import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
 
-// Get the base path from Vite config (defaults to '/' in dev)
-const BASE_PATH = import.meta.env.BASE_URL || '/';
-
 // Build API URL with base path support
 function getApiUrl(path: string): string {
   // In development, use absolute localhost URL to bypass Vite routing
   if (import.meta.env.DEV) {
     return `http://localhost:4000${path}`;
   }
-  // In production, use relative path with base
-  return `${BASE_PATH}api${path}`;
+  // In production, always hit the API root at /api so it can be proxied by Apache/Node
+  return `/api${path}`;
 }
 
 // Default to using the local MySQL-backed API for species data.

@@ -85,9 +85,18 @@ export function SpeciesDetailPage() {
   const assetPath = species.imagePath || species.imageUrl || '';
   const baseUrl = import.meta.env.BASE_URL || '/';
   const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-  const imageSrc = assetPath
-    ? `${normalizedBase}aliens/${assetPath.replace(/^\/+/, '')}`
-    : '';
+
+  // assetPath may already include the 'aliens/' prefix (legacy entries).
+  // Avoid producing '/.../aliens/aliens/...' by handling both cases here.
+  let imageSrc = '';
+  if (assetPath) {
+    const cleaned = assetPath.replace(/^\/+/, '');
+    if (cleaned.startsWith('aliens/')) {
+      imageSrc = `${normalizedBase}${cleaned}`;
+    } else {
+      imageSrc = `${normalizedBase}aliens/${cleaned}`;
+    }
+  }
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 text-gray-100">
@@ -166,7 +175,9 @@ export function SpeciesDetailPage() {
 
           {species.languages?.description && (
             <div>
-              <h2 className="text-lg font-heading text-yellow-200">Languages</h2>
+              <h2 className="text-lg font-heading text-yellow-200">
+                Languages
+              </h2>
               <p className="mt-2 text-gray-200/80">
                 {species.languages.description}
               </p>

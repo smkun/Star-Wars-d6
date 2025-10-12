@@ -1,0 +1,10 @@
+{
+  "title": "SkySlayer Light Assault Ship",
+  "pageId": 5660,
+  "revisionId": 9515,
+  "wikitext": "'''SkySlayer Light Assault Ship'''<br />'''Craft''': Aratech SkySlayer<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': Scavenger Hunt (page 16)<br />'''Type''': Light assault ship<br />'''Scale''': Starfighter<br />'''Length''': 20 meters<br />'''Skill''': Space transports: SkySlayer<br />'''Crew''': 7<br />'''Crew Skill''':<br />'''Cargo Capacity''': 50 metric tons<br />'''Consumables''': 4 months<br />'''Hyperdrive Multiplier''': x1<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 8<br />'''Atmosphere''': 365; 1,050 kmh<br />'''Hull''': 4D<br />'''Shields''': 2D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 15/1D\n*Search: 20/1D+1\n*Focus: 2/3D\n'''Weapons''':\n*2 Quad Laser Cannons\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D+2<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D\n*4 Blaster Cannons (fire-linked)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 3D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 6D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/SkySlayer%20Light%20Assault%20Ship",
+  "retrievedAt": "2025-10-10T19:13:31.274Z"
+}

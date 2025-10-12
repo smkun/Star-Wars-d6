@@ -49,8 +49,24 @@ export function StarshipCard({ ship, onClick, fallbackImageUrl }: StarshipCardPr
     other: 'Other'
   }[ship.category] || ship.category;
 
-  // Use ship's image if available, otherwise fallback to family image
-  const imageUrl = ship.imageUrl || fallbackImageUrl;
+  // Build image path matching detail page pattern
+  const baseUrl = import.meta.env.BASE_URL || '/';
+  const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
+  // Use imageFilename to build full path, or use imageUrl if it's already a full path
+  let imageUrl = '';
+  if (ship.imageFilename) {
+    imageUrl = `${normalizedBase}starships/${ship.imageFilename.replace(/^\/+/, '')}`;
+  } else if (ship.imageUrl && !ship.imageUrl.startsWith('http')) {
+    // imageUrl is just a filename, build the path
+    imageUrl = `${normalizedBase}starships/${ship.imageUrl.replace(/^\/+/, '')}`;
+  } else if (ship.imageUrl) {
+    // imageUrl is already a full URL
+    imageUrl = ship.imageUrl;
+  } else if (fallbackImageUrl) {
+    // Use fallback if provided
+    imageUrl = fallbackImageUrl;
+  }
 
   return (
     <div

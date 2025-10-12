@@ -1,0 +1,10 @@
+{
+  "title": "StarBus Inter-System Transport",
+  "pageId": 572,
+  "revisionId": 1145,
+  "wikitext": "'''Craft''': Corellian Engineering’s StarBus Inter-System Transport<br />'''Type''': Transport Shuttle<br />'''Scale''': Starfighter<br />'''Length''': 66.3 meters<br />'''Skill''': Space Transports: StarBus<br />'''Crew''': 2<br />'''Crew Skill''': Varies<br />'''Passengers''': 180<br />'''Cargo Capacity''': 50 metric tons<br />'''Consumables''': 1 month<br />'''Cost''': 150,000 (new), 65,000 (used)<br />'''Maneuverability''': 1D<br />'''Space''': 3<br />'''Atmosphere''': 260; 750 km/h<br />'''Hull''': 4D+1<br />'''Sensors''':<br />''Passive'': 10/0D<br />''Scan'': 20/1D<br />''Search'': 30/1D+2<br />''Focus'': 2/2D<br />'''Weapons''': None",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/StarBus%20Inter-System%20Transport",
+  "retrievedAt": "2025-10-10T19:13:41.609Z"
+}

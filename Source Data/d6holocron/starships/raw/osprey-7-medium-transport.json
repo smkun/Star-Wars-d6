@@ -1,0 +1,10 @@
+{
+  "title": "Osprey-7 Medium Transport",
+  "pageId": 539,
+  "revisionId": 1079,
+  "wikitext": "'''Craft''': Davishar Intersteller Technologies Osprey-7 Medium Transport<br />'''Type''': Medium freighter<br />'''Scale''': Starfighter <br />'''Length''': 55.7 meters<br />'''Skill''': Space transports: Osprey-7<br />'''Crew''': 3, skeleton : 1/+10<br />'''Crew Skill''': Varies widely <br />'''Passengers''': 8<br />'''Cargo Capacity''': 135 metric tons <br />'''Consumables''': 3 months <br />'''Cost''': 105,000<br />'''Hyperdrive Multiplier''': x2 <br />'''Hyperdrive Backup''': x12 <br />'''Nav Computer''': Yes <br />'''Maneuverability''': 2D+1 <br />'''Space''': 5 <br />'''Atmosphere''': 295; 850 KMH <br />'''Hull''': 4D<br />'''Shields''': 2D <br />'''Sensors''':<br />''Passive'': 15/1D <br />''Scan'': 30/1D+2 <br />''Search'': 40/2D <br />''Focus'': 4/2D+2 <br />'''Weapons''': <br />Four Laser Cannons (Fire Linked)<br />Fire Arc: Front <br />Skill: Starship gunnery <br />Fire Control: 2D+1 <br />Space Range: 1-3/12/25 <br />Atmosphere Range: 100-300/1.2/2.5KM Damage: 3D (6D Fire-linked)\n\n== Capsule: ==\nStarting out as a mid-rim company, Davishar Interstellar Technology entered into the mdeium transport race with a leap. For it's first two years of opperation, DIT developed replacement parts and engine systems. The Osprey-7 combines many elements to produce a sterdy and easy to modify freighter.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Osprey-7%20Medium%20Transport",
+  "retrievedAt": "2025-10-10T19:13:07.357Z"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "YT-1566 Transport",
+  "pageId": 5488,
+  "revisionId": 10559,
+  "wikitext": "[[File:YT-1566Transport.jpg|500px|thumb|right]]\n\n'''Craft: Corellian Engineering Corp. YT-1566 Transport'''<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': not registered<br />'''Scale''': Starfighter<br />'''Length''': 32,2 meters<br />'''Skill''': Space transports: YT-1566 Space Transport<br />'''Crew''': 2 '''Skeleton''': 1/+5<br />'''Crew Skill''': Varies widely<br />'''Passengers''': 6<br />'''Cargo Capacity''': 110 metric tons<br />'''Consumables''': 5 months<br />'''Cost''': 170,000 (new), 32,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': None<br />'''Nav Computer''': Yes<br />'''Space''': 5<br />'''Atmosphere''': 500; 700 kmh<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 30/1D\n*Search: 45/2D\n*Focus: 2/3D\n'''Weapons''':\n*Twin Laser Cannon ( fire linked )\n: Fire Arc: front<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 5D\n'''Capsule''': Designed with a strong Ion sub-light Drive to be upgraded for more weapons,and additional upgrade modifications the YT-1566 Transport is perfect at the edge of standard galactic law.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/YT-1566%20Transport",
+  "retrievedAt": "2025-10-10T19:14:31.257Z"
+}

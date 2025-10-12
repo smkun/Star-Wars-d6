@@ -1,0 +1,10 @@
+{
+  "title": "YV-700 armed Transport",
+  "pageId": 5499,
+  "revisionId": 9299,
+  "wikitext": "'''Craft''': Corellian Engineering Corp. YV-700 armed Transport<br />'''Affiliation''': General<br />'''Era''': New Republic<br />'''Source''': not registrated<br />'''Scale''': Starfighter<br />'''Length''': 25 meters<br />'''Skill''': Space transports: YV-700<br />'''Crew''': 1 (1 can coordinate), '''gunners''': 1<br />'''Crew Skill''': Varies widely<br />'''Passengers''':10<br />'''Cargo Capacity''': 60 metric tons<br />'''Consumables''': 12 months<br />'''Cost''': 35,000 (used)<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': x10<br />'''Nav Computer''': Yes<br />'''Space''': 5<br />'''Atmosphere''': 520; 900 kmh<br />'''Hull''': 4D+1<br />'''Sensors''':\n*Passive: 30/1D\n*Scan: 60/2D\n*Search: 90/3D\n*Focus: 2/4D+2\n'''Weapons''':\n*Twin Medium Laser Cannons ( fire linked )\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage:6D\n\n\n\n'''Capsule''': After seeing their Corellian YV-666 work so well, the YV-700 has been constructed as an costum vessel for Bounty Hunters and seems to became popular. The test results during the early construction phase has beaten the Firespray class - the most popular design for Bounty Hunters yet.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/YV-700%20armed%20Transport",
+  "retrievedAt": "2025-10-10T19:14:47.746Z"
+}

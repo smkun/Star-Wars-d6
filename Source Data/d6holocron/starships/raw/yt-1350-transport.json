@@ -1,0 +1,10 @@
+{
+  "title": "YT-1350 Transport",
+  "pageId": 5487,
+  "revisionId": 10556,
+  "wikitext": "'''Craft: Corellian Engineering Corp. YT-1350 Transport'''<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': for stock model not reported<br />'''Scale''': Starfighter<br />'''Length''': 26.7 meters<br />'''Skill''': Space transports: YT-1350<br />'''Crew''': 1 (1 can coordinate), gunners: 1<br />'''Crew Skill''': Varies widely<br />'''Passengers''': 3<br />'''Cargo Capacity''': 50 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 80,000 (new), 20,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x12<br />'''Nav Computer''': Yes<br />'''Space''': 5<br />'''Atmosphere''': 500; 850 kmh<br />'''Hull''': 4D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*Concussion Missile Launcher ( Magazine with 10 Missiles )\n: Fire Arc: front<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1/3/7<br />Atmosphere Range: 100m/300m/700m<br />Damage: 7D\n\n''Capsule''': The YT-1350 is a cut down version of the popular YT-1300, basically a halved model of that design. However the lighter hull allows a faster drive result, that grants them to be a an efficient and deadly combat vessel, not as week as a standard transporter.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/YT-1350%20Transport",
+  "retrievedAt": "2025-10-10T19:14:30.747Z"
+}

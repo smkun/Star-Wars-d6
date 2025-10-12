@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import {} from 'react';
 
 interface Category {
   title: string;
@@ -12,28 +13,35 @@ const categories: Category[] = [
     title: 'Species',
     description: 'Browse alien species from across the Star Wars galaxy',
     path: '/species',
-    iconPath: '/d6StarWars/icons/Species.png'
+    iconPath: `${import.meta.env.BASE_URL}icons/Species.png`,
   },
   {
     title: 'Starships',
     description: 'Explore starfighters, transports, and capital ships',
     path: '/starships',
-    iconPath: '/d6StarWars/icons/StarShips.png'
-  }
+    iconPath: `${import.meta.env.BASE_URL}icons/StarShips.png`,
+  },
+  {
+    title: 'Characters',
+    description: 'Create and manage player characters',
+    path: '/characters',
+    iconPath: `${import.meta.env.BASE_URL}icons/Characters.png`,
+  },
 ];
 
 export default function Home() {
+  // no header auth UI (handled in-app elsewhere)
+
   return (
     <div className="min-h-screen bg-gray-900 text-yellow-400">
       {/* Header */}
       <header className="border-b-2 border-yellow-400 bg-gray-950">
         <div className="max-w-7xl mx-auto px-8 py-12">
-          <h1 className="text-6xl font-bold mb-4">
-            Star Wars d6 Holocron
-          </h1>
+          <h1 className="text-6xl font-bold mb-4">Star Wars d6 Holocron</h1>
           <p className="text-xl text-gray-400">
             A comprehensive database for the Star Wars d6 RPG system
           </p>
+          {/* intentionally removed Characters link and test login UI */}
         </div>
       </header>
 
@@ -61,9 +69,7 @@ export default function Home() {
                     {category.title}
                   </h3>
                 </div>
-                <p className="text-gray-400 text-lg">
-                  {category.description}
-                </p>
+                <p className="text-gray-400 text-lg">{category.description}</p>
                 <div className="mt-6 text-yellow-400 group-hover:text-yellow-300 font-semibold">
                   Explore →
                 </div>

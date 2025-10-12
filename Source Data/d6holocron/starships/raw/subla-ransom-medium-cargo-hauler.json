@@ -1,0 +1,10 @@
+{
+  "title": "Subla Ransom Medium Cargo Hauler",
+  "pageId": 536,
+  "revisionId": 10508,
+  "wikitext": "'''Craft''': Subla Ransom Cargo Hauler<br />'''Type''': Medium freighter<br />'''Scale''': Starfighter<br />'''Length''': 75.5 meters<br />'''Skill''': Space transports: Subla Ransom hauler<br />'''Crew''': 5<br />'''Crew '''Skill: Varies widely<br />'''Passengers''': 5<br />'''Cargo Capacity''': 700 metric tons<br />'''Consumables''': 3 months<br />'''Cost''': 110,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x12<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 1D<br />'''Space''': 5<br />'''Atmosphere''': 335; 950 KMH<br />'''Hull''': 5D<br />'''Sensors''':\n*Passive: 30/1D\n*Scan: 65/2D\n*Search: 110/3D\n*Focus: 4/4D\n'''Weapons''':\n*'''Blaster Cannon'''\n: Fire Arc: Turret<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-5/10/17<br />Atmosphere Range: 100-500/1/1.7 KMH<br />Damage: 5D\n\n'''Capsule''': The Subla Ransom medium cargo hauler is a reliable but little known freighter from the Mid-Rim.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Subla%20Ransom%20Medium%20Cargo%20Hauler",
+  "retrievedAt": "2025-10-10T19:13:47.919Z"
+}

@@ -134,14 +134,23 @@
 
 ### Authentication
 
-- [ ] Configure Firebase Auth email/password provider **Completed:**
+- [x] Configure Firebase Auth email/password provider **Completed: 2025-10-11**
+- [x] Enable Google OAuth provider **Completed: 2025-10-11**
+- [x] Create login page component (Login.tsx) **Completed: 2025-10-11**
+- [x] Create registration page component (Register.tsx) **Completed: 2025-10-11**
+- [x] Implement login form with error handling **Completed: 2025-10-11**
+- [x] Add auth state listener in ProtectedRoute **Completed: 2025-10-11**
+- [x] Create `ProtectedRoute.tsx` with auth guard **Completed: 2025-10-11**
+- [x] Redirect to login if unauthenticated **Completed: 2025-10-11**
+- [x] Test login flow with admin account **Completed: 2025-10-11**
+- [x] Set up Firebase Admin SDK with service account **Completed: 2025-10-11**
+- [x] Set admin custom claim for scottkunian@gmail.com **Completed: 2025-10-11**
+- [x] Add /users API endpoint (admin-only) **Completed: 2025-10-11**
+- [x] Add character ownership filtering by user_id **Completed: 2025-10-11**
+- [x] Add admin "Show all" toggle to view all characters **Completed: 2025-10-11**
+- [x] Add character reassignment dropdown with user list **Completed: 2025-10-11**
+- [x] Add Sign Out button with correct BASE_URL redirect **Completed: 2025-10-11**
 - [ ] Enable MFA (TOTP) in Firebase console **Completed:**
-- [ ] Create login page component **Completed:**
-- [ ] Implement login form with error handling **Completed:**
-- [ ] Add auth state listener in app root **Completed:**
-- [ ] Create `AdminLayout.tsx` with auth guard **Completed:**
-- [ ] Redirect to login if unauthenticated **Completed:**
-- [ ] Test login flow with admin account **Completed:**
 
 ### Admin UI - Species Editor
 
@@ -238,6 +247,13 @@
 ### Performance Optimization
 
 - [ ] Enable Vite PWA plugin with offline cache **Completed:**
+
+## New: Characters Feature (local dev)
+
+- [ ] Sanitize workspace secrets (`.vscode/settings.json`, `.env`) and rotate DB password **Priority:** High
+- [ ] Finish `CharactersList`/`CharacterDetail`/`CharacterPrint` styling and accessibility checks **Priority:** Medium
+- [ ] Remove dev-mode fallbacks and local-sample files before production build **Priority:** Medium
+- [ ] Add E2E tests for Characters CRUD and print flow (dev-mode toggle gated) **Priority:** Medium
 - [ ] Add service worker for offline support **Completed:**
 - [ ] Implement lazy loading for images (loading="lazy") **Completed:**
 - [ ] Add IndexedDB caching for Firestore reads **Completed:**
@@ -403,16 +419,16 @@ If you'd like, I can add these commands into a distro-detection script or create
 
 ## Next 5 Tasks to Run
 
-1. **[COMPLETED: 2025-10-09]** ~~Start local MySQL API and web dev server~~ — **Status**: ✅ Both servers running successfully (MySQL API on port 4000, Vite dev on port 5174)
+1. **[COMPLETED: 2025-10-11]** ~~Authentication System~~ — **Status**: ✅ Email/password and Google OAuth working, protected routes, admin features, character ownership, Sign Out button all functional
 
-2. **[COMPLETED: 2025-10-09]** ~~Migrate complete species data from ALIENS.json to MySQL~~ — **Status**: ✅ All 48 species updated with personality, physicalDescription, adventurers, languages, sources fields
+2. **Update CharacterNew.tsx to auto-assign user_id** — **Status**: Pending. Character creation needs to automatically set user_id from auth.currentUser.uid when creating new characters
 
-3. **[COMPLETED: 2025-10-09]** ~~Fix species detail page data display~~ — **Status**: ✅ API updated to return all fields, detail page displays complete data and images
+3. **Document Firebase Admin SDK production setup** — **Status**: Pending. Need deployment guide for setting GOOGLE_APPLICATION_CREDENTIALS in production environment with secure credential management
 
-4. **Document local dev flow** — **Status**: ✅ Created `dev/LOCAL_DEV_SETUP.md`, updated `CLAUDE.md` and `README.md`, added `.env.example`
+4. **Add loading states to character list** — **Status**: Pending. Add loading spinner for initial character fetch and during character reassignment operations
 
-5. **Clean up duplicate background processes** — **Status**: Pending. Multiple MySQL API and Vite dev servers running in background (6+ processes). Need process cleanup and documentation of proper startup/shutdown workflow.
+5. **Add character creation flow with auth** — **Status**: Pending. Ensure new characters are automatically assigned to the logged-in user's UID
 
-6. **Test complete user journey** — Verify catalog → search → filter → detail page flow with all data displaying correctly
+6. **Clean up duplicate background processes** — **Status**: Pending. Multiple MySQL API and Vite dev servers running in background. Need process cleanup and documentation of proper startup/shutdown workflow.
 
-7. **Add loading states and error boundaries** — Improve UX with loading skeletons for catalog/detail pages and error boundary components
+7. **Test complete user journey** — Verify catalog → search → filter → detail page flow with all data displaying correctly

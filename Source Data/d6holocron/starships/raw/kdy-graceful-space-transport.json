@@ -1,0 +1,10 @@
+{
+  "title": "KDY Graceful Space Transport",
+  "pageId": 1816,
+  "revisionId": 10478,
+  "wikitext": "[[File:KDYGracefulSpaceTransport.gif|500px|thumb|right]]\n\n'''KDY Graceful Space Transport'''<br />'''Craft''': KDY Graceful Transport<br />'''Type''': Space Transport<br />'''Scale''': Starfighter<br />'''Length''': 31.38 meters<br />'''Crew''': 3 + 2 Stewards<br />'''Crew Skill''': Varies<br />'''Passengers''': 87<br />'''Cargo Capacity''': 5 metric tons<br />'''Consumables''': 1 month<br />'''Cost''': 125,000 (new), 95,000 (used)<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': x8<br />'''Nav Computer''': Yes<br />'''Space''': 5<br />'''Atmosphere''': 430; 750km<br />'''Maneuverability''': 2D<br />'''Hull''': 3D<br />'''Shields''': 1D+2<br />'''Sensors''':\n*Passive: 15/+2\n*Scan: 30/1D\n*Search: 60/2D\n*Focus: 3/3D\n'''Weapons''':\n*'''Two Dual Blaster Cannons'''\n: Scale: Starfighter<br />Fire Arc: Front (1 port, 1 starboard)<br />Crew: 1<br />Skill: Starship Gunnery<br />Fire Control: 2D+1<br />Space Range: 1-5/12/25<br />Atmosphere Range: 100-500/1.2/2.5km<br />Damage: 5D+2\n\n'''Description''': A well designed space transport from KDY, this ship boasts seating for 87 passengers, which includes 25 1st class seats. There are also two  dual blaster cannons to port and starboard for protection from pirates.\n\nOther versions of this craft include the removal of all the seating allowing for 75 metric tons of cargo to be transported.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/KDY%20Graceful%20Space%20Transport",
+  "retrievedAt": "2025-10-10T19:12:20.840Z"
+}

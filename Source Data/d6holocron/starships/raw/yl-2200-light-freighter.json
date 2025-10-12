@@ -1,0 +1,10 @@
+{
+  "title": "YL-2200 Light Freighter",
+  "pageId": 5479,
+  "revisionId": 9276,
+  "wikitext": "'''YL-2200 Light Freighter'''<br />'''Craft''': Corellian Engineering Corporation YL-2200<br />'''Affiliation''': General<br />'''Era''': Rise of the Empire<br />'''Source''': Galaxy Guide 3 – The Empire Strikes Back (page 88)<br />'''Type''': Stock light freighter<br />'''Scale''': Starfighter<br />'''Length''': 28.2 meters<br />'''Skill''': Space transports: YL-2200<br />'''Crew''': 1 (1 can coordinate), '''gunners''': 1<br />'''Passengers''': 6<br />'''Cargo Capacity''': 100 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': 100,000 (new), 25,000 (used)<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x12<br />'''Nav Computer''': Yes<br />'''Space''': 4<br />'''Atmosphere''': 480; 800 kmh<br />'''Hull''': 4D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 10/0D\n*Scan: 25/1D\n*Search: 40/2D\n*Focus: 2/3D\n'''Weapons''':\n*2 Laser Cannons\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/YL-2200%20Light%20Freighter",
+  "retrievedAt": "2025-10-10T19:14:24.690Z"
+}

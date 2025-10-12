@@ -3,8 +3,8 @@
   "pageId": 5506,
   "revisionId": 32663,
   "wikitext": "[[File:action4.jpg|500px|thumb|right]]\n[[File:actionIV.jpg|500px|thumb|right]]\n\n'''Action IV Bulk Freighter'''<br />'''Craft''': Corellian Action IV Transport<br />'''Affiliation''': General<br />'''Era''': Old Republic<br />'''Source''': Pirates & Privateers (page 68), The Star Wars Sourcebook (pages 44-45), Starships of the Galaxy (page 77)<br />'''Type''': Medium bulk freighter<br />'''Scale''': Capital<br />'''Length''': 100 meters<br />'''Skill''': Space transports: Action IV transport<br />'''Crew''': 8<br />'''Crew Skill''': Varies widely<br />'''Cargo Capacity''': 75,000 metric tons<br />'''Consumables''': 3 months<br />'''Cost''': 945,000 (new), 345,000 (used)<br />'''Hyperdrive Multiplier''': x3<br />'''Nav Computer''': No (uses droid or starport computations)<br />'''Space''': 2<br />'''Hull''': 2D<br />'''Sensors''':\n*Passive: 15/0D\n*Scan: 20/1D\n*Search: 30/1D+2\n\n'''Description''': The Action IV transport was a Corellian Engineering Corporation medium bulk freighter of the Action series. \n\nIt had a trapezoidal shape and was roughly 100 meters in length. Internally, its holds could be adapted to various pressures and climates with individual configurations. \n\nEven though each ship was sold without any weaponry or defensive shields built in, plenty of after-market systems could be added to the Action IV.\n\nDuring the time of the Galactic Republic, the Action IV transport Azure Queen was captured by Black Sun pirates, while en route to the planet Rutan.\n\nThe Imperial Navy refitted a number of them as Imperial Patrol Ships.",
-  "category": "capital",
+  "category": "transport",
   "license": "CC-BY-SA 3.0",
   "sourceUrl": "http://d6holocron.com/wiki/Action%20IV%20Bulk%20Freighter",
-  "retrievedAt": "2025-10-08T08:29:42.531Z"
+  "retrievedAt": "2025-10-10T19:10:57.183Z"
 }

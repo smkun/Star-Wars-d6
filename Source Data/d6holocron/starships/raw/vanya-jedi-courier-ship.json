@@ -1,0 +1,10 @@
+{
+  "title": "Vanya Jedi Courier Ship",
+  "pageId": 5420,
+  "revisionId": 10511,
+  "wikitext": "'''Vanya Jedi Courier Ship'''<br />'''Craft''': Hoersch-Kessel Vanya-class Jedi Courier Ship<br />'''Affiliation''': Jedi Order<br />'''Era''': Old Republic<br />'''Source''': Power of the Jedi Sourcebook (page 59)<br />'''Type''': Jedi courier ship<br />'''Scale''': Starfighter<br />'''Length''': 70 meters<br />'''Skill''': Space transports: Vanya Courier Ship<br />'''Crew''': 2, '''skeleton''': 1/+5<br />'''Passengers''': 6<br />'''Cargo Capacity''': 10 metric tons<br />'''Consumables''': 1 month<br />'''Cost''': Not available for sale<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x12<br />'''Maneuverability''': 4D<br />'''Space''': 4<br />'''Atmosphere''': 280; 800 kmh<br />'''Hull''': 4D<br />'''Shields''': 4D<br />'''Sensors''':\n*Passive: 12/0D\n*Scan: 25/1D\n*Search: 35/2D\n*Focus: 3/3D\n'''Weapons''':\n*'''Proton Torpedo Launcher''' (14 missiles)\n: Fire Arc: Front<br />Skill: Starship gunnery<br />Fire Control: 1D<br />Space Range: 1/3/7<br />Atmosphere Range: 100/300/700<br />Damage: 10D\n*'''2 Laser Cannons''' (fire-linked)\n: Fire Arc: Turret<br />Skill: Starship gunnery<br />Fire Control: 2D<br />Space Range: 1-3/12/25<br />Atmosphere Range: 100-300/1.2/2.5 km<br />Damage: 4D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Vanya%20Jedi%20Courier%20Ship",
+  "retrievedAt": "2025-10-10T19:14:06.321Z"
+}

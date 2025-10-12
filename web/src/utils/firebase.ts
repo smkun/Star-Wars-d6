@@ -7,9 +7,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { getStorage } from 'firebase/storage';
 
-// Firebase configuration (baked into bundle for static hosting)
+// Firebase configuration (reads API key from env at build time)
 const firebaseConfig = {
-  apiKey: 'AIzaSyAvN3w0J2lNXsnc8WjaPjvsljOyb-UCLww',
+  // Vite exposes variables prefixed with VITE_ via import.meta.env.
+  // Keep other fields static (non-secret) but ensure the API key is read
+  // from environment to avoid committing it into the repo.
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || '',
   authDomain: 'star-wars-d6-species.firebaseapp.com',
   projectId: 'star-wars-d6-species',
   storageBucket: 'star-wars-d6-species.firebasestorage.app',

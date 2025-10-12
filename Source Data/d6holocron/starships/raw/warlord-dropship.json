@@ -1,0 +1,10 @@
+{
+  "title": "Warlord Dropship",
+  "pageId": 5630,
+  "revisionId": 10816,
+  "wikitext": "'''Warlord Dropship'''<br />'''Craft''': Telgorn Warlord Dropship<br />'''Affiliation''': Empire<br />'''Era''': Rebellion<br />'''Source''': Adventure Journal 2<br />'''Scale''': Capital<br />'''Length''': 110 meters<br />'''Skill''': Capital ship piloting<br />'''Crew''': 200<br />'''Passengers''': 360 (troops)<br />'''Cargo Capacity''': 180 metric tons, or 4 AT-ATs<br />'''Consumables''': 3 days<br />'''Cost''': Not available for sale<br />'''Maneuverability''': 0D<br />'''Space''': 10 (during drop); 4 (on return flight)<br />'''Atmosphere''': 415; 1,200 kmh (during drop), 280; 800 kmh (on return flight)<br />'''Hull''': 3D<br />'''Shields''': 1D<br />'''Sensors''':\n*Passive: 30/1D\n*Scan: 60/2D\n*Search: 80/3D\n*Focus: 3/4D\n'''Weapons''':\n*6 Double Turbolaser Cannons\n: Fire Arc: 1 Front, 2 left, 2 right, 1 rear<br />Crew: 2<br />Skill: Capital ship gunnery<br />Fire control: 3D<br />Space Range: 3-15/35/75<br />Atmosphere Range: 6-30/70/150 km<br />Damage: 4D+2\n\n'''Capsule''': The largest dropship used by the Imperial Navy, the Warlord dropship measured 110 meters in length, dwarfing other Imperial dropships. Produced by Telgorn Corporation, the Warlord dropship was capable of transporting up to 360 troops and up to 180 metric tons of cargo, or a platoon of 4 AT-ATs, in addition to a crew of 200.\n\nEach dropship was protected by thick armor plating and six double turbolaser cannons. In atmospheric descent, a Warlord dropship could achieve 1,200 kilometers per hour in descent and 800 kilometers per hour in ascent.\n\nBecause of its size, the dropship required an ablative shield to withstand drop temperatures. The shield had to be replaced after each drop, which required at least two hours in a well equipped Star Destroyer bay.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Warlord%20Dropship",
+  "retrievedAt": "2025-10-10T19:14:11.732Z"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "XT-1100 freighter",
+  "pageId": 513,
+  "revisionId": 1027,
+  "wikitext": "'''Craft''':Stock Corellian XT-1100 Light Transport<br />'''Type''': Light Freighter<br />'''Scale''': Starfighter<br />'''Length''': 30.5m<br />'''Crew''': 1 to 2<br />'''Passengers''': 4<br />'''Cargo Capacity''': 75 metric tons<br />'''Consumables''': 2 months<br />'''Hyperdrive Multiplier''': x2<br />'''Hyperdrive Backup''': x11<br />'''Nav Computer:''' Yes<br />'''Maneuverability''': 1D<br />'''Space''': 4<br />'''Atmosphere''': 280;800 kmh<br />'''Hull''': 4D<br />'''Shields''': 0D<br />'''Sensors''': <br />''Passive'':10/0D; <br />''Scan'':25/1D; <br />''Search'':40/2D; <br />''Focus'':2/3D<br />'''Weapons''':None\n\n== Description: ==\nLonger, thinner version of the popular YT-1300. Designed to be a fast, more maneuverable model. Because of this the XT has less cargo space. It also comes equipped with no weapons, although most owners have some installed when they purchase them.&nbsp; The Xt-1100 has a smaller, more oval saucer area and longer mandibles.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/XT-1100%20freighter",
+  "retrievedAt": "2025-10-10T19:14:18.227Z"
+}

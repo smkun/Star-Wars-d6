@@ -1,0 +1,10 @@
+{
+  "title": "Starwind-class Pleasure Yacht",
+  "pageId": 697,
+  "revisionId": 10415,
+  "wikitext": "[[File:Starwind.png|300px|thumb|right]]\n\n'''Craft''': Kuat Drive Yards Starwind-class Pleasure Yacht<br />'''Type''': Pleasure Yacht<br />'''Scale''': Starfighter<br />'''Length''': 50 meters<br />'''Skill''': Spacetransports: Starwind pleasure yacht<br />'''Crew''': 5, '''gunners''': 2, '''skeleton''': 2/+5<br />'''Passengers''': 10<br />'''Cargo Capacity''': 2 metric tons<br />'''Consumables''': 2 months<br />'''Hyperdrive Multiplier''': X1<br />'''Hyperdrive Backup''': X15<br />'''Nav Computer''': Yes<br />'''Maneuvrability''': 2D<br />'''Space''': 4<br />'''Atmosphere''': 280; 800 km / h<br />'''Hulll''': 3D+2<br />'''Shields''': 3D<br />'''Sensors''':\n*Passive: 10 / 0D\n*Scan: 25 / 1D\n*Search: 45 / 3D\n*Focus: 3 / 4D\n'''Weapons''':\n*'''2 Quad Laser Cannons (fire-linked)'''\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship Gunnery<br />Fire Control: 2D<br />Space Range: 1-3 / 12 / 25<br />Atmosphere Range: 100-300 / 1.2 / 2.5 km<br />Damage: 5D",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Starwind-class%20Pleasure%20Yacht",
+  "retrievedAt": "2025-10-10T19:13:45.874Z"
+}

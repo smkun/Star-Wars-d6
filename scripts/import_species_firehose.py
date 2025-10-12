@@ -5,8 +5,10 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
-API_KEY = "AIzaSyAvN3w0J2lNXsnc8WjaPjvsljOyb-UCLww"
-PROJECT_ID = "star-wars-d6-species"
+import os
+
+API_KEY = os.environ.get('FIRESTORE_API_KEY', '')
+PROJECT_ID = os.environ.get('FIREBASE_PROJECT_ID', 'star-wars-d6-species')
 CREATE_URL = f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}/databases/(default)/documents/species"
 
 

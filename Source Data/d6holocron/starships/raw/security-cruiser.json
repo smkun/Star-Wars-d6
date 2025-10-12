@@ -1,0 +1,10 @@
+{
+  "title": "Security Cruiser",
+  "pageId": 5659,
+  "revisionId": 10885,
+  "wikitext": "'''Security Cruiser'''<br />'''Craft''': Sienar Fleet Systems Warden-class light cruiser<br />'''Affiliation''': Empire<br />'''Era''': Rise of the Empire<br />'''Source''': Adventure Journal 5<br />'''Type''': Multipurpose security vessel<br />'''Scale''': Starfighter<br />'''Length''': 42 meters<br />'''Skill''': Space transports: Warden cruiser<br />'''Crew''': 16, '''gunner''': 1, '''skeleton''': 8/+10<br />'''Crew Skill''': Starship gunnery 4D, starship piloting 4D, starship shields 4D, sensors 6D<br />'''Passengers''': 14<br />'''Cargo Capacity''': 100 metric tons<br />'''Consumables''': 2 months<br />'''Cost''': Not available for sale<br />'''Hyperdrive Multiplier''': x1<br />'''Hyperdrive Backup''': x10<br />'''Nav Computer''': Yes<br />'''Maneuverability''': 2D<br />'''Space''': 10<br />'''Atmosphere''': 415; 1,200 kmh<br />'''Hull''': 5D<br />'''Shields''': 3D<br />'''Sensors''':\n*Passive: 35/1D+1\n*Scan: 70/2D+1\n*Search: 140/4D+1\n*Focus: 4/4D+2\n'''Weapons''':\n*2 Twin Laser Cannons\n: Fire Arc: Turret<br />Crew: 1<br />Skill: Starship gunnery<br />Fire Control: 3D<br />Space Range: 1-3/12/25<br />Atmosphere: 100-300/1.2/2.5 km<br />Damage: 6D\n\n'''Capsule''': A small starship with a wide mission profile, the Warden-class light cruiser was produced by Sienar Fleet Systems as a follow-up to the Guardian-class light cruiser. \n\nSlightly larger than its predecessor at 42 meters, the Warden-class was designed as a general security vessel, capable of completing customs, patrol and engagement missions. It featured more powerful engines than the Guardian-class, as well as improved sensor capabilities. A crew of sixteen operated the vessel with one gunner manning a pair of turret-mounted laser cannons. In addition, the interior could support fourteen troopers and 100 metric tons of cargo.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Security%20Cruiser",
+  "retrievedAt": "2025-10-10T19:13:21.002Z"
+}

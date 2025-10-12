@@ -1,0 +1,10 @@
+{
+  "title": "Mark I Bulk Transport",
+  "pageId": 524,
+  "revisionId": 51344,
+  "wikitext": "[[File:Mark1BulkTransport.jpg|400px|thumb|right]]\n\n[[File:Mk1BulkTransport.jpg|thumb|400px|right]]\n\n'''Craft:''' Sienar Ships Mark I Bulk Transport<br />'''Type:''' Bulk transport<br />'''Scale:''' Starfighter<br />'''Length:''' 50 meters<br />'''Skill:''' Space transports: Mark I bulk transport<br />'''Crew:''' 4<br />'''Crew Skill:''' Varies widely<br />'''Passengers:''' 5<br />'''Cargo Capacity:''' 60,000 metric tons<br />'''Consumables:''' 5 months<br />'''Cost:''' 500,000 (used)<br />'''Hyperdrive Multiplier:''' x3<br />'''Hyperdrive Backup:''' x20<br />'''Nav Computer:''' Yes<br />'''Maneuverability:''' 1D<br />'''Space:''' 3<br />'''Atmosphere:''' 260; 750 kmh<br />'''Hull:''' 5D<br />'''Sensors:'''\n*Passive: 20/0D\n*Scan: 50/1D\n*Search: 80/2D\n*Focus: 4/3D\n'''Weapons:'''\n*'''Laser Cannon'''\n: Fire Arc: Turret<br />Skill: Starship gunnery<br />Fire Control: 1D<br />Space Range: 1-3/5/10<br />Atmosphere Range: 100-300/500/1 km<br />Damage: 2D\n\n'''Capsule:''' A standard bulk freighter of the more civilized sections of the galaxy, Sienar's Mark I, now out of production, is generally considered pirate bait.",
+  "category": "transport",
+  "license": "CC-BY-SA 3.0",
+  "sourceUrl": "http://d6holocron.com/wiki/Mark%20I%20Bulk%20Transport",
+  "retrievedAt": "2025-10-10T19:12:48.184Z"
+}
