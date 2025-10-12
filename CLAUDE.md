@@ -397,33 +397,29 @@ const q = query(
 3. Write parser tests and fallback prompts to ensure new species data is robust before upload
 
 ### 2025-10-07
+
 ### 2025-10-12
 
 - Changes implemented:
-
-   - Performed a repository-wide secrets cleanup: removed a committed Firebase service-account JSON from reachable history and force-updated `master` on the remote.
-   - Replaced hard-coded API keys and credential literals across scripts and frontend code with environment-variable reads (Vite uses `VITE_*`, Node uses `process.env`, Python uses `os.environ`).
-   - Migrated large build/image assets into Git LFS for `deploy/frontend/**` and `web/public/**` to reduce repository object bloat; updated `.gitattributes` and migrated history with `git lfs migrate import`.
-   - Verified remote `master` by cloning a fresh copy and scanning for private-key patterns and the service-account filename — no matches in reachable commits.
+  - Performed a repository-wide secrets cleanup: removed a committed Firebase service-account JSON from reachable history and force-updated `master` on the remote.
+  - Replaced hard-coded API keys and credential literals across scripts and frontend code with environment-variable reads (Vite uses `VITE_*`, Node uses `process.env`, Python uses `os.environ`).
+  - Migrated large build/image assets into Git LFS for `deploy/frontend/**` and `web/public/**` to reduce repository object bloat; updated `.gitattributes` and migrated history with `git lfs migrate import`.
+  - Verified remote `master` by cloning a fresh copy and scanning for private-key patterns and the service-account filename — no matches in reachable commits.
 
 - New tasks created:
-
-   1. Rotate the Firebase service account key and any other credentials that may have been exposed. (High priority)
-   2. Notify collaborators about the forced push and provide exact remediation steps (reclone or `git reset --hard origin/master`). (High priority)
-   3. Add pre-push secret-detection checks in CI or a git pre-push hook to prevent future accidental commits of secrets. (Medium priority)
+  1.  Rotate the Firebase service account key and any other credentials that may have been exposed. (High priority)
+  2.  Notify collaborators about the forced push and provide exact remediation steps (reclone or `git reset --hard origin/master`). (High priority)
+  3.  Add pre-push secret-detection checks in CI or a git pre-push hook to prevent future accidental commits of secrets. (Medium priority)
 
 - Risks identified:
-
-   - Forced history rewrite requires all collaborators to rebase or reclone; risk of merge conflicts or lost local branches if not coordinated.
-   - Git LFS requires installation on client machines; collaborators without LFS may see pointer files or fail to fetch large objects.
-   - If the leaked service-account was used, the credential may already be compromised; immediate rotation is required.
+  - Forced history rewrite requires all collaborators to rebase or reclone; risk of merge conflicts or lost local branches if not coordinated.
+  - Git LFS requires installation on client machines; collaborators without LFS may see pointer files or fail to fetch large objects.
+  - If the leaked service-account was used, the credential may already be compromised; immediate rotation is required.
 
 - Next 3 tasks:
-
-   1. Rotate/delete the exposed service account in GCP and replace its usage in CI/servers. (Owner: repo admin)
-   2. Add a short `README.md` section and a collaborator notification template explaining the forced push and steps to sync local repos. (Owner: repo admin)
-   3. Add a lightweight pre-push hook or CI secret-scan job (example: `detect-secrets` or `git-secrets`) to block future pushes containing private keys. (Owner: repo admin)
-
+  1.  Rotate/delete the exposed service account in GCP and replace its usage in CI/servers. (Owner: repo admin)
+  2.  Add a short `README.md` section and a collaborator notification template explaining the forced push and steps to sync local repos. (Owner: repo admin)
+  3.  Add a lightweight pre-push hook or CI secret-scan job (example: `detect-secrets` or `git-secrets`) to block future pushes containing private keys. (Owner: repo admin)
 
 **Changes Implemented:**
 
@@ -607,7 +603,7 @@ const q = query(
 - Created Login.tsx with dual authentication methods (email/password + Google signin)
 - Created Register.tsx with user registration, validation, and display name setup
 - Created ProtectedRoute.tsx wrapper using Firebase auth state listener
-- Updated App.tsx to add /login and /register routes and protect all /characters/* routes
+- Updated App.tsx to add /login and /register routes and protect all /characters/\* routes
 - Added admin functionality to CharactersList.tsx:
   - "Show all" checkbox for admins to view all characters (not just their own)
   - Owner user_id displayed when admin views all characters
@@ -700,6 +696,7 @@ const q = query(
 **Authentication System Status:**
 
 ✅ **Fully Operational**
+
 - Email/password registration and login working
 - Google OAuth registration and login working
 - Protected routes enforcing authentication
@@ -710,6 +707,7 @@ const q = query(
 - Sign out functionality working correctly
 
 **Database State:**
+
 - 3 characters total in database
 - 2 owned by scottkunian@gmail.com (UID: oWfK2bwb7FbveHTk5rHM2uqLPgF2)
   - Bilar Saruun
@@ -782,11 +780,13 @@ const q = query(
 
 **Problem**: All 180 capital ships showing broken image links
 **Diagnosis**: Capital ship images were never downloaded from d6 Holocron during original import
+
 - Only 336 images exist in Source Data (starfighters and transports only)
 - Capital ships have `imageFilename` in database but files don't exist on disk
 - 88 capital ships have no image reference at all (never had images in wiki)
 
 **Final Image Coverage:**
+
 - **Capital Ships**: 77/180 (42.8%) - up from 0%
   - ✓ With images: 77
   - ⚠️ Missing downloads: 15 (failed MediaWiki API lookups)
@@ -819,16 +819,19 @@ const q = query(
    - Rate limiting: 500ms delay between downloads
 
 **Files Created:**
+
 - [scripts/link-starship-images.js](scripts/link-starship-images.js) - Match and link existing images
 - [scripts/download-capital-ship-images.js](scripts/download-capital-ship-images.js) - Download missing images from wiki
 
 **Database Updates:**
+
 - Updated 319 starship records with `imageUrl` during linking phase
 - Updated 77 capital ship records with `imageUrl` during download phase
 
 **Known Issues:**
 
 15 capital ships failed to download (MediaWiki API returned no image):
+
 - Aramand Patrol Cruiser III, Archer-class Corvette, Attack Vessel Type 37C
 - Brildo-Class Star Destroyer, CC-5400 Carrier/Cruiser, Chuun M'arh Frigate
 - Corellian Armed Merchant Cruiser, Corellian Interceptor, Corellian MT-1 Minesweeper
@@ -966,18 +969,22 @@ deploy/ (56 MB total)
 ### Session Summary — 2025-10-11
 
 **Changes**
+
 - Updated the Starfighters page to load from `data/starships.json`, filter out freighters, and surface the fighter catalog again.
 - Switched the sign-out button to use React Router navigation after awaiting `auth.signOut()`, preventing the portal splash page.
 - Added `scripts/deploy-frontend.sh` to automate rebuilding `web` and refreshing `deploy/frontend`, and bundled a React Router `.htaccess` rewrite block for `/d6StarWars/*`.
 - Downgraded `firebase-admin` to 11.10.1 (node-fetch client) to eliminate the Undici WASM crash triggered by CloudLinux limits.
 
 **New Tasks**
+
 - Deploy the refreshed `.htaccess` and bundle to `/d6StarWars/` on iFastNet and verify refresh/print routes (see TASKS.md #8).
 
 **Risks**
+
 - Remaining on `firebase-admin` 11.10.1 avoids the crash but misses newer SDK features; future upgrades will need careful testing or higher WASM limits from iFastNet.
 
 **Next 3 Tasks**
+
 1. Upload the updated frontend (including `.htaccess`) to `/d6StarWars/` and confirm refresh/print flows in production.
 2. Smoke-test starfighter, transport, and capital ship routes end-to-end after deployment.
 3. Monitor the Node.js app log for any regressions now that firebase-admin is pinned to 11.10.1.
