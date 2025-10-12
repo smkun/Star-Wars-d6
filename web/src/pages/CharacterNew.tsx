@@ -346,8 +346,17 @@ export default function CharacterNew() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 text-yellow-400">
-      <header className="border-b-2 border-yellow-400 bg-gray-950">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-yellow-400">
+      {/* Animated background stars */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '10%', left: '15%', animationDelay: '0s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '20%', left: '80%', animationDelay: '1s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '60%', left: '25%', animationDelay: '2s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '80%', left: '70%', animationDelay: '1.5s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '40%', left: '90%', animationDelay: '0.5s' }} />
+      </div>
+
+      <header className="relative border-b-2 border-yellow-400/50 bg-gray-950/80 backdrop-blur-sm shadow-[0_0_30px_rgba(250,204,21,0.15)]">
         <div className="max-w-7xl mx-auto px-8 py-8 flex items-center justify-between">
           <div>
             <Link to="/characters" className="text-yellow-400 hover:underline mb-2 block">

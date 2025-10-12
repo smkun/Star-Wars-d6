@@ -106,8 +106,17 @@ export function CatalogPage() {
   const canLoadMore = visibleCount < filteredSpecies.length;
 
   return (
-    <div className="min-h-screen bg-[#090b13] text-gray-100">
-      <header className="sticky top-0 z-10 border-b border-yellow-400/40 bg-[#101628]/90 backdrop-blur">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-gray-100">
+      {/* Animated background stars */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '10%', left: '15%', animationDelay: '0s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '20%', left: '80%', animationDelay: '1s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '60%', left: '25%', animationDelay: '2s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '80%', left: '70%', animationDelay: '1.5s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '40%', left: '90%', animationDelay: '0.5s' }} />
+      </div>
+
+      <header className="relative sticky top-0 z-10 border-b-2 border-yellow-400/50 bg-gray-950/80 backdrop-blur-sm shadow-[0_0_30px_rgba(250,204,21,0.15)]">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-12 sm:flex-row sm:items-end sm:justify-between">
           <div className="flex items-start gap-6">
             <img
@@ -126,7 +135,7 @@ export function CatalogPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.45em] text-yellow-400/80">
                 Star Wars d6 Species Catalog
               </p>
-              <h1 className="mt-4 text-5xl font-heading text-yellow-100 drop-shadow-[0_0_20px_rgba(255,213,79,0.25)] sm:text-6xl">
+              <h1 className="mt-4 text-5xl font-heading text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200 drop-shadow-[0_0_25px_rgba(250,204,21,0.5)] sm:text-6xl">
                 Explore the Galaxy's Species
               </h1>
               <p className="mt-5 max-w-2xl text-sm text-gray-200/80 sm:text-base">

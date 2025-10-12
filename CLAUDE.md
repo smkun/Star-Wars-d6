@@ -132,19 +132,32 @@ Recommend: Option 1 with Option 2 as fallback. Proceed?
 
 ### Local Development
 
-**Default workflow uses MySQL API (no Firebase emulator required)**:
+**Quick Start (Recommended)**:
+
+```bash
+# Single command starts both servers
+npm run dev
+
+# Opens:
+# - MySQL API at http://localhost:4000
+# - Vite dev server at http://localhost:5173
+```
+
+**Setup**: Create `.env` file from `.env.example` template with your `MYSQL_URL`.
+
+**Manual Workflow** (if you need separate terminals):
 
 ```bash
 # Terminal 1: Start MySQL API server
-export MYSQL_URL='mysql://user:pass@host:3306/gamers_d6Holochron'
 npm run dev:mysql-api
 
 # Terminal 2: Start web dev server
 npm run dev:web
-# Opens at http://localhost:5173
 ```
 
-**Setup**: Create `.env` file from `.env.example` template with your `MYSQL_URL`. See [dev/LOCAL_DEV_SETUP.md](dev/LOCAL_DEV_SETUP.md) for detailed instructions.
+**Documentation**:
+- Quick start: [docs/DEV_LAUNCHER.md](docs/DEV_LAUNCHER.md) - Development launcher guide
+- Detailed setup: [dev/LOCAL_DEV_SETUP.md](dev/LOCAL_DEV_SETUP.md) - Architecture and manual configuration
 
 ### Testing
 
@@ -988,3 +1001,118 @@ deploy/ (56 MB total)
 1. Upload the updated frontend (including `.htaccess`) to `/d6StarWars/` and confirm refresh/print flows in production.
 2. Smoke-test starfighter, transport, and capital ship routes end-to-end after deployment.
 3. Monitor the Node.js app log for any regressions now that firebase-admin is pinned to 11.10.1.
+
+### 2025-10-12 (Visual Improvements & Thursday Characters)
+
+**Changes Implemented:**
+
+- **Visual Enhancements (CSS only)**:
+  - Added mainLogo.png to Home.tsx header with flexbox layout (logo left of title text, 192px height)
+  - Applied gradient backgrounds (`bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950`) across all pages
+  - Added animated background stars with staggered delays to all pages (Home, Catalog, Starships, CharactersList, SpeciesDetail, StarshipDetail, CharacterNew)
+  - Enhanced headers with backdrop blur, shadow effects, and yellow glow (`border-yellow-400/50`, `shadow-[0_0_30px_rgba(250,204,21,0.15)]`)
+  - All changes are purely cosmetic CSS/styling improvements
+
+- **Thursday Character Import & Fixes**:
+  - Created [scripts/fix-thursday-characters.js](scripts/fix-thursday-characters.js) to normalize Thursday character data format
+  - Script transformed flat `attributes`/`skills` structure to nested format matching character form output
+  - Fixed 6 Thursday characters in MySQL database (F1X 3R, Ragath, Tekli, Kaa'Reth, Cheedo, Dakk)
+  - Mapped skills to parent attributes using d6 skill name patterns (blaster→DEX, repair→TECH, etc.)
+  - Added empty Force attributes (control, sense, alter) for consistency
+
+- **Character Display Fixes**:
+  - Fixed CharacterDetail.tsx to handle both string and array formats for weapons/armor/equipment
+  - Fixed CharacterEdit.tsx to prevent blank screen when editing Thursday characters (added `Array.isArray()` checks)
+  - Thursday characters now display correctly with attributes, skills, weapons (string arrays), armor (plain strings)
+
+- **Production Build**:
+  - Built production frontend 3 times with incremental fixes
+  - Final bundle: 662 KB JS + 39 KB CSS
+  - All visual improvements and character fixes included in deploy/frontend/
+
+**Files Modified:**
+
+- web/src/pages/Home.tsx - Added mainLogo.png, gradient background, animated stars
+- web/src/pages/Catalog.tsx - Applied modern CSS styling (gradient, stars, enhanced header)
+- web/src/pages/Starships.tsx - Applied modern CSS with enhanced category cards
+- web/src/pages/CharactersList.tsx - Applied modern CSS styling
+- web/src/pages/SpeciesDetail.tsx - Wrapped with gradient background and stars
+- web/src/pages/StarshipDetail.tsx - Wrapped with gradient background and stars
+- web/src/pages/CharacterNew.tsx - Applied modern CSS (fixed blank page issue)
+- web/src/pages/CharacterDetail.tsx - Added string/array handling for weapons/armor/equipment
+- web/src/pages/CharacterEdit.tsx - Added `Array.isArray()` checks to prevent blank screen
+- web/src/components/StarshipCard.tsx - Fixed image rendering with BASE_URL
+- web/public/icons/mainLogo.png - Copied from Source Data/Icons/
+
+**Scripts Created:**
+
+- [scripts/fix-thursday-characters.js](scripts/fix-thursday-characters.js) - Database normalization script for Thursday characters
+
+**Data Structure Changes:**
+
+**Thursday characters transformed from:**
+```json
+{
+  "attributes": {"dexterity": "3D", "knowledge": "2D", ...},
+  "skills": {"blaster": "5D", "dodge": "4D", ...},
+  "weapons": ["Hold Out Blaster (3D; ...)"],
+  "armor": "Chassis only",
+  "gear": ["Medkit", "Comlink"]
+}
+```
+
+**To format matching character form:**
+```json
+{
+  "dexterity": {"dice": "3D", "skills": [{name: "blaster", dice: "5D"}]},
+  "weapons": ["Hold Out Blaster (3D; ...)"],  // kept as string array
+  "armor": "Chassis only",  // kept as string
+  "equipment": ["Medkit", "Comlink"]  // renamed from gear
+}
+```
+
+**New Tasks Discovered:**
+
+1. Investigate mainLogo.png not displaying in production (file exists, no console errors, possibly case-sensitivity or permissions issue)
+2. Consider converting Thursday character weapons/armor strings to proper object format for full editing capability
+3. Add loading states for character edit page when fetching data
+4. Document Thursday character import workflow for future character batches
+
+**Risks Identified:**
+
+1. **MainLogo Production Issue** - Image file exists but won't display in prod, may be:
+   - Linux case-sensitivity issue (mainLogo.png vs mainlogo.png)
+   - File permissions (needs 644 or 755)
+   - BASE_URL path construction issue
+   - Mitigation: Test direct URL access, check file permissions, verify case-sensitive filename
+
+2. **Thursday Character Editing Limited** - Thursday characters have weapons/armor as strings, not objects
+   - Edit page shows empty weapons/armor sections (can't edit strings)
+   - Can add new weapons/armor as objects, but original string data not editable
+   - Mitigation: Consider converting string formats to objects or providing string edit UI
+
+3. **Production Build Size** - 662 KB exceeds 500 KB warning threshold
+   - Acceptable for initial launch but should consider code splitting later
+   - Mitigation: Monitor performance, implement dynamic imports if needed
+
+**Database State:**
+
+- 9 total characters in MySQL database:
+  - 8 owned by scottkunian@gmail.com (UID: oWfK2bwb7FbveHTk5rHM2uqLPgF2)
+  - 1 owned by skunian@yahoo.com (UID: xbwFlLkc2XccKc3Pmw8Ye9k7cEM2)
+- All Thursday characters (6) successfully transformed to correct data format
+- All characters display correctly in detail view with proper attributes and skills
+
+**Production Readiness:**
+
+- ✅ Visual improvements ready for production
+- ✅ Character display/edit fixes ready for production
+- ⚠️ MainLogo.png issue needs troubleshooting in production environment
+- ✅ All frontend changes are CSS/defensive code - no breaking changes
+- ✅ Backend unchanged - no deployment needed
+
+**Next 3 Tasks:**
+
+1. Debug mainLogo.png production issue: check direct URL access, file permissions, case-sensitivity
+2. Test Thursday character editing workflow end-to-end (list → detail → edit → save)
+3. Consider adding character data export/import for backup and migration purposes

@@ -4,6 +4,8 @@
  * Thumbnail card displaying starship overview
  */
 
+import { useState } from 'react';
+
 interface Weapon {
   name: string;
   fireArc?: string;
@@ -42,6 +44,8 @@ interface StarshipCardProps {
 }
 
 export function StarshipCard({ ship, onClick, fallbackImageUrl }: StarshipCardProps) {
+  const [imageError, setImageError] = useState(false);
+
   const categoryLabel = {
     starfighter: 'Starfighter',
     transport: 'Transport',
@@ -82,13 +86,14 @@ export function StarshipCard({ ship, onClick, fallbackImageUrl }: StarshipCardPr
       }}
     >
       {/* Ship Image */}
-      {imageUrl && (
+      {imageUrl && !imageError ? (
         <div className='relative h-48 w-full overflow-hidden rounded-t-lg border-b border-yellow-400/20 bg-[#0a0f1e]/60'>
           <img
             src={imageUrl}
             alt={ship.name}
             className='h-full w-full object-contain p-2'
             loading="lazy"
+            onError={() => setImageError(true)}
           />
           {!ship.imageUrl && fallbackImageUrl && (
             <div className='absolute bottom-2 right-2 rounded bg-black/60 px-2 py-1 text-xs text-yellow-400/60'>
@@ -96,7 +101,11 @@ export function StarshipCard({ ship, onClick, fallbackImageUrl }: StarshipCardPr
             </div>
           )}
         </div>
-      )}
+      ) : !imageUrl || imageError ? (
+        <div className='relative h-48 w-full overflow-hidden rounded-t-lg border-b border-yellow-400/20 bg-[#0a0f1e]/60 flex items-center justify-center'>
+          <span className='text-gray-500/50 text-sm'>No Image Available</span>
+        </div>
+      ) : null}
 
       {/* Header */}
       <div className='mb-3 mt-3'>

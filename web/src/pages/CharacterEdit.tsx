@@ -694,7 +694,7 @@ export default function CharacterEdit() {
           <section className="bg-gray-800 border-2 border-yellow-400/20 rounded p-6">
             <h2 className="text-2xl font-bold mb-6 text-yellow-400">Weapons</h2>
             <div className="space-y-6">
-              {(data.weapons || []).map((weapon, idx) => (
+              {(Array.isArray(data.weapons) ? data.weapons : []).map((weapon, idx) => (
                 <div key={idx} className="bg-gray-900 border border-yellow-400/30 rounded p-4 space-y-3">
                   {/* Weapon Name */}
                   <div className="flex gap-3 items-start">
@@ -815,7 +815,7 @@ export default function CharacterEdit() {
           <section className="bg-gray-800 border-2 border-yellow-400/20 rounded p-6">
             <h2 className="text-2xl font-bold mb-6 text-yellow-400">Armor</h2>
             <div className="space-y-6">
-              {(data.armor || []).map((armor, idx) => (
+              {(Array.isArray(data.armor) ? data.armor : []).map((armor, idx) => (
                 <div key={idx} className="bg-gray-900 border border-yellow-400/30 rounded p-4 space-y-3">
                   {/* Armor Name */}
                   <div className="flex gap-3 items-start">

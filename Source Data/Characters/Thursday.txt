@@ -1,0 +1,275 @@
+“Long Claw” — Clone Bounty Hunter (Human)
+Force Sensitive: No • Move: 10 • CP/FP: 5/1 • Credits: 1,500
+DEXTERITY 3D+2
+Blaster +2D
+     Blaster Carbine +1D
+Dodge +1D
+
+KNOWLEDGE 2D+1
+Streetwise +1D
+
+MECHANICAL 3D
+
+PERCEPTION 3D
+Tracking +1D
+     Urban Bounty Trails +1D
+
+STRENGTH 3D
+Brawling +1D
+
+TECHNICAL 2D+2
+Security +1D
+     Electronic Locks +1D
+
+WEAPONS: EE 3 Carbine (5D; 3–30/100/300; 100), DL 18 Pistol (4D; 3–10/30/120; 100), Vibroknife (STR+1D, max 5D)
+ARMOR: Light Laminate (+2D Phys, +1D Eng; −1D DEX skills)
+GEAR: Macrobinoculars, Binder cuffs, Utility belt, Datapad, Comlink
+________________________________________
+
+
+
+
+
+
+
+
+F1X 3R — FX Series Medic/Assassin Droid
+Force Sensitive: No • Move: 8 • CP/FP: 5/1 • Credits: 500 (+4 medpacs, 1 bacta)
+DEXTERITY 2D+2
+Blaster +1D
+
+KNOWLEDGE 3D+2
+
+MECHANICAL 2D
+
+PERCEPTION 3D
+
+STRENGTH 2D+2
+
+TECHNICAL 4D+1
+First Aid +2D
+     Battlefield Trauma +1D
+Security +2D
+     Electronic Locks +1D
+Droid Repair +1D
+     Field Service +1D
+Computer Programming/Repair +1D
+WEAPONS: Hold Out Blaster (3D; 3–7/15/30; 6; +1D conceal in civvies)
+ARMOR: — (chassis only)
+GEAR: Medkit (+1D First Aid w/ time), Medscanner (+1D diagnosis), Restraining bolt & interface, Internal comlink, Encrypted dataport
+________________________________________
+
+
+
+
+
+
+
+
+
+
+Ragath — Barabel Mercenary
+Force Sensitive: No • Move: 10 • CP/FP: 5/1 • Credits: 900
+DEXTERITY 3D
+Blaster +2D
+     Blaster Carbine +1D
+Melee +1D
+     Vibro Ax +1D
+Dodge +1D
+
+KNOWLEDGE 2D
+
+MECHANICAL 2D
+
+PERCEPTION 2D+2
+Intimidation +1D
+
+STRENGTH 4D+1
+Brawling +2D
+     Grapple +1D
+
+TECHNICAL 3D
+
+WEAPONS: EE 3 Carbine (5D); Vibro Ax (STR+3D, max 7D, 2 handed)
+ARMOR: Blast Vest (+1D Phys, +1 Eng)
+GEAR: Breath mask, Macrobinoculars, Field kit, Comlink
+________________________________________
+
+
+
+
+
+
+
+
+
+
+Tekli — Chadra Fan Pilot/Mechanic
+Force Sensitive: No • Move: 8 • CP/FP: 5/1 • Credits: 1,000
+DEXTERITY 3D
+
+KNOWLEDGE 2D+1
+
+MECHANICAL 3D+1
+Space Transports +2D
+     YT 1300 +1D
+Starship Gunnery +1D
+     Laser Cannons (Freighters) +1D
+Repulsorlift Operation +1D
+
+PERCEPTION 3D+1
+
+STRENGTH 2D
+
+TECHNICAL 4D
+Starship Repair +2D
+     Hyperdrives +1D
+Droid Repair +1D
+
+WEAPONS: Hold Out Blaster (3D)
+ARMOR: Flight Suit (enviro only)
+GEAR: Tool kit, Diagnostic scanner (+1D to appropriate Repair with time), Datapad, Comlink
+________________________________________
+
+
+
+
+
+
+
+
+
+
+Bilar Saruun — Zabrak Young Jedi
+Force Sensitive: Yes • Move: 10 • CP/FP: 5/1 • Credits: 200
+Force Skills: Control +1D; Sense +1D (3 starting powers e.g., Concentration; Sense Force; Lightsaber Combat)
+DEXTERITY 3D+1
+Lightsaber +2D
+     Defensive Forms +1D
+Dodge +1D
+
+KNOWLEDGE 2D+2
+Scholar (Jedi Lore) +1D
+     Old Republic Archives +1D
+
+MECHANICAL 2D+1
+
+PERCEPTION 3D
+
+STRENGTH 3D
+
+TECHNICAL 3D
+First Aid +1D
+     Stabilization +1D
+
+
+WEAPONS: Training Lightsaber (4D, House Rule low output until upgraded)
+ARMOR: Robes (no combat soak)
+GEAR: Utility belt (1 medpac), Breath mask, Macrobinoculars, Comlink, Mentor’s talisman
+________________________________________
+
+
+
+
+
+
+
+
+
+Kaa’Reth — Verpine Operative
+Force Sensitive: No • Move: 10 • CP/FP: 5/1 • Credits: 1,200
+DEXTERITY 3D
+
+KNOWLEDGE 2D+2
+
+MECHANICAL 3D
+
+PERCEPTION 3D
+Hide +1D
+     Urban Camouflage +1D
+Sneak +1D
+
+STRENGTH 2D+2
+
+TECHNICAL 4D+1
+Security +2D
+     Electronic Systems +1D
+Computer Programming/Repair +2D
+     Slicing (Intrusion) +1D
+Starship Repair +1D
+
+WEAPONS: Sporting Blaster (3D+2; 3–12/30/120; 50; scoped)
+HOUSE RULE (Suppressor): +10 to hearing based checks to pinpoint; shooter gains +1D Sneak/Hide immediately after firing if situation allows
+ARMOR: Camo Poncho (no soak; +1D Hide/Sneak when stationary/matching terrain)
+GEAR: Security kit (+1D with time), Slicer suite (+1D intrusion), Forged IDs, Datapad, Comlink
+________________________________________
+
+
+
+
+
+
+
+
+Cheedo — Rodian Scoundrel
+Force Sensitive: No • Move: 10 • CP/FP: 5/1 • Credits: 1,300
+DEXTERITY 3D+1
+Blaster +2D
+     Blaster Pistols +1D
+Dodge +1D
+
+KNOWLEDGE 2D+1
+Streetwise +1D
+     Black Markets +1D
+
+MECHANICAL 3D
+
+PERCEPTION 3D+1
+Con +2D
+     Fast Talk +1D
+
+STRENGTH 2D+2
+
+TECHNICAL 3D
+Security +1D
+
+WEAPONS: DL 18 Pistol (4D); Vibroshiv (STR+1D, max 5D; +1D conceal in light clothing)
+ARMOR: Armored Jacket (+1D Phys, +1 Eng)
+GEAR: Holo Disguise Scarf (+1D to Con, House Rule opposed at Short), Lockpick set (+1D mechanical locks), Datapad, Comlink
+________________________________________
+
+
+
+
+
+
+
+
+
+Dakk — Human Ace Pilot
+Force Sensitive: No • Move: 10 • CP/FP: 5/1 • Credits: 800
+DEXTERITY 3D
+Dodge +1D
+
+KNOWLEDGE 2D+2
+
+MECHANICAL 4D
+Starfighter Piloting +2D
+     Y wing +1D
+Starship Gunnery +2D
+     Laser Cannons (Starfighter) +1D
+Astrogation +1D
+     Rim Lanes +1D
+Space Transports +1D
+
+PERCEPTION 3D
+
+STRENGTH 2D+2
+
+TECHNICAL 3D
+
+WEAPONS: Blaster Pistol (4D)
+ARMOR: Flight Suit & Helmet (enviro only)
+GEAR: Tool kit, Vac tape, Datapad w/ navcharts, Comlink
+________________________________________
+

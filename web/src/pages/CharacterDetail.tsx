@@ -219,11 +219,21 @@ export default function CharacterDetail() {
         {/* Combat & Equipment */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
           {/* Weapons */}
-          {data?.weapons && data.weapons.length > 0 && (
+          {data?.weapons && (Array.isArray(data.weapons) && data.weapons.length > 0) && (
             <div>
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Weapons</h3>
               <div className="space-y-4">
-                {data.weapons.map((weapon, idx) => (
+                {data.weapons.map((weapon, idx) => {
+                  // Handle string format from Thursday characters
+                  if (typeof weapon === 'string') {
+                    return (
+                      <div key={idx} className="bg-gray-800 border-2 border-yellow-400/20 rounded p-4">
+                        <p className="text-yellow-400">{weapon}</p>
+                      </div>
+                    );
+                  }
+                  // Handle object format from character form
+                  return (
                   <div key={idx} className="bg-gray-800 border-2 border-yellow-400/20 rounded p-4">
                     <h4 className="text-lg font-bold text-yellow-400 mb-3">{weapon.name}</h4>
 
@@ -278,17 +288,24 @@ export default function CharacterDetail() {
                       </div>
                     )}
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}
 
           {/* Armor */}
-          {data?.armor && data.armor.length > 0 && (
+          {data?.armor && (
             <div>
               <h3 className="text-2xl font-bold mb-4 text-yellow-400">Armor</h3>
               <div className="space-y-4">
-                {data.armor.map((armor, idx) => (
+                {/* Handle string format from Thursday characters */}
+                {typeof data.armor === 'string' ? (
+                  <div className="bg-gray-800 border-2 border-yellow-400/20 rounded p-4">
+                    <p className="text-yellow-400">{data.armor}</p>
+                  </div>
+                ) : Array.isArray(data.armor) && data.armor.length > 0 ? (
+                  data.armor.map((armor, idx) => (
                   <div key={idx} className="bg-gray-800 border-2 border-yellow-400/20 rounded p-4">
                     <h4 className="text-lg font-bold text-yellow-400 mb-3">{armor.name}</h4>
 
@@ -335,7 +352,8 @@ export default function CharacterDetail() {
                       </div>
                     )}
                   </div>
-                ))}
+                  ))
+                ) : null}
               </div>
             </div>
           )}

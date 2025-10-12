@@ -99,7 +99,17 @@ export function SpeciesDetailPage() {
   }
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-12 text-gray-100">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
+      {/* Animated background stars */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '10%', left: '15%', animationDelay: '0s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '20%', left: '80%', animationDelay: '1s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '60%', left: '25%', animationDelay: '2s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '80%', left: '70%', animationDelay: '1.5s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '40%', left: '90%', animationDelay: '0.5s' }} />
+      </div>
+
+    <main className="relative mx-auto max-w-5xl px-4 py-12 text-gray-100">
       <button
         type="button"
         className="btn-ghost mb-6"
@@ -202,6 +212,7 @@ export function SpeciesDetailPage() {
         </div>
       </section>
     </main>
+    </div>
   );
 }
 

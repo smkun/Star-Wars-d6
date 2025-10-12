@@ -179,8 +179,17 @@ export default function CharactersList() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-yellow-400">
-      <header className="border-b-2 border-yellow-400 bg-gray-950">
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-yellow-400">
+      {/* Animated background stars */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '10%', left: '15%', animationDelay: '0s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '20%', left: '80%', animationDelay: '1s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '60%', left: '25%', animationDelay: '2s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '80%', left: '70%', animationDelay: '1.5s' }} />
+        <div className="absolute w-1 h-1 bg-white rounded-full animate-pulse" style={{ top: '40%', left: '90%', animationDelay: '0.5s' }} />
+      </div>
+
+      <header className="relative border-b-2 border-yellow-400/50 bg-gray-950/80 backdrop-blur-sm shadow-[0_0_30px_rgba(250,204,21,0.15)]">
         <div className="max-w-7xl mx-auto px-8 py-12">
           <div className="flex items-start gap-6">
             <img
@@ -195,8 +204,8 @@ export default function CharactersList() {
               >
                 ← Back to Home
               </Link>
-              <h1 className="text-6xl font-bold mb-4">Character Sheets</h1>
-              <p className="text-xl text-gray-400">
+              <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200 drop-shadow-[0_0_25px_rgba(250,204,21,0.5)]">Character Sheets</h1>
+              <p className="text-xl text-gray-300/90">
                 Create and manage player characters
               </p>
             </div>
@@ -204,9 +213,9 @@ export default function CharactersList() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-8 py-16">
+      <main className="relative max-w-7xl mx-auto px-8 py-16">
         <div className="flex items-center justify-between mb-8">
-          <h2 className="text-3xl font-bold text-yellow-400">
+          <h2 className="text-3xl font-bold text-yellow-400 drop-shadow-[0_0_15px_rgba(250,204,21,0.3)]">
             Your Characters
           </h2>
           <div className="flex items-center gap-4">
@@ -276,8 +285,10 @@ export default function CharactersList() {
             {chars.map((c) => (
               <div
                 key={c.id}
-                className="bg-gray-800 p-6 rounded border border-yellow-400/20"
+                className="relative bg-gradient-to-br from-gray-800/90 to-gray-900/90 border-2 border-yellow-400/20 rounded-xl p-6 overflow-hidden backdrop-blur-sm transition-all duration-300 hover:border-yellow-400/60 hover:shadow-[0_0_30px_rgba(250,204,21,0.2)]"
               >
+                {/* Corner accent */}
+                <div className="absolute top-0 right-0 w-16 h-16 bg-yellow-400/10 blur-2xl rounded-full" />
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className="text-2xl font-bold text-yellow-400">

@@ -116,35 +116,38 @@ PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser npm run smoke:puppeteer
 
 See `scripts/puppeteer-smoke.js` for the exact behavior (it honors the PUPPETEER_EXECUTABLE_PATH env var and prints helpful troubleshooting tips).
 
-### Start Dev Server (local API + web)
+### Start Development Servers
 
-Start the local MySQL-backed API and the web dev server in separate terminals. The default development flow uses the local MySQL API (`dev:mysql-api`) and the Vite proxy; Firebase emulators are not required.
+**Quick Start (Recommended)**:
 
-**Quick Start**:
+```bash
+# 1. Create .env file (one-time setup)
+cp .env.example .env
+# Edit .env and add your MYSQL_URL
 
-1. Create `.env` file from template:
+# 2. Start both servers with single command
+npm run dev
+```
 
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your MYSQL_URL
-   ```
+This starts:
+- MySQL API at http://localhost:4000
+- Vite dev server at http://localhost:5173
 
-2. Terminal A — local API:
+**Manual Start** (separate terminals):
 
-   ```bash
-   export MYSQL_URL='mysql://<user>:<pass>@<host>:3306/gamers_d6Holochron'
-   npm run dev:mysql-api
-   ```
+```bash
+# Terminal 1: MySQL API
+npm run dev:mysql-api
 
-3. Terminal B — web dev server:
+# Terminal 2: Vite dev server
+npm run dev:web
+```
 
-   ```bash
-   npm run dev:web
-   ```
+📖 **Documentation**:
+- [docs/DEV_LAUNCHER.md](docs/DEV_LAUNCHER.md) - Development launcher guide
+- [dev/LOCAL_DEV_SETUP.md](dev/LOCAL_DEV_SETUP.md) - Architecture and manual setup
 
-4. Visit http://localhost:5173 (web app). The web dev server proxies `/api` to the local API during development.
-
-📖 **Detailed Setup Guide**: See [dev/LOCAL_DEV_SETUP.md](dev/LOCAL_DEV_SETUP.md) for comprehensive instructions including architecture, troubleshooting, and API documentation.
+**Note**: Firebase emulators are not required for local development. The web app uses a local MySQL API with Vite proxy. Firebase Auth remains active for authentication.
 
 ### Run Tests
 
