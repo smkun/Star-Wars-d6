@@ -123,18 +123,21 @@ Start the local MySQL-backed API and the web dev server in separate terminals. T
 **Quick Start**:
 
 1. Create `.env` file from template:
+
    ```bash
    cp .env.example .env
    # Edit .env and add your MYSQL_URL
    ```
 
 2. Terminal A — local API:
+
    ```bash
    export MYSQL_URL='mysql://<user>:<pass>@<host>:3306/gamers_d6Holochron'
    npm run dev:mysql-api
    ```
 
 3. Terminal B — web dev server:
+
    ```bash
    npm run dev:web
    ```
@@ -254,3 +257,61 @@ MIT
 - [PLANNING.md](PLANNING.md) - Technical architecture and design
 - [TASKS.md](TASKS.md) - Detailed task breakdown
 - [Firebase Setup Guide](scripts/setup-firebase.md) - Step-by-step Firebase configuration
+
+## Security, Secrets & Git LFS
+
+Important housekeeping performed on this repository:
+
+- A sensitive Firebase service-account JSON that was accidentally committed was removed from the reachable history and `master` was force-updated on the remote to a cleaned state. If you or CI ever used that credential, rotate or revoke it in GCP immediately (see "Rotate credentials" below).
+- Large build and image assets were migrated into Git LFS to reduce repository object bloat. Anyone who clones this repo must have Git LFS installed.
+
+Rotate credentials (required)
+
+- If the deleted service account was ever used in any environment, rotate its keys or delete the service account in the Google Cloud Console and create a new one. Treat the old private key as compromised.
+- Replace credentials on any deployed infrastructure (CI, servers, hosting) with the new service account and ensure the old key is removed.
+
+How to set the service account for local development
+
+- Option A (recommended): Save the service account JSON locally and point Google SDKs at it with:
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/star-wars-d6-service-account.json"
+# or (if code expects a stringified env var): export FIREBASE_SERVICE_ACCOUNT="$(cat /path/to/star-wars-d6-service-account.json)"
+```
+
+- Do NOT commit the JSON or paste it into tracked files. Add it to your machine's secure storage or CI secret store.
+
+Git LFS — short instructions
+
+- Install Git LFS (macOS/Homebrew, Linux package manager, or https://git-lfs.github.com/).
+- Initialize locally (one-time):
+
+```bash
+git lfs install
+```
+
+- The repo tracks large images and build artifacts (see `.gitattributes`). If you need to migrate additional large file patterns, update `.gitattributes` and run `git lfs migrate import --include="path/**"` (this rewrites history and requires a force-push).
+
+What to do after the forced history rewrite
+
+- This repository's `master` branch was force-updated to remove sensitive data. Collaborators should either reclone the repository or reset their local `master` to match the remote. Example commands:
+
+```bash
+# fast, destructive sync (recommended for collaborators)
+git fetch origin
+git checkout master
+git reset --hard origin/master
+
+# or simply reclone to avoid any local confusion
+git clone <repo-url>
+```
+
+- Make sure everyone has Git LFS installed before running `git pull` or cloning, so LFS objects are fetched correctly.
+
+Pre-push checks (recommended)
+
+- Add a lightweight pre-push hook or CI check to scan for common secret patterns (private keys, API keys, service-account.json) to prevent accidental commits. Tools like `detect-secrets`, `git-secrets`, or simple grep checks are useful.
+
+Backup branch
+
+- A pre-cleanup backup branch `backup-before-cleanup-20251012054132` was created during remediation and has now been deleted from this repository to avoid retaining the sensitive state in refs. If you need the pre-cleanup history for any reason, contact the repo owner immediately — it may not be recoverable after deletion.
