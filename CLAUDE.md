@@ -935,3 +935,22 @@ deploy/ (56 MB total)
 1. Upload deployment package to iFastNet (requires FTP credentials from user)
 2. Configure Node.js app in iFastNet control panel with environment variables
 3. Test production site and verify all features work (species, starships, auth, characters)
+
+### Session Summary — 2025-10-11
+
+**Changes**
+- Updated the Starfighters page to load from `data/starships.json`, filter out freighters, and surface the fighter catalog again.
+- Switched the sign-out button to use React Router navigation after awaiting `auth.signOut()`, preventing the portal splash page.
+- Added `scripts/deploy-frontend.sh` to automate rebuilding `web` and refreshing `deploy/frontend`, and bundled a React Router `.htaccess` rewrite block for `/d6StarWars/*`.
+- Downgraded `firebase-admin` to 11.10.1 (node-fetch client) to eliminate the Undici WASM crash triggered by CloudLinux limits.
+
+**New Tasks**
+- Deploy the refreshed `.htaccess` and bundle to `/d6StarWars/` on iFastNet and verify refresh/print routes (see TASKS.md #8).
+
+**Risks**
+- Remaining on `firebase-admin` 11.10.1 avoids the crash but misses newer SDK features; future upgrades will need careful testing or higher WASM limits from iFastNet.
+
+**Next 3 Tasks**
+1. Upload the updated frontend (including `.htaccess`) to `/d6StarWars/` and confirm refresh/print flows in production.
+2. Smoke-test starfighter, transport, and capital ship routes end-to-end after deployment.
+3. Monitor the Node.js app log for any regressions now that firebase-admin is pinned to 11.10.1.

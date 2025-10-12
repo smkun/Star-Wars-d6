@@ -432,3 +432,5 @@ If you'd like, I can add these commands into a distro-detection script or create
 6. **Clean up duplicate background processes** — **Status**: Pending. Multiple MySQL API and Vite dev servers running in background. Need process cleanup and documentation of proper startup/shutdown workflow.
 
 7. **Test complete user journey** — Verify catalog → search → filter → detail page flow with all data displaying correctly
+
+8. **Deploy updated React Router .htaccess** — **Status**: Pending. Upload new rewrite rules that route `/d6StarWars/*` paths back to `index.html` and proxy `/d6StarWars/api/*` requests to the Node backend.
