@@ -397,6 +397,33 @@ const q = query(
 3. Write parser tests and fallback prompts to ensure new species data is robust before upload
 
 ### 2025-10-07
+### 2025-10-12
+
+- Changes implemented:
+
+   - Performed a repository-wide secrets cleanup: removed a committed Firebase service-account JSON from reachable history and force-updated `master` on the remote.
+   - Replaced hard-coded API keys and credential literals across scripts and frontend code with environment-variable reads (Vite uses `VITE_*`, Node uses `process.env`, Python uses `os.environ`).
+   - Migrated large build/image assets into Git LFS for `deploy/frontend/**` and `web/public/**` to reduce repository object bloat; updated `.gitattributes` and migrated history with `git lfs migrate import`.
+   - Verified remote `master` by cloning a fresh copy and scanning for private-key patterns and the service-account filename — no matches in reachable commits.
+
+- New tasks created:
+
+   1. Rotate the Firebase service account key and any other credentials that may have been exposed. (High priority)
+   2. Notify collaborators about the forced push and provide exact remediation steps (reclone or `git reset --hard origin/master`). (High priority)
+   3. Add pre-push secret-detection checks in CI or a git pre-push hook to prevent future accidental commits of secrets. (Medium priority)
+
+- Risks identified:
+
+   - Forced history rewrite requires all collaborators to rebase or reclone; risk of merge conflicts or lost local branches if not coordinated.
+   - Git LFS requires installation on client machines; collaborators without LFS may see pointer files or fail to fetch large objects.
+   - If the leaked service-account was used, the credential may already be compromised; immediate rotation is required.
+
+- Next 3 tasks:
+
+   1. Rotate/delete the exposed service account in GCP and replace its usage in CI/servers. (Owner: repo admin)
+   2. Add a short `README.md` section and a collaborator notification template explaining the forced push and steps to sync local repos. (Owner: repo admin)
+   3. Add a lightweight pre-push hook or CI secret-scan job (example: `detect-secrets` or `git-secrets`) to block future pushes containing private keys. (Owner: repo admin)
+
 
 **Changes Implemented:**
 

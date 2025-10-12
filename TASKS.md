@@ -251,6 +251,12 @@
 ## New: Characters Feature (local dev)
 
 - [ ] Sanitize workspace secrets (`.vscode/settings.json`, `.env`) and rotate DB password **Priority:** High
+
+### Security Cleanup (2025-10-12)
+
+- [x] Removed committed Firebase service-account JSON from reachable history and force-pushed cleaned `master` to remote. **Completed: 2025-10-12**
+- [x] Migrated `deploy/frontend/**` and `web/public/**` assets to Git LFS and updated `.gitattributes`. **Completed: 2025-10-12**
+- [ ] Rotate exposed credentials in GCP and update CI/servers (owner: repo admin). **Priority:** High
 - [ ] Finish `CharactersList`/`CharacterDetail`/`CharacterPrint` styling and accessibility checks **Priority:** Medium
 - [ ] Remove dev-mode fallbacks and local-sample files before production build **Priority:** Medium
 - [ ] Add E2E tests for Characters CRUD and print flow (dev-mode toggle gated) **Priority:** Medium
