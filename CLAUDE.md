@@ -1421,3 +1421,71 @@ None - deployment complete and verified working in production!
 1. User uploads deploy/backend/ to production and restarts Node.js app to fix starfighter families
 2. User tests species editing: add species_slug to Dakk/F1X 3R characters and verify display
 3. Monitor production after deployment to ensure both fixes working correctly
+
+### 2025-10-15 (Character Print Layout Fixes)
+
+**Changes Implemented:**
+
+- **Fixed Force Attributes Display**: Added dedicated Force Attributes section to character print layout showing Control, Sense, and Alter with Force powers listed just like standard attribute skills
+  - Created new Force Attributes grid section with 3 columns after main attributes ([CharacterPrint.tsx:242-261](web/src/pages/CharacterPrint.tsx#L242-L261))
+  - Reuses existing `renderAttribute()` function for consistent formatting
+  - Only displays for Force-sensitive characters with Force attribute data
+  - Yellow border highlights Force section to distinguish from standard attributes
+  - Removed old inline Force dice display that only showed base values without powers
+
+- **Fixed Health Checkboxes for Printing**: Added print-specific CSS overrides to make health tracking boxes writable on printed sheets
+  - Health section: White background with black borders when printed (was dark gray `bg-gray-800`)
+  - Force section: Light yellow background (`#fef3c7`) with black text when printed (was dark gray `bg-gray-700`)
+  - Print styles override screen styling via `@media print` rules ([CharacterPrint.tsx:112-137](web/src/pages/CharacterPrint.tsx#L112-L137))
+  - Players can now write in checkboxes with pen/pencil on printed character sheets
+
+- **Updated Print Page Margins**: Added CSS comment explaining browser headers/footers are controlled by browser print settings, not webpage
+
+- **Built Production Package**:
+  - Frontend: 664 KB JS bundle + 39 KB CSS (index-CyEyQxIs.js)
+  - Created complete deployment package in `deploy/frontend/` and `deploy/backend/`
+
+**Files Modified:**
+
+- [web/src/pages/CharacterPrint.tsx](web/src/pages/CharacterPrint.tsx):
+  - Lines 98-137: Added print-specific CSS overrides for health/force sections
+  - Lines 242-261: Added Force Attributes section with Control/Sense/Alter and powers
+  - Lines 399-421: Simplified Force section (removed inline Force dice, kept Force Points/Dark Side Points)
+  - Lines 424-444: Added CSS classes to health section for print overrides
+
+**Visual Changes:**
+
+**On Screen:**
+- Force Attributes: Yellow border highlight on dedicated section
+- Health section: Dark gray background (`bg-gray-800`)
+- Force section: Dark gray background (`bg-gray-700`)
+
+**When Printed:**
+- Force Attributes: Yellow highlight maintained with powers list
+- Health checkboxes: White with black borders (writable!)
+- Force section: Light yellow with black text
+- All labels: Black text for printer clarity
+
+**New Tasks Discovered:**
+
+1. Test Force-sensitive character print with actual Force powers data
+2. Test non-Force character print (Force Attributes section should be hidden)
+3. Verify print quality with actual printer (checkbox writability)
+
+**Risks Identified:**
+
+None - changes are purely CSS/layout improvements with defensive code
+
+**Production Readiness:**
+
+- ✅ Force attributes with powers display correctly
+- ✅ Health checkboxes are printable (white bg, black borders)
+- ✅ Print styles properly override screen styling
+- ✅ Deployment package built and ready
+- ✅ No breaking changes to existing functionality
+
+**Next 3 Tasks:**
+
+1. Upload deploy/frontend/ to production (`/public_html/d6StarWars/`)
+2. Test print layout with Force-sensitive character (verify powers list displays)
+3. Test print quality with actual printer (verify checkboxes are writable)

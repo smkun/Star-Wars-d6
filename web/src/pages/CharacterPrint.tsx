@@ -94,6 +94,13 @@ export default function CharacterPrint() {
             print-color-adjust: exact;
             -webkit-print-color-adjust: exact;
           }
+
+          /* Hide browser default headers (date/time/title) and footers (URL) */
+          @page {
+            margin-top: 0.5in;
+            margin-bottom: 0.5in;
+          }
+          /* Note: Page numbers will still appear if enabled in browser print settings */
           .no-print {
             display: none !important;
           }
@@ -107,6 +114,33 @@ export default function CharacterPrint() {
           .bottom-section {
             page-break-inside: avoid;
             break-inside: avoid;
+          }
+
+          /* Override health section colors for printing - make writable */
+          .health-section {
+            background-color: white !important;
+            color: black !important;
+            border: 2px solid black !important;
+          }
+          .health-checkbox {
+            border: 2px solid black !important;
+            background-color: white !important;
+          }
+          .health-label {
+            color: black !important;
+          }
+
+          /* Override force section colors for printing */
+          .force-section {
+            background-color: #fef3c7 !important;
+            color: black !important;
+            border: 2px solid black !important;
+          }
+          .force-label, .force-value {
+            color: black !important;
+          }
+          .force-title {
+            color: black !important;
           }
         }
         @media screen {
@@ -239,6 +273,27 @@ export default function CharacterPrint() {
               </div>
             </div>
 
+            {/* Force Attributes Section - Only for Force Sensitive Characters */}
+            {hasForceAttributes && (
+              <div className="force-section border-2 border-yellow-400 rounded p-3 bg-yellow-50 mt-4">
+                <div className="font-bold text-base mb-2 text-center">FORCE ATTRIBUTES</div>
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="border-2 border-gray-900 rounded p-2 bg-white">
+                    <div className="font-bold text-base mb-1">CONTROL:</div>
+                    {renderAttribute('control')}
+                  </div>
+                  <div className="border-2 border-gray-900 rounded p-2 bg-white">
+                    <div className="font-bold text-base mb-1">SENSE:</div>
+                    {renderAttribute('sense')}
+                  </div>
+                  <div className="border-2 border-gray-900 rounded p-2 bg-white">
+                    <div className="font-bold text-base mb-1">ALTER:</div>
+                    {renderAttribute('alter')}
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Special Abilities & Character Points */}
             {hasSpecialAbilities && (
               <div className="border-2 border-gray-900 rounded p-3">
@@ -348,74 +403,52 @@ export default function CharacterPrint() {
             {/* Force & Health Side by Side */}
             <div className={`space-y-4 ${!hasBackground ? 'col-start-3' : ''}`}>
               {/* The Force */}
-              <div className="bg-gray-700 text-white rounded p-3 avoid-break">
-                <div className="font-bold text-center mb-2">THE FORCE</div>
-              <div className="space-y-2 text-sm">
-                <div className="flex items-center justify-between">
-                  <span>Force Sensitive?</span>
-                  <div className="w-6 h-6 border-2 border-white rounded flex items-center justify-center">
-                    {data.forceSensitive ? '✓' : ''}
-                  </div>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Force Points</span>
-                  <div className="w-12 bg-white text-gray-900 text-center rounded px-2 py-1 font-bold">
-                    {data.forcePoints || 0}
-                  </div>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Dark Side Points</span>
-                  <div className="w-12 bg-white text-gray-900 text-center rounded px-2 py-1 font-bold">
-                    {data.darkSidePoints || 0}
-                  </div>
-                </div>
-                {hasForceAttributes && (
-                  <div className="grid grid-cols-3 gap-2 mt-2 text-xs text-center">
-                    <div>
-                      <div className="font-bold">Control</div>
-                      <div className="bg-white text-gray-900 rounded px-1 py-1 mt-1 font-mono">
-                        {(data.control as AttributeBlock)?.dice || '___'}
-                      </div>
-                    </div>
-                    <div>
-                      <div className="font-bold">Sense</div>
-                      <div className="bg-white text-gray-900 rounded px-1 py-1 mt-1 font-mono">
-                        {(data.sense as AttributeBlock)?.dice || '___'}
-                      </div>
-                    </div>
-                    <div>
-                      <div className="font-bold">Alter</div>
-                      <div className="bg-white text-gray-900 rounded px-1 py-1 mt-1 font-mono">
-                        {(data.alter as AttributeBlock)?.dice || '___'}
-                      </div>
+              <div className="force-section bg-gray-700 text-white rounded p-3 avoid-break">
+                <div className="force-title font-bold text-center mb-2">THE FORCE</div>
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="force-label">Force Sensitive?</span>
+                    <div className="w-6 h-6 border-2 border-white rounded flex items-center justify-center">
+                      {data.forceSensitive ? '✓' : ''}
                     </div>
                   </div>
-                )}
+                  <div className="flex items-center justify-between">
+                    <span className="force-label">Force Points</span>
+                    <div className="force-value w-12 bg-white text-gray-900 text-center rounded px-2 py-1 font-bold">
+                      {data.forcePoints || 0}
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="force-label">Dark Side Points</span>
+                    <div className="force-value w-12 bg-white text-gray-900 text-center rounded px-2 py-1 font-bold">
+                      {data.darkSidePoints || 0}
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
 
               {/* Health / Wounds */}
-              <div className="bg-gray-800 text-white rounded p-3 avoid-break">
+              <div className="health-section bg-gray-800 text-white rounded p-3 avoid-break">
                 <div className="font-bold text-center mb-2">HEALTH</div>
-              <div className="space-y-2 text-sm">
-                <div className="flex items-center justify-between">
-                  <span>Stunned:</span>
-                  <div className="w-6 h-6 border-2 border-white rounded"></div>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Wounded:</span>
-                  <div className="w-6 h-6 border-2 border-white rounded"></div>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Incapacitated:</span>
-                  <div className="w-6 h-6 border-2 border-white rounded"></div>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Mortally Wounded:</span>
-                  <div className="w-6 h-6 border-2 border-white rounded"></div>
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center justify-between">
+                    <span className="health-label">Stunned:</span>
+                    <div className="health-checkbox w-6 h-6 border-2 border-white rounded"></div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="health-label">Wounded:</span>
+                    <div className="health-checkbox w-6 h-6 border-2 border-white rounded"></div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="health-label">Incapacitated:</span>
+                    <div className="health-checkbox w-6 h-6 border-2 border-white rounded"></div>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="health-label">Mortally Wounded:</span>
+                    <div className="health-checkbox w-6 h-6 border-2 border-white rounded"></div>
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
 

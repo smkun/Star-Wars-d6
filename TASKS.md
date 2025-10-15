@@ -442,3 +442,5 @@ If you'd like, I can add these commands into a distro-detection script or create
 8. **Deploy updated React Router .htaccess** — **Status**: Pending. Upload new rewrite rules that route `/d6StarWars/*` paths back to `index.html` and proxy `/d6StarWars/api/*` requests to the Node backend.
 
 9. **[COMPLETED: 2025-10-13]** ~~Deploy firebase-admin 12.7.0 to production~~ — **Status**: ✅ Successfully deployed firebase-admin 12.7.0 to iFastNet with 1GB virtual memory. WASM errors resolved. Site running in production. Lightweight deployment package (304 KB) with npm install on server. See `deploy/backend-light/` for deployment files.
+
+10. **[COMPLETED: 2025-10-15]** ~~Fix character print layout~~ — **Status**: ✅ Added Force Attributes section with powers display and fixed health checkboxes to be writable on printed sheets. Print styles override dark backgrounds with white/light yellow for printer-friendly output.
