@@ -46,8 +46,7 @@ export default function Starfighters() {
   useEffect(() => {
     const fetchStarships = async () => {
       try {
-        const baseUrl = import.meta.env.BASE_URL || '/';
-        const response = await fetch(`${baseUrl}data/starships.json`);
+        const response = await fetch('/api/starships');
         if (!response.ok) throw new Error('Failed to fetch starships');
 
         const all = await response.json();

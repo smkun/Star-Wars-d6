@@ -1,0 +1,225 @@
+# ========================================
+# iFastNet Deployment Commands
+# Copy and paste these commands ONE AT A TIME
+# Wait for each to complete before running the next
+# ========================================
+
+# STEP 1: Activate Node.js Environment
+# Copy and paste this entire line:
+
+source /home/gamers/nodevenv/nodejs/star-wars-api/20/bin/activate && cd /home/gamers/nodejs/star-wars-api && pwd && node --version
+
+# Expected output:
+# /home/gamers/nodejs/star-wars-api
+# v20.x.x
+
+
+# STEP 2: Create Backup
+# Copy and paste this:
+
+tar -czf backup-$(date +%Y%m%d-%H%M%S).tar.gz api/ package.json .env 2>/dev/null && ls -lh backup-*.tar.gz | tail -1
+
+# Expected output:
+# -rw-r--r-- 1 gamers gamers [size] [date] backup-[timestamp].tar.gz
+
+
+# STEP 3: Check Current firebase-admin Version
+# Copy and paste this:
+
+npm list firebase-admin 2>&1 | grep firebase-admin
+
+# Expected output (before upgrade):
+# └── firebase-admin@11.10.1  (or similar)
+
+
+# STEP 4: Check .env Configuration
+# Copy and paste this:
+
+[ -f .env ] && echo "✅ .env exists" || echo "❌ .env missing - need to configure"
+
+# If missing, you need to create it from .env.production:
+# nano .env.production
+# (edit the file, then save)
+# mv .env.production .env
+
+
+# STEP 5: Clean Install Dependencies (INSTALLS firebase-admin 12.7.0)
+# Copy and paste this:
+
+rm -rf node_modules package-lock.json && npm install --production
+
+# Expected output:
+# added 255 packages in 10s
+# (This will take ~10-15 seconds)
+
+
+# STEP 6: Verify firebase-admin 12.7.0 is Installed
+# Copy and paste this:
+
+npm list firebase-admin 2>&1 | grep firebase-admin
+
+# Expected output:
+# └── firebase-admin@12.7.0
+
+
+# STEP 7: Verify File Structure
+# Copy and paste this:
+
+ls -la api/run-local-server.js api/firebaseAdmin.js package.json .env 2>&1
+
+# Expected output: All files should be listed without errors
+
+
+# STEP 8: Check Firebase Credentials Path
+# Copy and paste this:
+
+grep GOOGLE_APPLICATION_CREDENTIALS .env && CRED_PATH=$(grep GOOGLE_APPLICATION_CREDENTIALS .env | cut -d'=' -f2) && [ -f "$CRED_PATH" ] && echo "✅ Firebase credentials exist" || echo "❌ Firebase credentials NOT FOUND"
+
+# Expected output:
+# GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account.json
+# ✅ Firebase credentials exist
+
+
+# STEP 9: Test firebaseAdmin Module
+# Copy and paste this:
+
+node -e "try { require('./api/firebaseAdmin'); console.log('✅ Module loads OK'); } catch(e) { console.log('❌ Error:', e.message); }"
+
+# Expected output:
+# ✅ Module loads OK
+
+
+# STEP 10: Final Summary
+# Copy and paste this:
+
+echo "=== DEPLOYMENT SUMMARY ===" && echo "Node.js: $(node --version)" && echo "npm: $(npm --version)" && echo "firebase-admin: $(npm list firebase-admin 2>&1 | grep firebase-admin | awk '{print $2}')" && echo "Directory: $(pwd)" && echo "=== NEXT: Restart Node.js app in control panel ==="
+
+# Expected output:
+# === DEPLOYMENT SUMMARY ===
+# Node.js: v20.x.x
+# npm: 10.x.x
+# firebase-admin: 12.7.0
+# Directory: /home/gamers/nodejs/star-wars-api
+# === NEXT: Restart Node.js app in control panel ===
+
+
+# STEP 11: Deactivate Environment (when done)
+# Copy and paste this:
+
+deactivate
+
+# (Returns to normal shell)
+
+
+# ========================================
+# AFTER DEPLOYMENT
+# ========================================
+
+# Go to iFastNet Control Panel:
+# - Software → Node.js
+# - Find "star-wars-api"
+# - Click "Restart"
+
+# Then test (from your local machine):
+# curl https://yourdomain.com/api/species
+
+# Check iFastNet Node.js logs for any WASM errors
+# Should NOT see: "Failed to execute 'WebAssembly.compile'"
+# If you see WASM errors, contact iFastNet support about 1GB memory
+
+# ========================================
+# TROUBLESHOOTING
+# ========================================
+
+# If npm install fails:
+npm cache clean --force && npm install --production
+
+# If firebase-admin version is wrong:
+npm install firebase-admin@12.7.0 --save && npm list firebase-admin
+
+# If .env is missing:
+cp .env.production .env && nano .env
+# (Edit GOOGLE_APPLICATION_CREDENTIALS and ALLOWED_ORIGIN, then save)
+
+# If credentials file is missing:
+# Upload firebase-admin-key.json to:
+# /home/gamers/.config/firebase/star-wars-d6-service-account.json
+# Then: chmod 600 /home/gamers/.config/firebase/star-wars-d6-service-account.json
+
+# ========================================
+
+# ========================================
+# STEP 11: START SERVER MANUALLY
+# ========================================
+# iFastNet control panel restart doesn't work - must start manually via SSH
+
+# Kill any existing server, wait, then start new one in background:
+
+pkill -f "node.*run-local-server" 2>/dev/null && sleep 2 && nohup node api/run-local-server.js > server.log 2>&1 & sleep 2 && ps aux | grep "node.*run-local-server" | grep -v grep && echo "✅ Server started"
+
+# Expected output:
+# ✅ Server started
+# gamers   12345  0.1  1.2  node api/run-local-server.js
+
+# Check server log for startup confirmation:
+
+tail -5 server.log
+
+# Expected: "Local API listening on 4000" (or similar)
+
+
+# ========================================
+# STEP 12: TEST SERVER LOCALLY
+# ========================================
+
+curl -s http://localhost:4000/species | head -20
+
+# Expected: JSON array starting with [{"name":"Aar'aa",...
+
+
+# ========================================
+# STEP 13: DEACTIVATE AND EXIT
+# ========================================
+
+deactivate
+exit
+
+# Server will keep running in background after you disconnect
+
+
+# ========================================
+# AFTER SSH - TEST FROM YOUR LOCAL MACHINE
+# ========================================
+
+# Test production endpoint (from your local machine):
+# curl https://yourdomain.com/api/species
+
+# If it works: ✅ Deployment successful!
+# If it fails: SSH back in and check server.log
+
+
+# ========================================
+# TO CHECK SERVER STATUS LATER
+# ========================================
+
+# SSH in and activate environment:
+# ssh gamers@server.ifastnet.com
+# source /home/gamers/nodevenv/nodejs/star-wars-api/20/bin/activate && cd /home/gamers/nodejs/star-wars-api
+
+# Check if running:
+# ps aux | grep "node.*run-local-server" | grep -v grep
+
+# View logs:
+# tail -20 server.log
+
+# Restart if needed:
+# pkill -f "node.*run-local-server" && sleep 2 && nohup node api/run-local-server.js > server.log 2>&1 &
+
+
+# ========================================
+# IMPORTANT: MANUAL START REQUIRED
+# ========================================
+# The iFastNet Node.js control panel "Restart" button does NOT work
+# You MUST use the SSH commands above to start/restart the server
+# See: MANUAL_START_SERVER.md for complete documentation
+

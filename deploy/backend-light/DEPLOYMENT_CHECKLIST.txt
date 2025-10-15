@@ -1,0 +1,157 @@
+╔═══════════════════════════════════════════════════════════════╗
+║  iFastNet Deployment Checklist - firebase-admin 12.7.0       ║
+╚═══════════════════════════════════════════════════════════════╝
+
+BEFORE YOU START
+────────────────────────────────────────────────────────────────
+
+[ ] Upload deploy/backend-light/* to /home/gamers/nodejs/star-wars-api/
+    - api/ folder (304 KB)
+    - package.json
+    - .env.production
+
+[ ] Have SSH access to: gamers@your-server.ifastnet.com
+
+[ ] Know your production domain for ALLOWED_ORIGIN
+
+[ ] Have Firebase service account JSON ready (if not already uploaded)
+
+
+SSH DEPLOYMENT STEPS
+────────────────────────────────────────────────────────────────
+
+[ ] STEP 1: SSH into server
+    Command: ssh gamers@your-server.ifastnet.com
+
+[ ] STEP 2: Activate Node.js environment
+    Command: source /home/gamers/nodevenv/nodejs/star-wars-api/20/bin/activate && cd /home/gamers/nodejs/star-wars-api
+    Verify: pwd shows /home/gamers/nodejs/star-wars-api
+    Verify: node --version shows v20.x.x
+
+[ ] STEP 3: Create backup
+    Command: tar -czf backup-$(date +%Y%m%d-%H%M%S).tar.gz api/ package.json .env
+    Verify: ls -lh backup-*.tar.gz shows backup file
+
+[ ] STEP 4: Check current firebase-admin version
+    Command: npm list firebase-admin
+    Note current version: _____________
+
+[ ] STEP 5: Configure .env (if .env.production exists)
+    Command: nano .env.production
+    Update: GOOGLE_APPLICATION_CREDENTIALS path
+    Update: ALLOWED_ORIGIN domain
+    Command: mv .env.production .env
+
+[ ] STEP 6: Install dependencies (UPGRADES firebase-admin)
+    Command: rm -rf node_modules package-lock.json
+    Command: npm install --production
+    Wait for: "added 255 packages in ~10s"
+
+[ ] STEP 7: Verify firebase-admin 12.7.0 installed
+    Command: npm list firebase-admin
+    Verify: Shows firebase-admin@12.7.0
+
+[ ] STEP 8: Check file structure
+    Command: ls -la api/run-local-server.js api/firebaseAdmin.js
+    Verify: Both files exist
+
+[ ] STEP 9: Verify Firebase credentials
+    Command: grep GOOGLE_APPLICATION_CREDENTIALS .env
+    Verify: Path points to existing file
+
+[ ] STEP 10: Test firebaseAdmin module
+    Command: node -e "require('./api/firebaseAdmin')"
+    Verify: No errors
+
+[ ] STEP 11: Deactivate environment
+    Command: deactivate
+
+
+AFTER SSH DEPLOYMENT
+────────────────────────────────────────────────────────────────
+
+[ ] Restart Node.js app in iFastNet Control Panel
+    Location: Software → Node.js → star-wars-api → Restart
+
+[ ] Test public API endpoint
+    Command: curl https://yourdomain.com/api/species
+    Verify: Returns JSON array of species
+
+[ ] Test protected API endpoint
+    Command: curl https://yourdomain.com/api/users
+    Verify: Returns {"error":"unauthorized"}
+
+[ ] Check Node.js app logs for WASM errors
+    Location: iFastNet Control Panel → Node.js → star-wars-api → Logs
+    Verify: NO "WebAssembly.compile" errors
+
+[ ] Test authenticated endpoints (via browser)
+    - Sign in at https://yourdomain.com/login
+    - Navigate to /characters
+    - Verify: Characters load without errors
+
+
+SUCCESS CRITERIA
+────────────────────────────────────────────────────────────────
+
+✅ firebase-admin version is 12.7.0
+✅ Node.js app starts without crashing
+✅ /api/species returns data
+✅ /api/users requires authentication (401)
+✅ NO WASM memory errors in logs
+✅ Characters feature works for authenticated users
+
+
+ROLLBACK PROCEDURE (if needed)
+────────────────────────────────────────────────────────────────
+
+If WASM errors persist or app won't start:
+
+[ ] SSH to server and activate environment
+
+[ ] Downgrade firebase-admin:
+    Command: npm install firebase-admin@11.10.1 --save
+
+[ ] Verify downgrade:
+    Command: npm list firebase-admin
+    Verify: Shows 11.10.1
+
+[ ] Restart Node.js app in control panel
+
+[ ] Contact iFastNet support to verify 1GB memory increase
+
+
+TROUBLESHOOTING
+────────────────────────────────────────────────────────────────
+
+Problem: npm install fails
+Solution: npm cache clean --force && npm install --production
+
+Problem: firebase-admin wrong version after install
+Solution: npm install firebase-admin@12.7.0 --save
+
+Problem: .env missing
+Solution: cp .env.production .env && nano .env
+
+Problem: Firebase credentials not found
+Solution: Upload service-account.json to path in GOOGLE_APPLICATION_CREDENTIALS
+
+Problem: "npm: command not found"
+Solution: Activate environment first (Step 2)
+
+Problem: WASM memory error still occurs
+Solution: Contact iFastNet support - verify 1GB memory was applied
+
+
+DOCUMENTATION REFERENCE
+────────────────────────────────────────────────────────────────
+
+Step-by-step commands:    PASTE_COMMANDS.txt
+Full deployment guide:    DEPLOY.md
+SSH command reference:    ../IFASTNET_SSH_COMMANDS.md
+Quick start:              QUICK_START.md
+Script version:           COPY_PASTE_DEPLOYMENT.sh
+
+╔═══════════════════════════════════════════════════════════════╗
+║  Questions? Check DEPLOY.md or IFASTNET_SSH_COMMANDS.md      ║
+╚═══════════════════════════════════════════════════════════════╝

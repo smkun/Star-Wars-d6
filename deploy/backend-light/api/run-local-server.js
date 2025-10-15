@@ -415,7 +415,7 @@ const server = http.createServer(async (req, res) => {
     // Starships list endpoint
     if (pathname === '/starships' && req.method === 'GET') {
       const rows = await queryRows(
-        `SELECT slug, name, craft, affiliation, type, category, parent, isVariant, scale, length, crew, hyperdrive,
+        `SELECT slug, name, craft, affiliation, type, category, scale, length, crew, hyperdrive,
           maneuverability, space, hull, shields, imageUrl, imageFilename, weapons_json, sensors_json
          FROM starships ORDER BY name LIMIT 1000`
       );
@@ -427,8 +427,6 @@ const server = http.createServer(async (req, res) => {
         affiliation: row.affiliation,
         type: row.type,
         category: row.category,
-        parent: row.parent || null,
-        isVariant: Boolean(row.isVariant),
         scale: row.scale,
         length: row.length,
         crew: row.crew,
@@ -437,7 +435,7 @@ const server = http.createServer(async (req, res) => {
         space: row.space,
         hull: row.hull,
         shields: row.shields,
-        imageUrl: (row.imageUrl && row.imageUrl.startsWith('/')) ? row.imageUrl : (row.imageFilename ? `/d6StarWars/starships/${row.imageFilename}` : null),
+        imageUrl: row.imageUrl || (row.imageFilename ? `/d6StarWars/starships/${row.imageFilename}` : null),
         weapons: row.weapons_json ? JSON.parse(row.weapons_json) : [],
         sensors: row.sensors_json ? JSON.parse(row.sensors_json) : null,
       }));
@@ -480,7 +478,7 @@ const server = http.createServer(async (req, res) => {
         hull: row.hull,
         shields: row.shields,
         description: row.description,
-        imageUrl: (row.imageUrl && row.imageUrl.startsWith('/')) ? row.imageUrl : (row.imageFilename ? `/d6StarWars/starships/${row.imageFilename}` : null),
+        imageUrl: row.imageUrl || (row.imageFilename ? `/d6StarWars/starships/${row.imageFilename}` : null),
         weapons: row.weapons_json ? JSON.parse(row.weapons_json) : [],
         sensors: row.sensors_json ? JSON.parse(row.sensors_json) : null,
         sources: row.sources_json ? JSON.parse(row.sources_json) : [],

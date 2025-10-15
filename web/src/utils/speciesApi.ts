@@ -3,11 +3,7 @@ import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
 
 // Build API URL with base path support
 function getApiUrl(path: string): string {
-  // In development, use absolute localhost URL to bypass Vite routing
-  if (import.meta.env.DEV) {
-    return `http://localhost:4000${path}`;
-  }
-  // In production, always hit the API root at /api so it can be proxied by Apache/Node
+  // Always use /api path - Vite proxy will route to port 3000 in dev, Apache/Node will handle in prod
   return `/api${path}`;
 }
 

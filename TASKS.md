@@ -429,7 +429,7 @@ If you'd like, I can add these commands into a distro-detection script or create
 
 2. **Update CharacterNew.tsx to auto-assign user_id** — **Status**: Pending. Character creation needs to automatically set user_id from auth.currentUser.uid when creating new characters
 
-3. **Document Firebase Admin SDK production setup** — **Status**: Pending. Need deployment guide for setting GOOGLE_APPLICATION_CREDENTIALS in production environment with secure credential management
+3. **[COMPLETED: 2025-10-13]** ~~Document Firebase Admin SDK production setup~~ — **Status**: ✅ Created comprehensive deployment documentation with firebase-admin 12.7.0 upgrade guide, iFastNet deployment instructions, and WASM fix verification
 
 4. **Add loading states to character list** — **Status**: Pending. Add loading spinner for initial character fetch and during character reassignment operations
 
@@ -440,3 +440,5 @@ If you'd like, I can add these commands into a distro-detection script or create
 7. **Test complete user journey** — Verify catalog → search → filter → detail page flow with all data displaying correctly
 
 8. **Deploy updated React Router .htaccess** — **Status**: Pending. Upload new rewrite rules that route `/d6StarWars/*` paths back to `index.html` and proxy `/d6StarWars/api/*` requests to the Node backend.
+
+9. **[COMPLETED: 2025-10-13]** ~~Deploy firebase-admin 12.7.0 to production~~ — **Status**: ✅ Successfully deployed firebase-admin 12.7.0 to iFastNet with 1GB virtual memory. WASM errors resolved. Site running in production. Lightweight deployment package (304 KB) with npm install on server. See `deploy/backend-light/` for deployment files.

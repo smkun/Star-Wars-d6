@@ -441,8 +441,9 @@ export default function CharacterEdit() {
                 <label className="block text-sm font-medium text-gray-400 mb-2">Species</label>
                 <input
                   type="text"
-                  value={data.species || ''}
-                  onChange={(e) => updateData('species', e.target.value)}
+                  value={char.species_slug || ''}
+                  onChange={(e) => setChar({ ...char, species_slug: e.target.value })}
+                  placeholder="e.g., bothan, wookiee, human"
                   className="w-full bg-gray-900 border border-yellow-400/30 rounded px-4 py-2 text-yellow-400 focus:outline-none focus:border-yellow-400"
                 />
               </div>

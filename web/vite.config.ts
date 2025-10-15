@@ -10,7 +10,7 @@ export default defineConfig({
     proxy: {
       // Proxy API calls - both with and without base path
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'http://localhost:3000',
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, ''),

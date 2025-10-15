@@ -167,6 +167,27 @@ npm run test:e2e      # Playwright E2E tests
 npm run lint          # ESLint + Prettier check
 ```
 
+### Production Deployment
+
+**⚠️ IMPORTANT**: Backend changes require deployment to production!
+
+```bash
+# Build complete deployment package (frontend + backend)
+./scripts/build-deploy-package.sh
+
+# Creates:
+# - deploy/frontend/ (React build)
+# - deploy/backend/ (API + dependencies)
+```
+
+**Upload to iFastNet:**
+
+1. Upload `deploy/frontend/` → `/public_html/d6StarWars/`
+2. Upload `deploy/backend/` → `/nodejs/star-wars-api/`
+3. Restart Node.js app in control panel
+
+**Docs**: See [deploy/DEPLOYMENT_INSTRUCTIONS.md](deploy/DEPLOYMENT_INSTRUCTIONS.md)
+
 ### Firebase (Production Deploy)
 
 ```bash
@@ -1116,3 +1137,287 @@ deploy/ (56 MB total)
 1. Debug mainLogo.png production issue: check direct URL access, file permissions, case-sensitivity
 2. Test Thursday character editing workflow end-to-end (list → detail → edit → save)
 3. Consider adding character data export/import for backup and migration purposes
+
+### 2025-10-13 (Firebase Admin SDK Upgrade - WASM Fix)
+
+**Changes Implemented:**
+
+- **Reverted firebase-admin downgrade**: Upgraded from 11.10.1 back to 12.7.0 (latest) after iFastNet increased virtual memory to 1GB
+- **Verified local functionality**: API server running successfully with firebase-admin 12.7.0 on Node.js v20.12.0
+- **Tested Firebase Admin SDK**: Successfully initialized with service account, no WASM errors in local environment
+- **Rebuilt deployment package**: Created fresh `deploy/backend/` with 75 MB (74 MB node_modules, firebase-admin 12.7.0)
+- **Created comprehensive documentation**:
+  - [deploy/FIREBASE_ADMIN_UPGRADE.md](deploy/FIREBASE_ADMIN_UPGRADE.md) - Technical background, testing results, and upgrade notes
+  - [deploy/DEPLOYMENT_INSTRUCTIONS.md](deploy/DEPLOYMENT_INSTRUCTIONS.md) - Complete iFastNet deployment checklist with troubleshooting
+
+**Root Cause Analysis:**
+
+- firebase-admin 12.x uses Undici's WebAssembly HTTP parser requiring ~5.5MB WASM memory
+- CloudLinux default limit on iFastNet: 5MB (insufficient)
+- Previous workaround: Downgraded to 11.10.1 (uses node-fetch, no WASM)
+- **Resolution**: iFastNet increased account virtual memory to 1GB
+
+**Testing Results:**
+
+✅ **Local Environment (firebase-admin 12.7.0)**:
+- API server: Running on port 4000 without crashes
+- Firebase Admin SDK: Initialized successfully with service account
+- `/species` endpoint: Returns 49 species ✅
+- `/users` endpoint: Correctly requires authentication (401) ✅
+- `/characters` endpoint: Correctly requires authentication (401) ✅
+- No WASM memory errors in logs
+
+**Deployment Package:**
+
+```
+deploy/backend/ (75 MB)
+├── run-local-server.js (17 KB) - Main API server
+├── firebaseAdmin.js (1.6 KB) - Firebase Admin helper
+├── package.json (694 B) - Dependencies
+└── node_modules/ (74 MB)
+    ├── firebase-admin@12.7.0
+    ├── firebase-functions@5.1.1
+    ├── mysql2@3.15.2
+    ├── dotenv@16.4.5
+    └── zod@3.23.0
+```
+
+**Documentation Created:**
+
+1. **FIREBASE_ADMIN_UPGRADE.md**: Technical details of downgrade/upgrade, WASM error background, testing results, benefits of 12.x
+2. **DEPLOYMENT_INSTRUCTIONS.md**: Complete step-by-step iFastNet deployment guide with:
+   - Pre-deployment checklist (verify 1GB memory)
+   - Upload instructions (backend files, service account JSON)
+   - Environment variable configuration
+   - Node.js app setup in iFastNet panel
+   - Smoke test checklist for all endpoints
+   - Troubleshooting section (WASM errors, auth issues, DB connection)
+   - Rollback procedure if needed
+
+**Benefits of firebase-admin 12.7.0:**
+
+- Latest security patches and bug fixes
+- Faster token verification with Undici HTTP/2
+- Support for newest Firebase Auth features
+- Active maintenance and development
+
+**New Tasks Discovered:**
+
+1. Upload deployment package to iFastNet and verify WASM fix in production
+2. Smoke test all API endpoints after deployment (/users, /characters, /species, /starships)
+3. Monitor production logs for any WASM errors or crashes
+
+**Risks Identified:**
+
+1. **WASM Error Persistence**: If 1GB memory wasn't properly applied, WASM errors may still occur
+   - Mitigation: Smoke test immediately after deployment, rollback to 11.10.1 if needed
+2. **Service Account Upload**: Needs secure permissions (600) and correct path in GOOGLE_APPLICATION_CREDENTIALS
+   - Mitigation: Documented in deployment instructions with security checklist
+3. **Environment Variable Mismatch**: Production .env must match exact paths and credentials
+   - Mitigation: Created .env template with examples in deployment guide
+
+**Production Readiness:**
+
+- ✅ Deployment package built and tested locally
+- ✅ Firebase Admin SDK 12.7.0 working without WASM errors
+- ✅ Comprehensive deployment documentation created
+- ✅ Rollback plan documented (downgrade to 11.10.1)
+- ⚠️ Awaiting user deployment to iFastNet for production verification
+
+**Next 3 Tasks:**
+
+1. User uploads `deploy/backend/` to iFastNet Node.js app directory
+2. User configures environment variables and service account per deployment guide
+3. User tests production endpoints and reports WASM error status
+
+### 2025-10-13 (Firebase Admin SDK 12.7.0 - PRODUCTION SUCCESS)
+
+**Changes Implemented:**
+
+- **✅ SUCCESSFUL DEPLOYMENT** of firebase-admin 12.7.0 to production
+- Created lightweight deployment package (304 KB without node_modules)
+- Created comprehensive SSH deployment documentation for iFastNet
+- Documented manual server start process (control panel restart doesn't work)
+- iFastNet virtual memory increase to 1GB successfully resolved WASM errors
+
+**Deployment Package:**
+
+```
+deploy/backend-light/ (304 KB)
+├── api/                    All backend code
+├── package.json            Root dependencies (firebase-admin 12.7.0)
+└── .env.production         Environment template
+```
+
+**Key Insight - No node_modules Upload:**
+
+- Previous approach: Upload 75 MB with node_modules (30,000+ files)
+- New approach: Upload 304 KB code, run `npm install --production` on server
+- Result: 250x smaller upload, platform-specific builds, standard workflow
+
+**iFastNet-Specific Requirements Documented:**
+
+1. **Virtual Environment Activation Required:**
+   ```bash
+   source /home/gamers/nodevenv/nodejs/star-wars-api/20/bin/activate
+   cd /home/gamers/nodejs/star-wars-api
+   ```
+
+2. **Manual Server Start Required:**
+   ```bash
+   nohup node api/run-local-server.js > server.log 2>&1 &
+   ```
+   (Control panel restart button doesn't work)
+
+**Documentation Created:**
+
+1. **[deploy/backend-light/](deploy/backend-light/)** - Lightweight deployment package
+   - PASTE_COMMANDS.txt - Step-by-step copy/paste commands
+   - COPY_PASTE_DEPLOYMENT.sh - Complete deployment script
+   - DEPLOYMENT_CHECKLIST.txt - Visual progress tracker
+   - DEPLOY.md - Full deployment guide
+   - QUICK_START.md - One-page reference
+
+2. **[deploy/IFASTNET_SSH_COMMANDS.md](deploy/IFASTNET_SSH_COMMANDS.md)** - Complete SSH reference
+   - Virtual environment activation
+   - Common commands and troubleshooting
+   - File paths and directory structure
+
+3. **[deploy/MANUAL_START_SERVER.md](deploy/MANUAL_START_SERVER.md)** - Server start guide
+   - Why control panel doesn't work
+   - Manual start with nohup
+   - Status checking and troubleshooting
+   - Auto-start on boot options
+
+**Production Verification:**
+
+✅ Site is live and running
+✅ firebase-admin 12.7.0 successfully deployed
+✅ No WASM memory errors
+✅ 1GB virtual memory increase from iFastNet worked
+✅ All API endpoints functioning correctly
+
+**What Was Fixed:**
+
+- **Root Cause**: firebase-admin 12.x uses Undici WebAssembly parser requiring ~5.5MB WASM memory
+- **Original Limit**: CloudLinux default 5MB WASM limit on iFastNet
+- **Temporary Workaround**: Downgraded to firebase-admin 11.10.1 (no WASM)
+- **Permanent Solution**: iFastNet increased virtual memory to 1GB
+- **Result**: Can now use latest firebase-admin with all security patches and features
+
+**Key Lessons Learned:**
+
+1. **Don't upload node_modules** - Let npm install on server (304 KB vs 75 MB)
+2. **iFastNet uses virtual environments** - Must activate before npm commands
+3. **Manual server start required** - Control panel restart doesn't work
+4. **Always document platform quirks** - Save future debugging time
+
+**Benefits of firebase-admin 12.7.0:**
+
+- Latest security patches and bug fixes
+- Faster token verification with Undici HTTP/2
+- Support for newest Firebase Auth features
+- Active maintenance and development
+- No workarounds or deprecated dependencies
+
+**New Tasks Discovered:**
+
+None - deployment complete and verified working in production!
+
+**Production Readiness:**
+
+- ✅ Deployment package created and tested
+- ✅ Documentation comprehensive and accurate
+- ✅ Production deployment successful
+- ✅ WASM fix verified working
+- ✅ Site fully operational with latest SDK
+
+**Next 3 Tasks:**
+
+1. Monitor production logs for any issues over next 24-48 hours
+2. Consider setting up auto-start on boot (see MANUAL_START_SERVER.md)
+3. Return to original task: Update CharacterNew.tsx to auto-assign user_id
+
+### 2025-10-13 (Species Display Fix & Deployment Workflow)
+
+**Changes Implemented:**
+
+- **Fixed species_slug display issue**: Updated [CharacterEdit.tsx:441-448](web/src/pages/CharacterEdit.tsx#L441-L448) to save species to database column instead of JSON field
+  - Changed from: `value={data.species}` → `value={char.species_slug}`
+  - Changed from: `onChange={(e) => updateData('species', e.target.value)}` → `onChange={(e) => setChar({ ...char, species_slug: e.target.value })}`
+  - Label updated: "Species" (user-friendly, not "Species Slug")
+  - Characters Dakk and F1X 3R were showing "Unknown species" because `species_slug` column was NULL
+- **Built production frontend**: 662 KB JS bundle + 39 KB CSS with species fix
+- **Discovered backend deployment gap**: Starfighter families fix (parent/isVariant fields) was in working API but missing from deploy/backend
+- **Fixed deployment package**: Copied current [api/run-local-server.js](api/run-local-server.js) to deploy/backend with starfighter families code
+- **Created deployment automation**: [scripts/build-deploy-package.sh](scripts/build-deploy-package.sh) - builds frontend + copies backend in one command
+- **Updated CLAUDE.md documentation**: Added "Production Deployment" section with warning about backend changes
+
+**Root Cause Analysis:**
+
+**Issue**: User uploaded frontend changes but starfighter families still not working in production
+**Diagnosis**: Backend API changes (lines 418-431 with parent/isVariant fields) were never copied to deploy/backend
+**Fix**: Created systematic deployment workflow that packages both frontend AND backend together
+
+**Files Modified:**
+
+- [web/src/pages/CharacterEdit.tsx:441-448](web/src/pages/CharacterEdit.tsx#L441-L448) - Species field now saves to `species_slug` database column
+- [deploy/backend/api/run-local-server.js](deploy/backend/api/run-local-server.js) - Updated with starfighter families fix (parent/isVariant)
+- [scripts/build-deploy-package.sh](scripts/build-deploy-package.sh) - Created automated build script for frontend + backend
+- [CLAUDE.md:170-189](CLAUDE.md#L170-L189) - Added Production Deployment section with backend deployment warning
+
+**Deployment Workflow Created:**
+
+```bash
+# Build complete deployment package (frontend + backend)
+./scripts/build-deploy-package.sh
+
+# Creates:
+# - deploy/frontend/ (React build)
+# - deploy/backend/ (API + dependencies)
+
+# Upload to iFastNet:
+# 1. deploy/frontend/ → /public_html/d6StarWars/
+# 2. deploy/backend/ → /nodejs/star-wars-api/
+# 3. Restart Node.js app in control panel
+```
+
+**Key Lesson Learned:**
+
+**"Backend changes must be in deployment package too"** - When making changes that touch backend API, must ensure deploy/backend is updated before user uploads to production. Created automated workflow to prevent this gap.
+
+**Database Fix:**
+
+- Verified characters table has `species_slug` column
+- Both Dakk and F1X 3R had `species_slug = NULL`
+- Fix allows users to edit and save species directly to database column
+- Character cards will display species correctly once `species_slug` is populated
+
+**New Tasks Discovered:**
+
+1. Test species editing workflow end-to-end: edit character → add species slug → save → verify display
+2. Test starfighter families display after backend deployment to production
+3. Document backend deployment checklist for future changes
+
+**Risks Identified:**
+
+1. **Deployment Package Staleness** - Backend changes can be missed if deploy/ directory not updated
+   - Mitigation: Created automated build script that copies both frontend and backend
+   - Mitigation: Added prominent warning in CLAUDE.md Production Deployment section
+2. **Manual Upload Process** - User must remember to upload both frontend AND backend when both changed
+   - Mitigation: Documented clear upload instructions with numbered steps
+   - Mitigation: Build script shows summary of what was created
+
+**Production Readiness:**
+
+- ✅ Frontend species fix built and ready (deploy/frontend/)
+- ✅ Backend starfighter families fix updated (deploy/backend/api/run-local-server.js)
+- ✅ Deployment script created for future builds
+- ✅ Documentation updated with backend deployment warning
+- ⚠️ Awaiting user upload to production for verification
+
+**Next 3 Tasks:**
+
+1. User uploads deploy/backend/ to production and restarts Node.js app to fix starfighter families
+2. User tests species editing: add species_slug to Dakk/F1X 3R characters and verify display
+3. Monitor production after deployment to ensure both fixes working correctly
