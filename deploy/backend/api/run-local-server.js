@@ -1,10 +1,20 @@
 #!/usr/bin/env node
+/* api/run-local-server.js */
+
 const http = require('http');
 const fs = require('fs');
 const mysql = require('mysql2/promise');
 const { parse } = require('url');
 const path = require('path');
 const dotenv = require('dotenv');
+
+// [ADDED] Boot-time env visibility (safe to keep; remove later if noisy)
+console.log('BOOT env:', {
+  PORT: process.env.PORT,
+  PASSENGER_BASE_URI: process.env.PASSENGER_BASE_URI,
+  PASSENGER_APP_ENV: process.env.PASSENGER_APP_ENV
+}); // [ADDED]
+console.log('BOOT:', { PORT: process.env.PORT, BASE: process.env.PASSENGER_BASE_URI }); // [ADDED]
 
 // Load environment variables from .env / .env.production if present
 const envCandidates = [
@@ -75,8 +85,32 @@ function notFound(res) {
 }
 
 const server = http.createServer(async (req, res) => {
+  // [ADDED] Per-request log so we can see the exact path Passenger handed us
+  console.log('REQ', req.method, req.url); // [ADDED]
+
   try {
-    const { pathname } = parse(req.url || '', true);
+    // [ADDED] Normalize path when Passenger doesn't strip BaseURI
+const baseUri = process.env.PASSENGER_BASE_URI || '';
+let urlPath = req.url || '/';
+try {
+  // get a clean pathname (no query) in case req.url has a querystring
+  urlPath = new URL(req.url, `http://${req.headers.host}`).pathname;
+} catch (_) {}
+
+if (baseUri && urlPath.startsWith(baseUri)) {
+  urlPath = urlPath.slice(baseUri.length) || '/';
+}
+console.log('PATH', { baseUri, raw: req.url, normalized: urlPath }); // [ADDED]
+
+// Use the normalized path for routing
+const pathname = urlPath;
+
+
+    // [ADDED] Minimal health endpoint (helps cPanel/you confirm green)
+    if (req.method === 'GET' && (pathname === '/' || pathname === '/healthz')) { // [ADDED]
+      res.writeHead(200, { 'Content-Type': 'text/plain' });                      // [ADDED]
+      return res.end('ok');                                                       // [ADDED]
+    }                                                                             // [ADDED]
 
     // Handle CORS preflight
     if (req.method === 'OPTIONS') {
@@ -129,35 +163,44 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (pathname === '/species' && req.method === 'GET') {
-      const rows = await queryRows(
-        'SELECT slug, name, classification, homeworld, description, properties, imageUrl FROM species ORDER BY name LIMIT 1000'
-      );
-      const out = rows.map((row) => {
-        const props =
-          typeof row.properties === 'string'
-            ? JSON.parse(row.properties || '{}')
-            : row.properties || {};
-
-        return {
-          slug: row.slug,
-          name: row.name,
-          classification: row.classification,
-          homeworld: row.homeworld,
-          description: row.description,
-          sources: props.sources || [],
-          stats: props.stats || {},
-          specialAbilities: props.specialAbilities || [],
-          storyFactors: props.storyFactors || [],
-          personality: props.personality,
-          physicalDescription: props.physicalDescription,
-          adventurers: props.adventurers,
-          languages: props.languages,
-          hasImage: Boolean(row.imageUrl),
-          imagePath: row.imageUrl,
-          imageUrl: row.imageUrl,
-        };
-      });
-      return json(res, out);
+      try { // [ADDED] guard so we log JSON errors cleanly
+        const rows = await queryRows(
+          'SELECT slug, name, classification, homeworld, description, properties, imageUrl FROM species ORDER BY name LIMIT 1000'
+        );
+        const out = rows.map((row) => {
+          let props = {};
+          try {
+            props =
+              typeof row.properties === 'string'
+                ? JSON.parse(row.properties || '{}')
+                : row.properties || {};
+          } catch (e) {
+            console.error('Bad JSON in species.properties for slug', row.slug, e.message); // [ADDED]
+          }
+          return {
+            slug: row.slug,
+            name: row.name,
+            classification: row.classification,
+            homeworld: row.homeworld,
+            description: row.description,
+            sources: props.sources || [],
+            stats: props.stats || {},
+            specialAbilities: props.specialAbilities || [],
+            storyFactors: props.storyFactors || [],
+            personality: props.personality,
+            physicalDescription: props.physicalDescription,
+            adventurers: props.adventurers,
+            languages: props.languages,
+            hasImage: Boolean(row.imageUrl),
+            imagePath: row.imageUrl,
+            imageUrl: row.imageUrl,
+          };
+        });
+        return json(res, out);
+      } catch (err) {
+        console.error('SPECIES_QUERY_FAIL:', err && err.message, err && err.stack); // [ADDED]
+        return json(res, { error: 'species_query_failed' }, 500);                   // [ADDED]
+      }
     }
 
     // Admin-only: List all Firebase users
@@ -228,7 +271,6 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (pathname === '/characters' && req.method === 'POST') {
-      // Read body
       const authInfo = await resolveAuthInfo();
       if (!authInfo) return json(res, { error: 'unauthorized' }, 401);
 
@@ -402,9 +444,9 @@ const server = http.createServer(async (req, res) => {
         specialAbilities: props.specialAbilities || [],
         storyFactors: props.storyFactors || [],
         personality: props.personality,
-        physicalDescription: props.physicalDescription,
-        adventurers: props.adventurers,
-        languages: props.languages,
+        physicalDescription: row.physicalDescription,
+        adventurers: row.adventurers,
+        languages: row.languages,
         hasImage: Boolean(row.imageUrl),
         imagePath: row.imageUrl,
         imageUrl: row.imageUrl,
@@ -496,5 +538,11 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 4000;
-server.listen(PORT, () => console.log('Local API listening on', PORT));
+// [CHANGED] Passenger-safe port selection
+const isPassenger = !!(process.env.PASSENGER_BASE_URI || process.env.PASSENGER_APP_ENV); // [ADDED]
+// Under Passenger: use its PORT if provided, else fall back to 3000 (common on this host).
+// Locally: default to 4000 if PORT isn’t set.
+const PORT = isPassenger ? Number(process.env.PORT || 3000) : Number(process.env.PORT || 4000); // [ADDED]
+
+server.listen(PORT, () => console.log('Local API listening on', PORT, 'isPassenger=', isPassenger)); // [CHANGED]
+console.log('PID', process.pid, 'listening on PORT=', PORT); // [CHANGED]

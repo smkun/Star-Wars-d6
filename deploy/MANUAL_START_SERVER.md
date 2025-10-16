@@ -1,10 +1,28 @@
 # Manual Server Start Guide
 
-## Problem
+## Preferred Solution: Use app.js Wrapper
 
-iFastNet's Node.js control panel "Restart" button doesn't work properly - the server only starts if you run it manually via SSH.
+**RECOMMENDED**: Instead of manual SSH commands, use the Passenger entry point wrapper:
 
-## Solution: Manual Start Process
+1. Ensure `app.js` exists in your application root (`/home/gamers/nodejs/star-wars-api/app.js`)
+2. Set **Application Startup File** to `app.js` in iFastNet Node.js control panel
+3. Click **Restart** - Passenger will automatically load the server
+
+**Contents of app.js**:
+```javascript
+// Passenger entry point wrapper
+require('./api/run-local-server.js');
+```
+
+This allows Passenger to manage the server lifecycle automatically.
+
+---
+
+## Fallback: Manual Start Process
+
+**Problem**: iFastNet's Node.js control panel "Restart" button doesn't work properly when pointing directly to `api/run-local-server.js` - the server only starts if you run it manually via SSH.
+
+**Solution**: Use manual SSH commands below
 
 ### Step 1: SSH and Activate Environment
 

@@ -20,7 +20,8 @@ Contact iFastNet support to confirm your account has been upgraded to **1GB virt
 
 **Location**: `deploy/backend/`
 **Files**:
-- `run-local-server.js` (17 KB) - Main API server
+- `app.js` (5 lines) - **Passenger entry point wrapper** (loads actual server)
+- `api/run-local-server.js` (17 KB) - Main API server
 - `firebaseAdmin.js` (1.6 KB) - Firebase Admin helper
 - `package.json` (694 B) - Dependencies manifest
 - `node_modules/` (74 MB) - Production dependencies
@@ -88,8 +89,10 @@ ALLOWED_ORIGIN=https://your-domain.com
 3. **Configure Application**:
    - **Application Root**: `/home/username/nodejs/star-wars-api`
    - **Application URL**: `https://your-domain.com/api` (or subdomain)
-   - **Application Startup File**: `run-local-server.js`
+   - **Application Startup File**: `app.js` *(Passenger wrapper that loads api/run-local-server.js)*
    - **Node.js Version**: 20.x or higher
+
+**Note**: Using `app.js` as the entry point allows Passenger to automatically start/restart the server. This eliminates the need for manual SSH commands after deployment.
 
 ### Step 5: Start/Restart Node.js App
 
@@ -167,10 +170,13 @@ exceeds the limit supported on this platform (5242880 Bytes)
 ### Node.js App Won't Start
 
 **Check**:
-1. Application startup file path is correct: `run-local-server.js`
-2. All environment variables are set correctly
-3. GOOGLE_APPLICATION_CREDENTIALS path is absolute and file exists
-4. MySQL connection string is correct (test with mysql client)
+1. Application startup file path is correct: `app.js` (wrapper) or `api/run-local-server.js` (direct)
+2. Ensure `app.js` exists in application root directory
+3. All environment variables are set correctly
+4. GOOGLE_APPLICATION_CREDENTIALS path is absolute and file exists
+5. MySQL connection string is correct (test with mysql client)
+
+**Alternative**: If `app.js` doesn't work, try setting startup file to `api/run-local-server.js` directly.
 
 ### Firebase Admin SDK Initialization Failed
 

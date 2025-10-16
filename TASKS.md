@@ -444,3 +444,5 @@ If you'd like, I can add these commands into a distro-detection script or create
 9. **[COMPLETED: 2025-10-13]** ~~Deploy firebase-admin 12.7.0 to production~~ — **Status**: ✅ Successfully deployed firebase-admin 12.7.0 to iFastNet with 1GB virtual memory. WASM errors resolved. Site running in production. Lightweight deployment package (304 KB) with npm install on server. See `deploy/backend-light/` for deployment files.
 
 10. **[COMPLETED: 2025-10-15]** ~~Fix character print layout~~ — **Status**: ✅ Added Force Attributes section with powers display and fixed health checkboxes to be writable on printed sheets. Print styles override dark backgrounds with white/light yellow for printer-friendly output.
+
+11. **[COMPLETED: 2025-10-15]** ~~Create Passenger wrapper for iFastNet auto-start~~ — **Status**: ✅ Created app.js Passenger entry point wrapper in deploy/backend/ that loads api/run-local-server.js. Eliminates need for manual SSH commands. Build script ensures app.js is always included in deployment package.
