@@ -1635,3 +1635,145 @@ None - changes are purely CSS/layout improvements with defensive code
 1. User uploads deploy/backend/ with corrected package.json to production
 2. Run `npm install --production` on iFastNet server to install mysql2, dotenv, firebase-admin
 3. Verify server starts successfully and all API endpoints work (species, starships, characters, auth)
+
+### 2025-10-16 (Passenger Architecture Fix - Production Stability)
+
+**Changes Implemented:**
+
+- **✅ PRODUCTION ISSUE RESOLVED**: Fixed fundamental Passenger deployment architecture that was causing server instability
+- **Root Cause Identified**: Attempting to reverse-proxy to `127.0.0.1:3000` instead of letting Passenger manage the Node.js app directly
+- **Complete Architecture Redesign**: Migrated from proxy-based to Passenger-native deployment model
+
+**Key Architectural Changes:**
+
+1. **Removed Reverse Proxy Pattern**:
+   - **Before**: Apache .htaccess tried to proxy `/api` → `http://127.0.0.1:3000`
+   - **After**: Passenger directly manages Node.js app via mount directory
+   - **Why**: Passenger is not a reverse proxy; it spawns and manages the app process itself
+
+2. **Created Passenger Mount Directory**:
+   - Location: `/home/gamers/public_html/d6StarWars/api/` (config only, no app code)
+   - Contains: `.htaccess` with Passenger directives
+   - Purpose: Tells Apache "let Passenger handle this path"
+
+3. **Server Code Normalization**:
+   - Added path normalization to strip `PASSENGER_BASE_URI` from incoming requests
+   - Server now handles both local dev (port 4000) and Passenger (port 3000) automatically
+   - Removed dependency on `.env` PORT variable (causes conflicts in Passenger)
+
+**Files Modified:**
+
+1. **Server Code Changes** ([api/run-local-server.js](api/run-local-server.js)):
+   - Added boot logging for Passenger environment detection (lines ~15-20)
+   - Added per-request logging inside HTTP handler (line ~25)
+   - Added health endpoint at `/` and `/healthz` (lines ~30-35)
+   - Added path normalization for `PASSENGER_BASE_URI` stripping (lines ~40-55)
+   - Added Passenger-safe port selection logic (lines ~485-490)
+   - Intelligent port detection: Passenger → 3000, local dev → 4000
+
+2. **Apache Configuration** (deployment structure):
+   - **Created**: `/public_html/d6StarWars/api/.htaccess` - Passenger mount block
+   - **Updated**: `/public_html/d6StarWars/.htaccess` - SPA routing (excludes `/api`)
+   - **Updated**: `/public_html/.htaccess` - Optional root `/api` → `/d6StarWars/api` rewrite
+
+**Passenger Mount Configuration:**
+
+```apache
+# /public_html/d6StarWars/api/.htaccess
+PassengerAppRoot "/home/gamers/nodejs/star-wars-api"
+PassengerBaseURI "/d6StarWars/api"
+PassengerNodejs "/home/gamers/nodevenv/nodejs/star-wars-api/20/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+PassengerAppLogFile "/home/gamers/logs/starwarsd6-passenger.log"
+```
+
+**Path Normalization Logic:**
+
+```javascript
+// Strip PASSENGER_BASE_URI if present (iFastNet doesn't do this automatically)
+const baseUri = process.env.PASSENGER_BASE_URI || '';
+let urlPath = req.url || '/';
+try {
+  urlPath = new URL(req.url, `http://${req.headers.host}`).pathname;
+} catch (_) {}
+
+if (baseUri && urlPath.startsWith(baseUri)) {
+  urlPath = urlPath.slice(baseUri.length) || '/';
+}
+const pathname = urlPath; // existing routes work without changes
+```
+
+**Port Selection Logic:**
+
+```javascript
+const isPassenger = !!(process.env.PASSENGER_BASE_URI || process.env.PASSENGER_APP_ENV);
+const PORT = isPassenger ? Number(process.env.PORT || 3000)
+                         : Number(process.env.PORT || 4000);
+```
+
+**Verification Methods Documented:**
+
+1. **Header Verification**: Added `X-HTACCESS` headers to track .htaccess execution order
+2. **Static File Test**: Created `_ping.txt` to verify Apache reaches mount directory
+3. **Log Monitoring**: Watch `/home/gamers/logs/starwarsd6-passenger.log` for request flow
+
+**What Was Removed:**
+
+- ❌ All `RewriteRule ... http://127.0.0.1:3000 ...` proxy attempts
+- ❌ `PORT` environment variable from `.env` (confuses Passenger)
+- ❌ Passenger directives from main SPA `.htaccess` (only in mount directory)
+
+**Why This Works:**
+
+1. **Apache** receives request to `/d6StarWars/api/species`
+2. **Passenger mount** `.htaccess` intercepts and spawns Node.js app
+3. **Path normalization** strips `/d6StarWars/api` → server sees `/species`
+4. **Existing routes** work unchanged (`/species`, `/characters`, etc.)
+5. **Passenger manages** process lifecycle (start/stop/restart automatically)
+
+**Production Verification:**
+
+✅ Server auto-starts via Passenger (no manual `nohup` needed)
+✅ Path normalization working (logs show `/species` not `/d6StarWars/api/species`)
+✅ Control panel restart successfully restarts app
+✅ All API endpoints responding correctly
+✅ No reverse proxy fragility
+
+**Key Lessons Learned:**
+
+1. **Passenger is NOT a reverse proxy** - it spawns apps, doesn't forward to them
+2. **Mount directory pattern** - Passenger config goes in separate directory, not app root
+3. **Path normalization required** - iFastNet's Passenger doesn't strip BaseURI automatically
+4. **Port auto-detection critical** - Passenger environment needs different port than local dev
+5. **No PORT in .env** - Let Passenger and code handle port selection automatically
+
+**Documentation Updated:**
+
+All deployment guides now include Passenger mount directory setup and path normalization requirements. This architecture change is critical for production stability and must be maintained in future deployments.
+
+**New Tasks Discovered:**
+
+None - this completes the production deployment architecture foundation.
+
+**Risks Mitigated:**
+
+1. ✅ **Server Stability**: No longer dependent on manual `nohup` commands or stale processes
+2. ✅ **Deployment Reliability**: Passenger auto-start eliminates deployment failures
+3. ✅ **Path Routing**: Normalization ensures URL paths work correctly under BaseURI
+4. ✅ **Environment Portability**: Code works in both local dev and Passenger without changes
+
+**Production Readiness:**
+
+- ✅ Passenger architecture properly implemented
+- ✅ Path normalization verified working
+- ✅ Server auto-start confirmed
+- ✅ All endpoints responding correctly
+- ✅ No reverse proxy dependencies
+- ✅ Production deployment stable and reliable
+
+**Next 3 Tasks:**
+
+1. Monitor production logs for 24-48 hours to verify stability
+2. Document simplified deployment workflow (upload → restart, no manual SSH)
+3. Consider mounting at `/api` instead of `/d6StarWars/api` for cleaner URLs (optional future simplification)
